@@ -1,3 +1,5 @@
+@import url('brand.css');
+
 /*
  * Copyright 2020 Adobe. All rights reserved.
  * This file is licensed to you under the Apache License, Version 2.0 (the "License");
@@ -108,29 +110,30 @@
   /* semantic / named colors */
   --color-light: rgb(255 255 255);
   --color-dark: rgb(0 0 0);
-  --color-text: light-dark(var(--color-ink), var(--color-parchment));
-  --color-link: light-dark(var(--color-ink), var(--color-parchment));
-  --color-link-hover: light-dark(var(--color-rust), var(--color-gold));
-  --color-brand: var(--color-rust);
-  --color-accent: var(--color-gold);
-  --color-shaded: light-dark(var(--color-parchment), var(--color-card-dark));
+  --color-text: var(--brand-text-color);
+  --color-heading: var(--brand-heading-color);
+  --color-link: var(--brand-link-color);
+  --color-link-hover: var(--brand-link-hover-color);
+  --color-brand: var(--vh-green);
+  --color-accent: var(--vh-blue);
+  --color-shaded: light-dark(var(--vh-grey-100), var(--color-card-dark));
 
   /* fonts */
-  --font-family: montserrat, "Trebuchet MS", sans-serif;
-  --font-family-serif: "EB Garamond", georgia, serif;
+  --font-family: var(--brand-font-family);
+  --font-family-serif: var(--brand-font-family);
   --font-family-mono: "JetBrains Mono", "Courier New", monospace;
   --body-font-family: var(--font-family);
-  --heading-font-family: var(--font-family-serif);
+  --heading-font-family: var(--font-family);
 
   /* heading sizes */
-  --heading-font-size-xxl: 32.44px;
-  --heading-font-size-xl: 28.83px;
-  --heading-font-size-l: 25.63px;
-  --heading-font-size-m: 22.78px;
-  --heading-font-size-s: 20.25px;
-  --heading-font-size-xs: 18px;
+  --heading-font-size-xxl: var(--brand-heading-font-size-xxl-mobile);
+  --heading-font-size-xl: var(--brand-heading-font-size-xl-mobile);
+  --heading-font-size-l: var(--brand-heading-font-size-l);
+  --heading-font-size-m: var(--brand-heading-font-size-m);
+  --heading-font-size-s: var(--brand-heading-font-size-s);
+  --heading-font-size-xs: var(--brand-heading-font-size-xs);
   --heading-font-size-xxs: 16px;
-  --heading-line-height: 1.15;
+  --heading-line-height: 1.3;
 
   /* body sizes */
   --body-font-size-xxxl: 25px;
@@ -140,14 +143,14 @@
   --body-font-size-m: 16px;
   --body-font-size-s: 14px;
   --body-font-size-xs: 12px;
-  --body-line-height: 1.6;
+  --body-line-height: var(--brand-body-line-height);
 
   /* nav / layout */
-  --nav-height: 64px;
+  --nav-height: 60px;
   --header-height: var(--nav-height);
 
   /* boilerplate compatibility – map to design tokens */
-  --background-color: light-dark(var(--color-parchment), var(--color-obsidian));
+  --background-color: var(--brand-background-color);
   --light-color: var(--color-shaded);
   --dark-color: var(--color-gray-500);
   --text-color: var(--color-text);
@@ -186,8 +189,6 @@
 @media (width >= 600px) {
   :root,
   :host {
-    --heading-font-size-xxl: 44px;
-    --heading-font-size-xl: 36px;
     --content-padding-inline: var(--space-l);
     --main-block-space: var(--space-xl);
     --section-block-space: var(--space-xl);
@@ -197,15 +198,8 @@
 @media (width >= 900px) {
   :root,
   :host {
-    --body-font-size-m: 18px;
-    --body-font-size-s: 16px;
-    --body-font-size-xs: 14px;
-    --heading-font-size-xxl: 64px;
-    --heading-font-size-xl: 48px;
-    --heading-font-size-l: 32px;
-    --heading-font-size-m: 24px;
-    --heading-font-size-s: 20px;
-    --heading-font-size-xs: 18px;
+    --heading-font-size-xxl: var(--brand-heading-font-size-xxl);
+    --heading-font-size-xl: var(--brand-heading-font-size-xl);
     --content-padding-inline: var(--space-xl);
     --section-block-space: var(--space-3xl);
   }
@@ -214,7 +208,8 @@
 @media (width >= 1200px) {
   :root,
   :host {
-    --grid-container-width: 1200px;
+    --grid-container-width: var(--brand-content-max-width);
+    --nav-height: var(--brand-nav-height);
   }
 }
 
@@ -240,6 +235,15 @@ body.theme-dark {
 
 /* fallback fonts */
 @font-face {
+  font-family: 'Open Sans Fallback';
+  src: local('Arial');
+  ascent-override: 101.18%;
+  descent-override: 27.73%;
+  line-gap-override: 0%;
+  size-adjust: 105.48%;
+}
+
+@font-face {
   font-family: roboto-condensed-fallback;
   size-adjust: 88.82%;
   src: local('Arial');
@@ -262,7 +266,7 @@ html {
 }
 
 ::selection {
-  background: light-dark(rgb(161 79 43 / 20%), rgb(197 160 89 / 30%));
+  background: light-dark(rgb(10 67 128 / 20%), rgb(143 193 255 / 30%));
   color: inherit;
 }
 
@@ -271,11 +275,6 @@ body {
   margin: 0;
   box-sizing: border-box;
   background-color: var(--background-color);
-  background-image:
-    radial-gradient(ellipse 80% 50% at 12% 8%,
-      light-dark(rgb(197 160 89 / 9%), rgb(197 160 89 / 4%)) 0%, transparent 60%),
-    radial-gradient(ellipse 55% 40% at 88% 82%,
-      light-dark(rgb(161 79 43 / 6%), rgb(161 79 43 / 3%)) 0%, transparent 50%);
   color: var(--text-color);
   font-family: var(--body-font-family);
   font-size: var(--body-font-size-m);
@@ -313,22 +312,28 @@ h3,
 h4,
 h5,
 h6 {
-  margin-top: 0.8em;
-  margin-bottom: 0.4em;
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  color: var(--color-heading);
   font-family: var(--heading-font-family);
-  font-weight: 500;
+  font-weight: var(--brand-heading-font-weight);
   line-height: var(--heading-line-height);
   scroll-margin: 40px;
 }
 
 h1 {
   font-size: var(--heading-font-size-xxl);
-  letter-spacing: -0.02em;
 }
 
 h2 {
+  margin-bottom: 30px;
   font-size: var(--heading-font-size-xl);
-  letter-spacing: -0.015em;
+}
+
+/* section headings sit on a hairline rule, as on the source */
+main h2 {
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--vh-rule);
 }
 
 h3 { font-size: var(--heading-font-size-m); }
@@ -349,8 +354,8 @@ ol,
 ul,
 pre,
 blockquote {
-  margin-top: 0.8em;
-  margin-bottom: 0.25em;
+  margin-top: 16px;
+  margin-bottom: 16px;
 }
 
 main ul,
@@ -396,7 +401,6 @@ a:any-link {
   text-decoration: underline;
   text-decoration-thickness: 1px;
   text-underline-offset: 0.2em;
-  text-decoration-color: light-dark(rgb(26 26 26 / 30%), rgb(245 242 237 / 30%));
   overflow-wrap: break-word;
 }
 
@@ -406,50 +410,31 @@ a:hover {
   text-decoration-color: var(--link-hover-color);
 }
 
-/* buttons (AEM default content: links in standalone paragraphs) */
+/* buttons (AEM default content: links in standalone paragraphs)
+   Plain standalone links stay links; **bold** = primary, _italic_ = secondary. */
+main .button-container {
+  display: inline;
+}
+
 p.button-container {
-  margin: var(--space-m) 0;
+  margin: 16px 0;
 }
 
-a.button:any-link,
-button.button {
-  box-sizing: border-box;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: var(--space-xs);
-  max-width: 100%;
+main a.button:any-link {
+  background: none;
+  border: none;
+  border-radius: 0;
+  color: var(--link-color);
+  font-size: inherit;
+  font-weight: inherit;
+  padding: 0;
   margin: 0;
-  border: 1px solid light-dark(var(--color-rust), var(--color-rust-bright));
-  border-radius: 4px;
-  padding: 20px 50px;
-  font: inherit;
-  font-weight: 700;
-  font-size: 0.85rem;
-  line-height: 1.2;
-  text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  background-color: light-dark(var(--color-rust), var(--color-rust-bright));
-  background-image: linear-gradient(135deg, rgb(255 255 255 / 12%), rgb(0 0 0 / 8%));
-  color: var(--color-light);
-  cursor: pointer;
-  overflow: hidden;
-  position: relative;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  transition: all 0.4s;
+  text-decoration: underline;
+  white-space: normal;
 }
 
-a.button:any-link::after,
-button.button::after {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(105deg, transparent 30%, rgb(255 255 255 / 22%) 50%, transparent 70%);
-  transform: translateX(-120%);
-  transition: transform 0.55s ease;
+main a.button:any-link:hover {
+  color: var(--link-hover-color);
 }
 
 input,
@@ -459,45 +444,63 @@ button {
   font: inherit;
 }
 
-/* Primary variant */
-a.button.primary:any-link,
-button.button.primary {
-  border-color: var(--color-rust);
-  background-color: var(--color-rust);
-  color: var(--color-light);
-}
-
-a.button:any-link:hover,
-a.button:any-link:focus-visible,
-button.button:hover,
-button.button:focus-visible {
-  background-color: var(--color-gold);
-  border-color: var(--color-gold);
-  transform: translateY(-3px);
-  box-shadow: 0 14px 30px light-dark(rgb(161 79 43 / 30%), rgb(209 106 62 / 35%)), 0 0 0 1px var(--color-gold);
-  cursor: pointer;
+main a.button.primary:any-link,
+main a.button.secondary:any-link,
+button.button {
+  box-sizing: border-box;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  margin: 0;
+  border: 1px solid transparent;
+  border-radius: var(--brand-button-radius);
+  padding: var(--brand-button-padding);
+  font-family: var(--body-font-family);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: var(--brand-button-font-weight);
+  line-height: normal;
+  text-align: center;
   text-decoration: none;
+  white-space: normal;
+  cursor: pointer;
+  transition: background-color var(--brand-button-transition), color var(--brand-button-transition), border-color var(--brand-button-transition);
 }
 
-a.button:any-link:hover::after,
-a.button:any-link:focus-visible::after,
-button.button:hover::after,
-button.button:focus-visible::after {
-  transform: translateX(120%);
+/* primary: solid green */
+main a.button.primary:any-link,
+button.button,
+button.button.primary {
+  background-color: var(--vh-green);
+  color: var(--vh-white);
 }
 
-a.button.primary:hover,
-a.button.primary:focus-visible,
-button.button.primary:hover,
-button.button.primary:focus-visible {
-  border-color: var(--color-gold);
-  background-color: var(--color-gold);
-  color: var(--color-light);
+main a.button.primary:any-link:hover,
+button.button:hover,
+button.button.primary:hover {
+  background-color: var(--vh-green-dark);
+  color: var(--vh-white);
 }
 
-a.button:any-link:focus-visible,
+/* secondary: light grey with blue text, navy on hover */
+main a.button.secondary:any-link,
+button.button.secondary {
+  border-color: var(--vh-grey-500);
+  background-color: var(--vh-grey-100);
+  color: var(--vh-blue);
+}
+
+main a.button.secondary:any-link:hover,
+button.button.secondary:hover {
+  border-color: var(--vh-steel-blue);
+  background-color: var(--vh-navy);
+  color: var(--vh-white);
+}
+
+main a.button:any-link:focus-visible,
 button.button:focus-visible {
-  outline: 2px solid var(--link-color);
+  outline: 2px solid var(--vh-blue);
   outline-offset: 2px;
 }
 
@@ -507,29 +510,11 @@ a.button[aria-disabled='true']:focus-visible,
 button.button:disabled,
 button.button:disabled:hover,
 button.button:disabled:focus-visible {
-  background-color: var(--light-color);
-  border-color: var(--light-color);
-  color: var(--dark-color);
+  border-color: var(--vh-grey-200);
+  background-color: var(--vh-grey-200);
+  color: var(--vh-grey-500);
   cursor: not-allowed;
   pointer-events: none;
-}
-
-a.button.secondary,
-button.button.secondary {
-  border: 1.5px solid var(--color-rust);
-  background-color: transparent;
-  color: var(--color-rust);
-}
-
-a.button.secondary:hover,
-a.button.secondary:focus-visible,
-button.button.secondary:hover,
-button.button.secondary:focus-visible {
-  border-color: var(--color-gold);
-  background-color: light-dark(rgb(197 160 89 / 8%), rgb(197 160 89 / 12%));
-  color: var(--color-gold);
-  transform: translateY(-3px);
-  box-shadow: 0 14px 30px light-dark(rgb(197 160 89 / 18%), rgb(197 160 89 / 22%));
 }
 
 /* main content area – use design tokens for rhythm */
@@ -575,7 +560,15 @@ main img:not([width], [height]) {
 }
 
 /* sections – boilerplate structure with design tokens */
-:is(main, article.article-body) > .section {
+
+/* Vanderbilt section rhythm: sections are flush; text spacing lives on the
+   default content and each block owns its own spacing */
+main > .section {
+  margin: 0;
+  padding-block: 0;
+}
+
+article.article-body > .section {
   margin: inherit;
   padding-block: var(--space-xl);
 }
@@ -600,12 +593,69 @@ article.article-body > .section > div {
   padding: 0 var(--content-padding-inline);
 }
 
+/* consecutive CTA buttons sit side by side and share the row width */
+main .default-content-wrapper:has(> .button-container) {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 16px;
+}
+
+main .default-content-wrapper:has(> .button-container) > * {
+  flex: 0 0 100%;
+}
+
+main .default-content-wrapper > p.button-container {
+  margin: 0 0 16px;
+}
+
+main .default-content-wrapper > p.button-container .button {
+  width: 100%;
+}
+
+@media (width >= 900px) {
+  main .default-content-wrapper:has(> .button-container) > p.button-container {
+    flex: 1 1 0;
+    margin-top: 14px;
+  }
+}
+
+main > .section > .default-content-wrapper {
+  padding-block: var(--brand-section-padding-top) var(--brand-section-padding-bottom);
+}
+
+main > .section > .default-content-wrapper:not(:last-child) {
+  padding-block-end: 0;
+}
+
+/* text-only sections use a narrow centered column */
+main > .section:not([class*='-container']) > .default-content-wrapper {
+  max-width: var(--brand-text-column-width);
+}
+
 /* section metadata */
 main .section.light,
 main .section.highlight {
   background-color: var(--light-color);
   margin: 0;
   padding: var(--section-block-space) 0;
+}
+
+/* section-metadata style=beige / light-grey (Vanderbilt panels) */
+main > .section.beige {
+  background-color: light-dark(var(--vh-beige), #1c2147);
+}
+
+main > .section.light-grey {
+  background-color: light-dark(var(--vh-grey-100), #1c2147);
+}
+
+/* article card rows sit on a cream band */
+main > .section.cards-article-container {
+  background-color: light-dark(var(--vh-cream), var(--vh-navy));
+}
+
+main > .section.cards-article-container h2 {
+  padding-bottom: 16px;
 }
 
 /* section-metadata style=divider: content-width (grid) border-bottom */

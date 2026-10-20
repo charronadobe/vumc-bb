@@ -1,0 +1,188 @@
+{
+  "templates": [
+    {
+      "name": "home",
+      "urls": [
+        "https://www.vanderbilthealth.com/"
+      ],
+      "representativeUrl": "https://www.vanderbilthealth.com/",
+      "description": "Vanderbilt Health homepage: hero with quick links, video, promo panels, news and blog card rows, telehealth banner",
+      "blocks": [
+        {
+          "name": "hero-quick-links",
+          "instances": [
+            ".data-tracker-banner-hero"
+          ]
+        },
+        {
+          "name": "embed-video",
+          "instances": [
+            ".data-tracker-banner-grid:has(iframe[src*=\"vidyard\"])",
+            "#main-content > div > div:nth-of-type(3)"
+          ]
+        },
+        {
+          "name": "columns-promo-panels",
+          "instances": [
+            ".data-tracker-banner-grid:not(:has(iframe))"
+          ]
+        },
+        {
+          "name": "columns-banner-dark",
+          "instances": [
+            ".banner-feature:has(.secondaryDark)",
+            "#main-content > div > div:nth-of-type(7) .banner-feature"
+          ]
+        },
+        {
+          "name": "cards-article",
+          "instances": [
+            ".data-tracker-stories div:has(> div > div > .data-tracker-news-card)"
+          ]
+        }
+      ],
+      "urlPattern": "/",
+      "sections": [
+        {
+          "id": "rc5",
+          "name": "Hero",
+          "selector": [
+            "#main-content > div > div:nth-of-type(1)",
+            "#main-content > div.module__2ec5FCOXPAHiv9LMjleUgj.module__39HgjuR0xR7yHW_G-qrsgu > div:nth-of-type(1)"
+          ],
+          "style": null,
+          "blocks": [
+            "hero-quick-links"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "rc6",
+          "name": "Intro",
+          "selector": [
+            "#main-content > div > div:nth-of-type(2)",
+            "#main-content > div.module__2ec5FCOXPAHiv9LMjleUgj.module__39HgjuR0xR7yHW_G-qrsgu > div:nth-of-type(2)"
+          ],
+          "style": null,
+          "blocks": [],
+          "defaultContent": [
+            "#main-content > div > div:nth-of-type(2) .banner-textblock"
+          ]
+        },
+        {
+          "id": "rc7",
+          "name": "Video",
+          "selector": [
+            "#main-content > div > div:nth-of-type(3)",
+            "#main-content > div.module__2ec5FCOXPAHiv9LMjleUgj.module__39HgjuR0xR7yHW_G-qrsgu > div:nth-of-type(3)"
+          ],
+          "style": null,
+          "blocks": [
+            "embed-video"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "rc8",
+          "name": "Get Better Fast / My Health at Vanderbilt",
+          "selector": [
+            "#main-content > div > div:nth-of-type(4)",
+            "#main-content > div.module__2ec5FCOXPAHiv9LMjleUgj.module__39HgjuR0xR7yHW_G-qrsgu > div:nth-of-type(4)"
+          ],
+          "style": null,
+          "blocks": [
+            "columns-promo-panels"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "rc9",
+          "name": "Patient and Visitor Information",
+          "selector": [
+            "#main-content > div > div:nth-of-type(5)",
+            "#main-content > div.module__2ec5FCOXPAHiv9LMjleUgj.module__39HgjuR0xR7yHW_G-qrsgu > div:nth-of-type(5)"
+          ],
+          "style": "beige",
+          "blocks": [],
+          "defaultContent": [
+            "#main-content > div > div:nth-of-type(5) .banner-textblock"
+          ]
+        },
+        {
+          "id": "rc10",
+          "name": "Featured News",
+          "selector": [
+            "#main-content > div > div:nth-of-type(6)",
+            "#main-content > div.module__2ec5FCOXPAHiv9LMjleUgj.module__39HgjuR0xR7yHW_G-qrsgu > div:nth-of-type(6)"
+          ],
+          "style": null,
+          "blocks": [
+            "cards-article"
+          ],
+          "defaultContent": [
+            "#main-content > div > div:nth-of-type(6) .data-tracker-stories h2",
+            "#main-content > div > div:nth-of-type(6) .data-tracker-stories p"
+          ]
+        },
+        {
+          "id": "rc11",
+          "name": "Telehealth",
+          "selector": [
+            "#main-content > div > div:nth-of-type(7)",
+            "#main-content > div.module__2ec5FCOXPAHiv9LMjleUgj.module__39HgjuR0xR7yHW_G-qrsgu > div:nth-of-type(7)"
+          ],
+          "style": null,
+          "blocks": [
+            "columns-banner-dark"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "rc12",
+          "name": "My Vanderbilt Health",
+          "selector": [
+            "#main-content > div > div:nth-of-type(8)",
+            "#main-content > div.module__2ec5FCOXPAHiv9LMjleUgj.module__39HgjuR0xR7yHW_G-qrsgu > div:nth-of-type(8)"
+          ],
+          "style": null,
+          "blocks": [
+            "cards-article"
+          ],
+          "defaultContent": [
+            "#main-content > div > div:nth-of-type(8) .data-tracker-stories h2",
+            "#main-content > div > div:nth-of-type(8) .data-tracker-stories p"
+          ]
+        },
+        {
+          "id": "rc13",
+          "name": "Volunteer / ResearchMatch",
+          "selector": [
+            "#main-content > div > div:nth-of-type(9)",
+            "#main-content > div.module__2ec5FCOXPAHiv9LMjleUgj.module__39HgjuR0xR7yHW_G-qrsgu > div:nth-of-type(9)"
+          ],
+          "style": null,
+          "blocks": [
+            "columns-promo-panels"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "rc14",
+          "name": "Make an Impact",
+          "selector": [
+            "#main-content > div > div:nth-of-type(10)",
+            "#main-content > div.module__2ec5FCOXPAHiv9LMjleUgj.module__39HgjuR0xR7yHW_G-qrsgu > div:nth-of-type(10)"
+          ],
+          "style": "light-grey",
+          "blocks": [],
+          "defaultContent": [
+            "#main-content > div > div:nth-of-type(10) .banner-textblock"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "projectType": "da"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "variantName": "columns-promo-panels",
+  "baseBlock": "columns",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "purpose": "Two side-by-side promo panels, each with heading, optional subheading, text and CTA buttons; a panel may have a background image",
+    "sources": [
+      {
+        "sectionId": "rc8",
+        "style": "Left panel navy rgb(16,21,56) with background photo and white text; right panel light grey rgb(245,246,248) with dark text; green rgb(0,131,85) primary buttons.",
+        "stylingNotes": "Two side-by-side promo panels: left dark navy panel with faint photo background ('Get better fast.' + paragraph + Learn More button); right light grey panel ('My Health at Vanderbilt' + paragraph + green Sign in button + outline Create New Account button).",
+        "hint": "block"
+      },
+      {
+        "sectionId": "rc13",
+        "style": "Left panel white, right panel beige rgb(242,238,228); dark text; green buttons.",
+        "stylingNotes": "Two side-by-side promo panels: left white panel ('Volunteer with Us', H3 subheading, paragraph, green Learn More); right beige panel ('ResearchMatch', H3 subheading, two paragraphs, green English button and outline Spanish button).",
+        "hint": "block"
+      }
+    ]
+  },
+  "contentPattern": {
+    "structure": "one row; each cell is a panel: optional background image first, then H2, optional H3, paragraph(s), CTA link(s)",
+    "description": "Two side-by-side panels each with H2, paragraph and CTA buttons | Two side-by-side panels each with H2, H3, paragraph(s) and CTA buttons"
+  },
+  "options": [],
+  "memberVariantIds": [],
+  "usage": "Paired promotional panels (e.g. Get better fast / My Health at Vanderbilt, Volunteer / ResearchMatch).",
+  "reuseGuidance": "Reuse for any 2-up panel pair with headings and CTAs; use plain columns for text+image layouts.",
+  "sourceUrl": "https://www.vanderbilthealth.com/"
+}
