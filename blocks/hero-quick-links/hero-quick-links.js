@@ -73,6 +73,11 @@ export default function decorate(block) {
         const icon = document.createElement('span');
         icon.className = `icon icon-${match[1]}`;
         n.replaceWith(icon);
+        // only icons created here still need their image (the page already decorated the rest)
+        const holder = document.createElement('span');
+        holder.append(icon.cloneNode());
+        decorateIcons(holder);
+        icon.replaceWith(holder.firstElementChild);
       });
       parent.querySelectorAll(':scope > .icon').forEach((icon) => link.prepend(icon));
     }
@@ -92,5 +97,4 @@ export default function decorate(block) {
   });
 
   contentCell.append(list);
-  decorateIcons(list);
 }

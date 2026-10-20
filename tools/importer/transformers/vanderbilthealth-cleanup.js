@@ -116,5 +116,15 @@ export default function transform(hookName, element, payload) {
         }
       });
     });
+
+    // www.vanderbilthealth.com/sites/default/files/* answers with a 307 redirect to the files
+    // host; reference the files host directly. (The EDS media pipeline cannot fetch from it
+    // either, so these images are uploaded to Document Authoring alongside the page.)
+    element.querySelectorAll('img[src]').forEach((img) => {
+      img.setAttribute('src', img.getAttribute('src').replace(
+        /^https:\/\/www\.vanderbilthealth\.com\/sites\/default\/files\//,
+        'https://files.vanderbilthealth.com/sites/default/files/',
+      ));
+    });
   }
 }

@@ -27,6 +27,8 @@ async function fetchNav() {
   if (!resp.ok) return null;
   const tmp = document.createElement('div');
   tmp.innerHTML = await resp.text();
+  // published lists with nested lists wrap every item in a <p>; normalise to plain items
+  tmp.querySelectorAll('li > p').forEach((p) => p.replaceWith(...p.childNodes));
   return tmp;
 }
 
