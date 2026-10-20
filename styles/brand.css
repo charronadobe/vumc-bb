@@ -1,0 +1,56 @@
+/*
+ * Brand tokens migrated from https://www.vanderbilthealth.com/
+ * Values come from computed styles on the source site (see migration-work/brand.json).
+ */
+
+:root,
+:host {
+  /* palette */
+  --vh-navy: #101538;
+  --vh-green: #008355;
+  --vh-green-dark: #004c32;
+  --vh-blue: #0a4380;
+  --vh-blue-bright: #0074ae;
+  --vh-steel-blue: #0e5981;
+  --vh-charcoal: #2e2e2f;
+  --vh-grey-100: #f5f6f8;
+  --vh-grey-200: #dddee1;
+  --vh-grey-500: #808285;
+  --vh-rule: #e4e4e4;
+  --vh-beige: #f2eee4;
+  --vh-cream: #fcfbf7;
+  --vh-white: #fff;
+
+  /* semantic colors */
+  --brand-background-color: light-dark(var(--vh-white), var(--vh-navy));
+  --brand-text-color: light-dark(var(--vh-charcoal), var(--vh-grey-100));
+  --brand-heading-color: light-dark(var(--vh-charcoal), var(--vh-white));
+  --brand-link-color: light-dark(var(--vh-blue), #8fc1ff);
+  --brand-link-hover-color: light-dark(var(--vh-navy), var(--vh-white));
+
+  /* typography */
+  --brand-font-family: 'Open Sans', 'Open Sans Fallback', helvetica, arial, sans-serif;
+  --brand-heading-font-weight: 700;
+  --brand-body-line-height: 1.6875; /* 27px at 16px */
+  --brand-heading-font-size-xxl-mobile: 36px;
+  --brand-heading-font-size-xxl: 48px;
+  --brand-heading-font-size-xl-mobile: 28px;
+  --brand-heading-font-size-xl: 34px;
+  --brand-heading-font-size-l: 24px;
+  --brand-heading-font-size-m: 20px;
+  --brand-heading-font-size-s: 18px;
+  --brand-heading-font-size-xs: 16px;
+
+  /* buttons */
+  --brand-button-radius: 8px;
+  --brand-button-padding: 15px 13px;
+  --brand-button-font-weight: 600;
+  --brand-button-transition: 0.2s ease-in-out;
+
+  /* layout */
+  --brand-section-padding-top: 75px;
+  --brand-section-padding-bottom: 75px;
+  --brand-text-column-width: 830px;
+  --brand-content-max-width: 1170px;
+  --brand-nav-height: 94px;
+}

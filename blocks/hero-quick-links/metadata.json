@@ -1,0 +1,25 @@
+{
+  "variantName": "hero-quick-links",
+  "baseBlock": "hero",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "purpose": "Full-bleed homepage hero with background photo, H1 and a row of icon quick-link CTAs",
+    "sources": [
+      {
+        "sectionId": "rc5",
+        "style": "Background image hero with dark navy angled overlay; H1 white ~48px; three equal white button-cards with small icons, overlapping the bottom edge.",
+        "stylingNotes": "Full-width hero: background photo (group of people in a circle) on a dark navy diagonal overlay, white H1 'Advanced care. Focused on you.', and three white quick-link buttons with icons (Find a Doctor, Make an Appointment, Find a Location and Parking).",
+        "hint": "block"
+      }
+    ]
+  },
+  "contentPattern": {
+    "structure": "row 1: background image; row 2: H1 followed by quick links (one per paragraph, optional :icon: before each label)",
+    "description": "Background image, H1 heading and three icon quick-link CTAs (Find a Doctor, Make an Appointment, Find a Location and Parking)"
+  },
+  "options": [],
+  "memberVariantIds": [],
+  "usage": "Top-of-page hero with a heading and 2-4 primary task links (e.g. Find a Doctor, Make an Appointment, Find a Location).",
+  "reuseGuidance": "Reuse for any hero that pairs a background image and heading with a set of quick-link cards; use plain hero when CTAs are ordinary buttons.",
+  "sourceUrl": "https://www.vanderbilthealth.com/"
+}

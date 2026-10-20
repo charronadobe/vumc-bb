@@ -1,36 +1,70 @@
-import { getMetadata } from '../../scripts/aem.js';
-import { loadFragment } from '../fragment/fragment.js';
-
 /**
- * loads and decorates the footer
- * @param {Element} block The footer block element
+ * Footer block – builds the site footer from the footer fragment (content/footer.plain.html).
+ *
+ * Fragment sections (top-level divs), in order:
+ *   1. top row – a list of social/quick links (image or text links) and an optional badge
+ *      paragraph (linked image) shown on the right
+ *   2. link columns – repeated heading + list pairs; each pair becomes one column
+ *   3+. legal – every remaining section becomes a column of the bottom legal band
+ *
+ * All copy lives in the fragment; this file only adds layout wrappers.
  */
-export default async function decorate(block) {
-  // load footer as fragment (skip if aem-embed already provided content)
-  if (block.textContent === '') {
-    const footerMeta = getMetadata('footer');
-    const footerPath = footerMeta ? new URL(footerMeta, window.location).pathname : '/footer';
-    const fragment = await loadFragment(footerPath);
 
-    block.textContent = '';
-    const footer = document.createElement('div');
-    while (fragment.firstElementChild) footer.append(fragment.firstElementChild);
-    block.append(footer);
-  }
+async function fetchFooter() {
+  // metadata-independent: /content first (local preview), then site root (DA/EDS)
+  let resp = await fetch('/content/footer.plain.html');
+  if (!resp.ok) resp = await fetch('/footer.plain.html');
+  if (!resp.ok) return null;
+  const tmp = document.createElement('div');
+  tmp.innerHTML = await resp.text();
+  return tmp;
+}
 
-  // merge social icons into copyright row
-  const sections = block.querySelectorAll('.section');
-  if (sections.length >= 4) {
-    const copyrightSection = sections[2];
-    const socialSection = sections[3];
-    const socialUl = socialSection.querySelector('ul');
-    const copyrightWrapper = copyrightSection.querySelector('.default-content-wrapper');
-    if (socialUl && copyrightWrapper) {
-      const pipe = document.createElement('span');
-      pipe.className = 'footer-separator';
-      pipe.textContent = '|';
-      copyrightWrapper.append(pipe, socialUl);
-      socialSection.remove();
+function wrap(className, children) {
+  const el = document.createElement('div');
+  el.className = className;
+  el.append(...children);
+  return el;
+}
+
+function buildTop(section) {
+  const list = section.querySelector('ul');
+  list?.classList.add('footer-social');
+  list?.querySelectorAll('li').forEach((li) => {
+    if (li.querySelector('img')) li.classList.add('footer-social-icon');
+  });
+  const badge = section.querySelector('p:has(img)');
+  badge?.classList.add('footer-badge');
+  return wrap('footer-top', [list, badge].filter(Boolean));
+}
+
+/** Groups consecutive heading + list pairs into columns. */
+function buildColumns(section) {
+  const columns = [];
+  let current;
+  [...section.children].forEach((el) => {
+    if (/^H[1-6]$/.test(el.tagName) || !current) {
+      current = wrap('footer-column', []);
+      columns.push(current);
     }
-  }
+    current.append(el);
+  });
+  return wrap('footer-columns', columns);
+}
+
+function buildLegal(sections) {
+  return wrap('footer-legal', sections.map((s) => wrap('footer-legal-column', [...s.children])));
+}
+
+export default async function decorate(block) {
+  const fragment = await fetchFooter();
+  if (!fragment) return;
+  const [top, links, ...legal] = fragment.querySelectorAll(':scope > div');
+
+  const parts = [];
+  if (top) parts.push(buildTop(top));
+  if (links) parts.push(buildColumns(links));
+  if (legal.length) parts.push(buildLegal(legal));
+
+  block.replaceChildren(wrap('footer-inner', parts));
 }

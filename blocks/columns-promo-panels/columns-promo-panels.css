@@ -1,0 +1,188 @@
+/*
+ * columns-promo-panels
+ * Values from source computed styles (vanderbilthealth.com .data-tracker-banner-grid).
+ *
+ * Panel colours are derived from content (no authoring option needed):
+ *  - a panel that starts with an image (.has-bg) = navy panel, photo at 13% + white text
+ *  - a light panel paired with a navy panel = grey (--vh-grey-100)
+ *  - two light panels = first white, second beige (--vh-beige)
+ */
+
+/* the block owns its width: full-bleed on mobile, 1200px container on desktop */
+main > .section > .columns-promo-panels-wrapper {
+  max-width: none;
+  padding: 0;
+}
+
+.columns-promo-panels {
+  box-sizing: border-box;
+}
+
+.columns-promo-panels .columns-promo-panels-row {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Panels */
+.columns-promo-panels .columns-promo-panels-panel {
+  position: relative;
+  z-index: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  background-color: light-dark(var(--vh-white), var(--vh-navy));
+  box-shadow: rgb(221 221 221) 0 1px 2px 0;
+}
+
+/* light panel next to a navy panel */
+.columns-promo-panels:has(.has-bg) .columns-promo-panels-panel:not(.has-bg) {
+  background-color: light-dark(var(--vh-grey-100), #1c2147);
+}
+
+/* second of two light panels */
+.columns-promo-panels:not(:has(.has-bg)) .columns-promo-panels-panel:nth-child(even) {
+  background-color: light-dark(var(--vh-beige), #1c2147);
+}
+
+/* navy panel with faint background photo */
+.columns-promo-panels .columns-promo-panels-panel.has-bg {
+  background-color: var(--vh-navy);
+  color: var(--vh-white);
+}
+
+.columns-promo-panels .columns-promo-panels-bg {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  line-height: 0;
+}
+
+.columns-promo-panels .columns-promo-panels-bg::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-color: var(--vh-navy);
+  opacity: 0.87;
+}
+
+.columns-promo-panels .columns-promo-panels-bg picture,
+.columns-promo-panels .columns-promo-panels-bg img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Content column */
+.columns-promo-panels .columns-promo-panels-content {
+  padding: 50px;
+}
+
+.columns-promo-panels .columns-promo-panels-content > :first-child {
+  margin-top: 0;
+}
+
+.columns-promo-panels .columns-promo-panels-content > :last-child {
+  margin-bottom: 0;
+}
+
+.columns-promo-panels h2 {
+  margin: 0 0 30px;
+  font-size: var(--heading-font-size-l);
+
+  /* source line-height: normal (Open Sans metrics = 1.36) */
+  line-height: 1.36;
+}
+
+.columns-promo-panels h3 {
+  margin: 0 0 15px;
+  font-size: var(--heading-font-size-m);
+  line-height: 27px;
+}
+
+.columns-promo-panels p {
+  margin: 16px 0;
+  line-height: 25px;
+}
+
+.columns-promo-panels .has-bg :is(h2, h3, p) {
+  color: var(--vh-white);
+}
+
+/* CTA buttons: stacked, full width (2px inset like the source focus wrapper) */
+main .columns-promo-panels .columns-promo-panels-content p.button-container {
+  display: block;
+  margin: 0 2px 16px;
+}
+
+main .columns-promo-panels .columns-promo-panels-content > :not(.button-container) + p.button-container {
+  margin-top: 62px;
+}
+
+main .columns-promo-panels .columns-promo-panels-content > p.button-container:last-child {
+  margin-bottom: 14px;
+}
+
+main .columns-promo-panels a.button:any-link {
+  display: flex;
+  width: 100%;
+
+  /* secondary buttons are authored as _italic_ links; the source text is upright */
+  font-style: normal;
+}
+
+main .columns-promo-panels a.button.primary:any-link {
+  border-width: 2px;
+}
+
+/* primaryDark: white button on the navy panel */
+main .columns-promo-panels .has-bg a.button.primary:any-link {
+  border-width: 1px;
+  background-color: var(--vh-white);
+  color: var(--vh-green);
+}
+
+main .columns-promo-panels .has-bg a.button.primary:any-link:hover {
+  background-color: var(--vh-grey-200);
+  color: var(--vh-green-dark);
+}
+
+/* Image-only panel */
+.columns-promo-panels .columns-promo-panels-img-col img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (width >= 900px) {
+  .columns-promo-panels {
+    max-width: 1200px;
+    margin: 0 auto 30px;
+    padding: 30px 15px 0;
+  }
+
+  .columns-promo-panels .columns-promo-panels-row {
+    flex-direction: row;
+    align-items: stretch;
+    gap: 30px;
+  }
+
+  .columns-promo-panels .columns-promo-panels-panel {
+    flex: 1 1 0;
+    min-width: 0;
+  }
+
+  .columns-promo-panels .columns-promo-panels-content {
+    padding: 75px;
+  }
+
+  .columns-promo-panels h2 {
+    font-size: var(--heading-font-size-xl);
+  }
+
+  .columns-promo-panels p {
+    line-height: 27px;
+  }
+}

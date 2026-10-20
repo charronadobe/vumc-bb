@@ -1,0 +1,25 @@
+{
+  "variantName": "embed-video",
+  "baseBlock": "embed",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "purpose": "Click-to-play video embed with poster image; supports Vidyard, YouTube and Vimeo",
+    "sources": [
+      {
+        "sectionId": "rc7",
+        "style": "White background, wide 16:9 video centered.",
+        "stylingNotes": "Embedded Vidyard video player (\"Broken Arm\" spot) with poster thumbnail.",
+        "hint": "default-content"
+      }
+    ]
+  },
+  "contentPattern": {
+    "structure": "one cell: optional poster image, then the video link (https://play.vidyard.com/<id>, YouTube or Vimeo URL)",
+    "description": "Single embedded Vidyard video (https://play.vidyard.com/n6HxhPYUCyuv9VgKD4YcuY) with poster image"
+  },
+  "options": [],
+  "memberVariantIds": [],
+  "usage": "Single standalone video with a poster image. If no poster is authored, the Vidyard/YouTube thumbnail is used; otherwise the iframe lazy-loads when scrolled into view.",
+  "reuseGuidance": "Use for any single hosted video. Use the base embed block for social posts (Twitter) or non-video iframes.",
+  "sourceUrl": "https://www.vanderbilthealth.com/"
+}

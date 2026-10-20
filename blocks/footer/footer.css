@@ -1,121 +1,206 @@
-footer {
-  width: 100%;
-  background-color: light-dark(var(--color-rust), #080d0d);
-  color: var(--color-parchment);
-  border-top: light-dark(none, var(--border-heritage));
-  font-size: var(--body-font-size-xs);
+/* footer – mobile first; values measured on vanderbilthealth.com */
+
+footer .footer {
+  padding: 60px 25px 80px;
+  background-color: var(--vh-navy);
+  background-image:
+    linear-gradient(255deg, var(--vh-navy) 40%, transparent),
+    repeating-linear-gradient(-67deg, rgb(40 45 78 / 60%), rgb(0 93 131 / 60%) 10%, rgb(0 131 169 / 60%) 20%),
+    repeating-linear-gradient(67deg, rgb(40 45 78 / 60%), rgb(0 93 131 / 60%) 5%, rgb(0 131 169 / 60%) 10%);
+  color: var(--vh-white);
+  font-family: var(--body-font-family);
 }
 
-footer .footer > div {
-  max-width: 1100px;
+footer .footer-inner {
+  max-width: 1200px;
   margin: 0 auto;
-  padding: 40px var(--content-padding-inline);
-  text-align: center;
 }
 
-footer .footer p {
-  margin: 0;
-  line-height: 1.55;
-}
-
-/* Row 1: Disclaimer */
-footer .footer .section:first-child {
-  padding-bottom: var(--space-m);
-  font-size: var(--body-font-size-s);
-  font-weight: 400;
-}
-
-/* Row 2: Tagline */
-footer .footer .section:nth-child(2) p {
-  font-family: var(--font-family-serif);
-  font-weight: 400;
-  font-size: var(--body-font-size-s);
-  opacity: 0.7;
-  margin-top: var(--space-s);
-}
-
-/* Row 3: Copyright + social icons (merged) */
-footer .footer .section:nth-child(3) {
-  margin-top: var(--space-m);
-  border-top: 1px solid rgb(255 255 255 / 15%);
-  padding-top: var(--space-m);
-}
-
-footer .footer .section:nth-child(3) .default-content-wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: var(--space-s);
-}
-
-footer .footer .footer-separator {
-  opacity: 0.4;
-  margin-inline: var(--space-xs);
-}
-
-footer .footer .section:nth-child(3) ul {
+footer .footer ul {
   margin: 0;
   padding: 0;
   list-style: none;
-  display: flex;
-  align-items: center;
-  gap: var(--space-s);
-}
-
-footer .footer .section:nth-child(3) li {
-  margin: 0;
 }
 
 footer .footer a:any-link {
-  color: var(--color-parchment);
-  text-decoration-color: rgb(245 242 237 / 30%);
-  transition: color 0.25s, text-decoration-color 0.25s, opacity 0.25s;
-}
-
-footer .footer a:any-link:hover {
-  text-decoration-color: var(--color-gold);
-  color: var(--color-gold);
-}
-
-footer .footer .section:nth-child(3) ul a {
+  color: var(--vh-white);
   text-decoration: none;
-  color: inherit;
-  opacity: 0.7;
-  transition: opacity 0.25s, transform 0.25s;
 }
 
-footer .footer .section:nth-child(3) ul a:hover {
-  opacity: 1;
-  transform: scale(1.1);
+footer .footer a:hover {
+  text-decoration: underline;
+  text-underline-offset: 4px;
 }
 
-footer .footer .icon {
-  width: 18px;
-  height: 18px;
-  filter: brightness(0) invert(1);
-  transition: transform 0.25s var(--ease-out-expo, cubic-bezier(0.16, 1, 0.3, 1));
+footer .footer a:focus-visible {
+  outline: 2px solid var(--vh-white);
+  outline-offset: 2px;
 }
 
-footer .footer .icon.icon-logo {
-  display: inline-flex;
+/* top row: social icons + blog link, badge */
+footer .footer-top {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+footer .footer-social {
+  display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  width: auto;
-  height: 1.2em;
-  vertical-align: middle;
-  margin-inline: 4px;
-  filter: none;
-  color: var(--color-parchment);
 }
 
-footer .footer .icon.icon-logo :is(svg, img) {
-  width: auto;
-  height: 100%;
-  object-fit: contain;
+footer .footer-social li {
+  margin-right: 15px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+footer .footer-social-icon img {
+  display: block;
+  width: 34px;
+  height: 34px;
+}
+
+footer .footer .footer-social-icon a {
+  display: block;
+  padding: 3.5px 0;
+}
+
+footer .footer-badge {
+  margin: 50px 0 30px;
+  line-height: 0;
+}
+
+footer .footer-badge img {
+  width: 206px;
+  height: auto;
+}
+
+/* link columns */
+footer .footer-columns {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+footer .footer-column {
+  box-sizing: border-box;
+  flex: 0 0 100%;
+  margin-bottom: 35px;
+  padding-right: 40px;
+}
+
+footer .footer h2 {
+  margin: 0 0 8px;
+  padding: 0;
+  border: 0;
+  color: var(--vh-white);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 34px;
+}
+
+footer .footer-column li {
+  margin-bottom: 24px;
+  line-height: 26px;
+}
+
+footer .footer-column a:any-link {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+/* legal band */
+footer .footer-legal {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 64px;
+}
+
+footer .footer-legal-column {
+  flex: 1 1 100%;
+  margin-bottom: 15px;
+}
+
+footer .footer-legal p {
+  margin: 11.29px 0;
+  font-size: 11.29px;
+  font-weight: 300;
+  line-height: 22.4px;
+}
+
+/* the source separates vision/mission from the statement below with an empty line */
+footer .footer-legal-column:first-child p:first-child {
+  margin-bottom: 45px;
+}
+
+footer .footer-legal strong {
+  font-weight: 600;
+}
+
+footer .footer-legal a:any-link {
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+footer .footer-legal a:hover {
+  text-decoration: none;
 }
 
 @media (width >= 600px) {
-  footer .footer > div {
-    padding: 48px var(--content-padding-inline);
+  footer .footer-column {
+    flex-basis: 50%;
+  }
+}
+
+@media (width >= 900px) {
+  footer .footer-top {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  footer .footer-social {
+    margin-top: 26px;
+  }
+
+  footer .footer-social li {
+    margin-right: 30px;
+  }
+
+  footer .footer-social-icon img {
+    width: 40px;
+    height: 40px;
+  }
+
+  footer .footer .footer-social-icon a {
+    padding: 6px 2px;
+  }
+
+  footer .footer h2 {
+    line-height: 46px;
+  }
+
+  footer .footer-column li {
+    line-height: 27px;
+  }
+
+  footer .footer-badge {
+    margin-top: 0;
+  }
+
+  footer .footer-column {
+    flex-basis: auto;
+  }
+
+  footer .footer-legal {
+    flex-wrap: nowrap;
+  }
+
+  footer .footer-legal-column {
+    flex: 1 1 0;
   }
 }

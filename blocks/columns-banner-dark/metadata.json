@@ -1,0 +1,25 @@
+{
+  "variantName": "columns-banner-dark",
+  "baseBlock": "columns",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "purpose": "Dark full-width banner with text and CTAs beside an illustration over a background photo",
+    "sources": [
+      {
+        "sectionId": "rc11",
+        "style": "Navy rgb(16,21,56) background with background photo overlay; white text; white primary and translucent secondary buttons; illustration right.",
+        "stylingNotes": "Dark navy banner with faint photo background: H2 'Telehealth', paragraph, two buttons (Telehealth for Providers, Telehealth for Patients) on the left and a telehealth illustration on the right.",
+        "hint": "block"
+      }
+    ]
+  },
+  "contentPattern": {
+    "structure": "row 1 (optional): background image; row 2: text cell (H2, paragraph, links) | illustration image cell",
+    "description": "Text (H2, paragraph, two CTAs) beside an illustration image, over a background photo"
+  },
+  "options": [],
+  "memberVariantIds": [],
+  "usage": "Feature banner such as Telehealth: heading, paragraph, two CTAs on the left and an illustration on the right over a dark photo background.",
+  "reuseGuidance": "Reuse for any dark text-beside-illustration banner with an optional background photo.",
+  "sourceUrl": "https://www.vanderbilthealth.com/"
+}

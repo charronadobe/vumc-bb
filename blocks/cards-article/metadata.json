@@ -1,0 +1,31 @@
+{
+  "variantName": "cards-article",
+  "baseBlock": "cards",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "purpose": "Grid of article teaser cards with image, title and Read article link",
+    "sources": [
+      {
+        "sectionId": "rc10",
+        "style": "White background; cards with top image, bold navy title, right-aligned 'Read article >' link, subtle shadow.",
+        "stylingNotes": "White band with H2 'Featured News', intro paragraph and a row of three news article cards (image, H3 title, 'Read article' link) with scroll arrows.",
+        "hint": "block"
+      },
+      {
+        "sectionId": "rc12",
+        "style": "Same visual treatment as Featured News cards.",
+        "stylingNotes": "White band with H2 'My Vanderbilt Health', intro paragraph and three blog article cards (image, H3 title, 'Read article' link) with scroll arrows.",
+        "hint": "block"
+      }
+    ]
+  },
+  "contentPattern": {
+    "structure": "image | H3 title and Read article link",
+    "description": "Three repeating article cards: image, H3 title, Read article link"
+  },
+  "options": [],
+  "memberVariantIds": [],
+  "usage": "Rows of 3 news or blog article teasers (Featured News, My Vanderbilt Health).",
+  "reuseGuidance": "Reuse for any article/news teaser list authored manually; use cards (links variant) for query-index driven lists.",
+  "sourceUrl": "https://www.vanderbilthealth.com/"
+}
