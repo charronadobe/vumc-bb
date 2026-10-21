@@ -22,7 +22,9 @@ import {
 import {
   initMartech, martechEager, martechLazy, martechDelayed,
 } from '../plugins/martech/src/index.js';
-import { getAllMetadata, getLocale, isGatedPage } from './shared.js';
+import {
+  getAllMetadata, getLocale, isGatedPage, readStructuredContent,
+} from './shared.js';
 import { initPageSchemas } from './schema.js';
 import dynamicBlocks from '../blocks/dynamic/index.js';
 
@@ -123,8 +125,26 @@ async function loadFragments(section) {
   await dynamicBlocks(main);
 }
 
+/**
+ * Structured content pages (Document Authoring forms) arrive as one key/value block per object.
+ * Collapse them into a single block named after the schema (e.g. `doctor`), with the form data
+ * as JSON in `data-content`, so that block can render the whole page.
+ * @param {Element} main The container element
+ */
+function buildStructuredContentBlock(main) {
+  const content = readStructuredContent(main);
+  if (!content) return;
+  const { root, blocks, data } = content;
+  blocks.forEach((block) => block.remove());
+  root.replaceChildren();
+  root.dataset.content = JSON.stringify(data);
+  // the form's field labels are the only headings, so the delivered title is "x-schema-name"
+  if (data.name || content.title) document.title = data.name || content.title;
+}
+
 function buildAutoBlocks(main) {
   try {
+    buildStructuredContentBlock(main);
     buildEmbedBlocks(main);
   } catch (error) {
     console.error('Auto Blocking failed', error);

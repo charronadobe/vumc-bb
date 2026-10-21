@@ -1,0 +1,290 @@
+/* doctor – provider profile, values measured on vanderbilthealth.com/doctors/tanner-s */
+
+/* the block spans the page: gradient band behind the header card, cream band behind locations */
+main > .section > .doctor-wrapper {
+  max-width: none;
+  padding: 0;
+}
+
+/* card, quick links and section content share one column, as on the source (1070px wide) */
+.doctor {
+  --doctor-column: min(1070px, 100% - 2 * var(--content-padding-inline));
+
+  color: var(--color-text);
+}
+
+.doctor .doctor-card,
+.doctor .doctor-ctas,
+.doctor .doctor-quick-links,
+.doctor .doctor-section > * {
+  box-sizing: border-box;
+  width: var(--doctor-column);
+  margin-inline: auto;
+}
+
+/* ---------- header card on the brand gradient ---------- */
+.doctor .doctor-header {
+  padding-top: var(--space-l);
+  background-image:
+    linear-gradient(255deg, rgb(40 45 78) 40%, transparent),
+    repeating-linear-gradient(-67deg, rgb(40 45 78 / 60%), rgb(0 93 131 / 60%) 10%, rgb(0 131 169 / 60%) 20%),
+    repeating-linear-gradient(67deg, rgb(40 45 78 / 60%), rgb(0 93 131 / 60%) 5%, rgb(0 131 169 / 60%) 10%);
+  background-size: 100% 240px;
+  background-repeat: no-repeat;
+}
+
+.doctor .doctor-card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-l);
+  padding: var(--space-l);
+  border: 1px solid var(--vh-grey-200);
+  border-radius: 16px;
+  background-color: var(--brand-background-color);
+}
+
+.doctor .doctor-photo {
+  flex-shrink: 0;
+}
+
+.doctor .doctor-photo img {
+  display: block;
+  width: 150px;
+  height: 225px;
+  border-radius: 4px;
+  object-fit: cover;
+  object-position: top;
+}
+
+.doctor h1 {
+  margin: 0 0 var(--space-m);
+  font-size: var(--heading-font-size-xl);
+  line-height: 1.15;
+}
+
+.doctor h1 .doctor-credentials {
+  font-weight: 400;
+}
+
+.doctor .doctor-title {
+  margin: 0;
+  font-size: var(--body-font-size-m);
+}
+
+/* ---------- appointment / contact buttons ---------- */
+.doctor .doctor-ctas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-s);
+  margin-top: var(--space-m);
+}
+
+.doctor .doctor-ctas .button {
+  flex: 1 1 200px;
+  margin: 0;
+  padding: 24px 16px;
+  border: 1px solid var(--vh-grey-500);
+  border-radius: var(--brand-button-radius);
+  background-color: var(--brand-background-color);
+  box-shadow: 0 3px 4px rgb(0 0 0 / 25%);
+  color: var(--vh-green);
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+}
+
+.doctor .doctor-ctas .button:hover,
+.doctor .doctor-ctas .button:focus-visible {
+  border-color: var(--vh-green);
+  color: var(--vh-green-dark);
+}
+
+/* condition links use the brighter link blue, as on the source */
+.doctor .doctor-conditions a {
+  color: var(--vh-blue-bright);
+  font-weight: 600;
+}
+
+/* ---------- quick links ---------- */
+.doctor .doctor-quick-links {
+  margin-top: var(--space-l);
+  padding: var(--space-m) var(--space-s);
+  background-color: var(--vh-grey-100);
+}
+
+.doctor .doctor-quick-links ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-s) var(--space-l);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.doctor .doctor-quick-links a {
+  color: var(--vh-blue);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.doctor .doctor-quick-links a:hover,
+.doctor .doctor-quick-links a:focus-visible {
+  text-decoration: underline;
+}
+
+/* ---------- sections ---------- */
+.doctor .doctor-section {
+  padding-top: var(--space-2xl);
+  scroll-margin-top: var(--brand-nav-height);
+}
+
+.doctor .doctor-section h2 {
+  margin-block: 0 var(--space-l);
+  padding-bottom: var(--space-m);
+  border-bottom: 1px solid var(--vh-rule);
+  font-size: var(--heading-font-size-xl);
+}
+
+.doctor .doctor-section > ul {
+  margin-block: 0;
+  padding: 0;
+  list-style: none;
+  font-size: var(--body-font-size-l);
+}
+
+.doctor .doctor-section > ul > li {
+  margin-bottom: var(--space-m);
+}
+
+/* check-circle bullets, as on the source */
+.doctor :is(.doctor-expertise, .doctor-languages, .doctor-conditions) > ul > li {
+  position: relative;
+  padding-left: 32px;
+}
+
+.doctor :is(.doctor-expertise, .doctor-languages, .doctor-conditions) > ul > li::before {
+  content: '';
+  position: absolute;
+  top: 0.3em;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  background-color: var(--vh-navy);
+  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='1.5'%3E%3Ccircle cx='12' cy='12' r='10.25'/%3E%3Cpath d='m7.5 12.5 3 3 6-6.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center / contain no-repeat;
+}
+
+/* ---------- locations on a cream band ---------- */
+.doctor .doctor-locations {
+  margin-top: var(--space-2xl);
+  padding-bottom: var(--space-2xl);
+  background-color: light-dark(var(--vh-cream), var(--vh-navy));
+}
+
+.doctor .doctor-location-list {
+  display: grid;
+  gap: var(--space-l);
+  margin-block: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.doctor .doctor-location {
+  padding: var(--space-l);
+  border: 1px solid var(--vh-grey-200);
+  border-radius: 8px;
+  background-color: var(--brand-background-color);
+}
+
+.doctor .doctor-location h3 {
+  margin: 0 0 var(--space-m);
+  color: var(--vh-blue);
+  font-size: var(--heading-font-size-l);
+}
+
+.doctor .doctor-location p {
+  margin: 0 0 var(--space-l);
+}
+
+.doctor .doctor-location-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-s);
+}
+
+.doctor .doctor-location-button {
+  margin: 0;
+  padding: var(--brand-button-padding) 17px;
+  border: 1px solid var(--vh-grey-500);
+  border-radius: var(--brand-button-radius);
+  background-color: var(--vh-grey-100);
+  color: var(--vh-blue);
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.doctor .doctor-location-button:hover,
+.doctor .doctor-location-button:focus-visible {
+  border-color: var(--vh-blue);
+  background-color: var(--vh-white);
+}
+
+.doctor > .doctor-section:last-child {
+  padding-bottom: var(--space-3xl);
+}
+
+@media (width >= 600px) {
+  .doctor .doctor-card {
+    flex-direction: row;
+    padding: 28px;
+  }
+
+  .doctor .doctor-photo {
+  flex-shrink: 0;
+}
+
+.doctor .doctor-photo img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .doctor .doctor-location-list {
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  }
+}
+
+@media (width >= 900px) {
+  .doctor .doctor-header {
+    padding-top: 38px;
+    background-size: 100% 278px;
+  }
+
+  .doctor h1 {
+    font-size: 40px;
+  }
+
+  /* buttons straddle the bottom edge of the card, aligned with the name (card padding + photo + gap) */
+  .doctor .doctor-ctas {
+    margin-top: -46px;
+    padding-left: calc(28px + 200px + var(--space-l));
+  }
+
+  .doctor .doctor-ctas .button {
+    flex: 0 1 275px;
+    padding: 28px 16px;
+  }
+
+  .doctor .doctor-card:has(+ .doctor-ctas) {
+    padding-bottom: 76px;
+  }
+
+  .doctor :is(.doctor-expertise, .doctor-languages) > ul {
+    columns: 2;
+    column-gap: var(--space-2xl);
+  }
+
+  .doctor :is(.doctor-expertise, .doctor-languages) > ul > li {
+    break-inside: avoid;
+  }
+}

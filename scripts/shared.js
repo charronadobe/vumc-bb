@@ -359,3 +359,60 @@ export function getBlockContext(block) {
     isEmbed,
   };
 }
+
+const SELF_REF = 'self://#';
+
+/**
+ * Read Document Authoring structured content (a page with a `da-form` block) from `main`.
+ * The form is delivered as key/value blocks: the `da-form` block names the schema, a block named
+ * after the schema holds the top-level fields, and each nested object is its own block that
+ * fields reference as `self://#<block-id>`. List fields are delivered as <ul>.
+ * @param {Element} main The container element
+ * @returns {{ schema: string, title: string, root: Element, blocks: Element[], data: Object }|null}
+ */
+export function readStructuredContent(main) {
+  const form = main.querySelector('div.da-form');
+  if (!form) return null;
+
+  const rows = (block) => [...block.children]
+    .filter((row) => row.children.length === 2)
+    .map(({ children: [key, value] }) => [key.textContent.trim(), value]);
+  const meta = Object.fromEntries(rows(form).map(([key, value]) => [key, value.textContent.trim()]));
+  const schema = meta['x-schema-name'];
+  const root = schema && form.parentElement.querySelector(`:scope > div.${CSS.escape(schema)}`);
+  if (!root) return null;
+
+  const blocks = [form];
+  const readObject = (block) => Object.fromEntries(rows(block).map(([key, cell]) => {
+    const resolve = (text) => (text.startsWith(SELF_REF) ? readRef(text.slice(SELF_REF.length)) : text);
+    const list = cell.querySelector(':scope > ul');
+    const value = list
+      ? [...list.children].map((li) => resolve(li.textContent.trim()))
+      : resolve(cell.textContent.trim());
+    return [key, value];
+  }));
+  const readRef = (id) => {
+    const block = main.querySelector(`div.${CSS.escape(id)}`);
+    if (!block) return {};
+    blocks.push(block);
+    return readObject(block);
+  };
+
+  return {
+    schema, title: meta.title || '', root, blocks, data: readObject(root),
+  };
+}
+
+let placeholders;
+
+/**
+ * Fetch the site's placeholders sheet (/config/placeholders.json) as a key/value map.
+ * @returns {Promise<Record<string, string>>}
+ */
+export async function fetchPlaceholders() {
+  placeholders = placeholders || fetch('/config/placeholders.json')
+    .then((resp) => (resp.ok ? resp.json() : { data: [] }))
+    .then((json) => Object.fromEntries((json.data || []).map(({ key, value }) => [key, value])))
+    .catch(() => ({}));
+  return placeholders;
+}
