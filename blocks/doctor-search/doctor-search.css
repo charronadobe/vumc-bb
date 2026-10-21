@@ -184,6 +184,11 @@ main > .section > .doctor-search-wrapper {
   background-color: var(--vh-cream);
 }
 
+.doctor-search .doctor-search-results.is-loading {
+  min-height: 100vh;
+  background-color: var(--vh-cream);
+}
+
 .doctor-search .doctor-search-results > * {
   max-width: var(--brand-content-max-width);
   margin-inline: auto;

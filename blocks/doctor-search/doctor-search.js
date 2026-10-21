@@ -101,6 +101,8 @@ export default async function decorate(block) {
   );
 
   const results = el('div', { className: 'doctor-search-results', 'aria-live': 'polite' });
+  // a search in the URL: reserve room for the results so content below does not shift
+  if (PARAMS.some((p) => new URLSearchParams(window.location.search).get(p))) results.classList.add('is-loading');
   block.append(form, results);
 
   const field = (name) => form.elements.namedItem(name);
@@ -130,8 +132,12 @@ export default async function decorate(block) {
   };
 
   const render = async (state) => {
-    results.textContent = '';
-    if (!PARAMS.some((p) => state[p])) return;
+    if (!PARAMS.some((p) => state[p])) {
+      results.textContent = '';
+      results.classList.remove('is-loading');
+      return;
+    }
+    // build the new results before replacing the old ones, so the area never collapses
     const all = await loadDoctors();
     fillOptions(all);
 
@@ -168,12 +174,13 @@ export default async function decorate(block) {
         chips.append(chip);
       });
     heading.append(chips);
-    results.append(heading);
-
-    if (matches.length) results.append(el('ul', { className: 'doctor-search-list' }, ...matches.map((d) => doctorCard(d, labels))));
+    const content = [heading];
+    if (matches.length) content.push(el('ul', { className: 'doctor-search-list' }, ...matches.map((d) => doctorCard(d, labels))));
     if (specialtyOnly && count > matches.length && spec['all results']) {
-      results.append(el('p', { className: 'doctor-search-all' }, el('a', { href: spec['all results'], className: 'doctor-search-all-link' }, labels['all-results'])));
+      content.push(el('p', { className: 'doctor-search-all' }, el('a', { href: spec['all results'], className: 'doctor-search-all-link' }, labels['all-results'])));
     }
+    results.replaceChildren(...content);
+    results.classList.remove('is-loading');
   };
 
   const applyUrl = async () => {
