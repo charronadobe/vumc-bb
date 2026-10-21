@@ -215,19 +215,19 @@ function executeTransformers(hookName, element, payload) {
   });
 }
 
-// Site uploads (www./files.vanderbilthealth.com/sites/default/files/*) cannot be fetched by the
-// EDS media pipeline, so the images are stored with the site as images/<sanitized-file-name>.
-// Must run after WebImporter.rules.adjustImageUrls, which would re-absolutize relative paths.
+// Site uploads (www.vanderbilthealth.com/sites/default/files/*) answer with a 307 redirect to the
+// files host, which the EDS media pipeline cannot fetch from. Keep them as absolute files-host
+// URLs so the content upload downloads each image and stores it in Document Authoring with the
+// page. Do not rewrite them to relative paths: no file exists there, so the upload links the
+// page to images that were never created and preview renders them as about:error.
+// Must run after WebImporter.rules.adjustImageUrls, which absolutizes the source URLs.
 const SITE_UPLOAD = /^https:\/\/(?:www|files)\.vanderbilthealth\.com\/sites\/default\/files\/(.+)$/;
 
-function localizeSiteUploads(main) {
+function useFilesHostForSiteUploads(main) {
   main.querySelectorAll("img[src]").forEach((img) => {
     const match = img.getAttribute("src").match(SITE_UPLOAD);
     if (!match) return;
-    const file = decodeURIComponent(match[1].split("/").pop())
-      .toLowerCase()
-      .replace(/[^a-z0-9.]+/g, "-");
-    img.setAttribute("src", `images/${file}`);
+    img.setAttribute("src", `https://files.vanderbilthealth.com/sites/default/files/${match[1]}`);
   });
 }
 
@@ -268,7 +268,7 @@ export default {
     WebImporter.rules.createMetadata(main, document);
     WebImporter.rules.transformBackgroundImages(main, document);
     WebImporter.rules.adjustImageUrls(main, url, params.originalURL);
-    localizeSiteUploads(main);
+    useFilesHostForSiteUploads(main);
 
     const rawPath = new URL(params.originalURL).pathname
       .replace(/\/$/, "")
