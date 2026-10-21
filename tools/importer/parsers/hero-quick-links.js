@@ -13,6 +13,10 @@
  */
 const ORIGIN = 'https://www.vanderbilthealth.com/';
 
+// "Make an Appointment" opens a script-rendered modal on the source site; there is no page
+// behind the hash, so link to the home page like the nav does.
+const MODAL_LINKS = { '#make_an_appointment': '/' };
+
 function absUrl(src) {
   try { return new URL(src, ORIGIN).href; } catch (e) { return src; }
 }
@@ -73,7 +77,7 @@ export default function parse(element, { document }) {
     // authored icon token (:name:), rendered by EDS as <span class="icon icon-name">
     if (iconName) p.append(document.createTextNode(`:${iconName}: `));
     const link = document.createElement('a');
-    link.href = href;
+    link.href = MODAL_LINKS[href] || href;
     link.textContent = label;
     p.append(link);
     content.push(p);
