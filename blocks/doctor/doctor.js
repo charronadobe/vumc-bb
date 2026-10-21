@@ -31,17 +31,18 @@ const asList = (value) => {
   return value ? [value] : [];
 };
 
-// Matched on profile URL first; the sheet keeps some outdated profile links (renamed doctors),
-// so fall back to the display name.
+// The results sheet's profile column links to this page, or to the source profile on older rows
+// (some of those are outdated for renamed doctors), so match either, then fall back to the name.
 async function findPhoto(sheet, profileUrl, name) {
-  if (!sheet || !profileUrl) return null;
+  if (!sheet) return null;
   try {
     const resp = await fetch(`${sheet}?sheet=doctors`);
     if (!resp.ok) return null;
     const json = await resp.json();
     const rows = (json[':type'] === 'multi-sheet' ? json.doctors : json)?.data || [];
-    const path = new URL(profileUrl).pathname;
-    const row = rows.find((r) => r.profile && new URL(r.profile, profileUrl).pathname === path)
+    const pathOf = (url) => new URL(url, window.location.href).pathname.replace(/\/$/, '');
+    const paths = [window.location.pathname, profileUrl].filter(Boolean).map(pathOf);
+    const row = rows.find((r) => r.profile && paths.includes(pathOf(r.profile)))
       || rows.find((r) => r.name && r.name === name);
     return row?.image || null;
   } catch (e) {
