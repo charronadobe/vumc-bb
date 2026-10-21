@@ -39,6 +39,11 @@ main > .section > .doctor-search-wrapper {
   font-size: 15px;
 }
 
+.doctor-search input[type='search']::placeholder {
+  color: var(--vh-grey-600);
+  opacity: 1;
+}
+
 .doctor-search input[type='search']:focus {
   outline: 2px solid var(--vh-blue);
   outline-offset: 2px;
@@ -83,7 +88,9 @@ main > .section > .doctor-search-wrapper {
   padding: 0 50px 0 30px;
   border: 0;
   background: transparent;
-  color: var(--vh-grey-500);
+
+  /* source grey (#808285) fails WCAG AA contrast on the grey field; use a darker grey */
+  color: var(--vh-grey-600);
   font: inherit;
   font-size: 15px;
   appearance: none;

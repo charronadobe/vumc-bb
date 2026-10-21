@@ -69,7 +69,7 @@ export default async function decorate(block) {
   const sheetPath = new URL(labels.results, window.location.href).pathname;
   block.textContent = '';
 
-  const specialties = await fetchSheet(sheetPath, 'specialties');
+  let specialties = [];
   let doctors;
   const loadDoctors = async () => {
     doctors = doctors || await fetchSheet(sheetPath, 'doctors');
@@ -81,7 +81,7 @@ export default async function decorate(block) {
   const query = el('input', {
     type: 'search', name: 'query', placeholder: labels.name, 'aria-label': labels.name, autocomplete: 'off',
   });
-  const specialtySelect = select('specialty', labels.specialty, specialties.map((s) => [s.id, s.specialty]));
+  const specialtySelect = select('specialty', labels.specialty, []);
   const languageSelect = select('language', labels.language, []);
   const genderSelect = select('gender', labels.gender, []);
   const submit = el('button', { type: 'submit', className: 'doctor-search-submit' }, labels.search);
@@ -202,5 +202,11 @@ export default async function decorate(block) {
   more.addEventListener('click', async () => { if (!filters.hidden) fillOptions(await loadDoctors()); }, { once: true });
   window.addEventListener('popstate', applyUrl);
 
-  await applyUrl();
+  // render the form right away; the specialty list (and any search in the URL) follows
+  fetchSheet(sheetPath, 'specialties').then((rows) => {
+    specialties = rows;
+    const s = field('specialty');
+    rows.forEach((row) => s.append(el('option', { value: row.id }, row.specialty)));
+    applyUrl();
+  });
 }
