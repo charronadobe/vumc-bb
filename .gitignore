@@ -20,3 +20,7 @@ tasks/todo.md
 
 migration-work/navigation-validation/
 migration-work/footer-validation/
+
+# importer build output and run reports (regenerated on every import)
+tools/importer/*.bundle.js
+tools/importer/reports/
