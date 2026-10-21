@@ -66,7 +66,9 @@ function doctorCard(doctor, labels) {
 
 export default async function decorate(block) {
   const labels = readBlockConfig(block);
-  const sheetPath = new URL(labels.results, window.location.href).pathname;
+  // content sync can rewrite a "/doctors/results.json" link to "/doctors/results-json"
+  const sheetPath = new URL(labels.results, window.location.href).pathname
+    .replace(/-json$/, '.json');
   block.textContent = '';
 
   let specialties = [];
