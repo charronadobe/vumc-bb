@@ -45,6 +45,8 @@ export default function parse(element, { document }) {
     // source toggle text once the extra filters are open
     ['Fewer filters', 'Show Fewer Filters —'],
     ['Results for', 'Results for'],
+    // singular heading for a single match (the source always says "Results for")
+    ['Result for', 'Result for'],
     ['Profile', 'View Profile'],
     ['All results', 'See all results'],
     // accessible name for the × on each active-filter chip (the source has none)

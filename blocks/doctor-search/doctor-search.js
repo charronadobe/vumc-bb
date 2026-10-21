@@ -161,7 +161,9 @@ export default async function decorate(block) {
     const specialtyOnly = spec && !state.query && !state.language && !state.gender;
     const count = specialtyOnly ? Number(spec.total) || matches.length : matches.length;
 
-    const heading = el('h2', { className: 'doctor-search-heading' }, el('span', { className: 'doctor-search-count' }, String(count)), ` ${labels['results-for']} `);
+    // "Result for" (singular) is optional; without it every count uses "Results for"
+    const resultsFor = (count === 1 && labels['result-for']) || labels['results-for'];
+    const heading = el('h2', { className: 'doctor-search-heading' }, el('span', { className: 'doctor-search-count' }, String(count)), ` ${resultsFor} `);
     const chips = el('span', { className: 'doctor-search-chips' });
     [['specialty', spec?.specialty], ['query', state.query], ['language', state.language], ['gender', state.gender]]
       .filter(([, value]) => value)
