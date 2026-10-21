@@ -31,7 +31,9 @@ const asList = (value) => {
   return value ? [value] : [];
 };
 
-async function findPhoto(sheet, profileUrl) {
+// Matched on profile URL first; the sheet keeps some outdated profile links (renamed doctors),
+// so fall back to the display name.
+async function findPhoto(sheet, profileUrl, name) {
   if (!sheet || !profileUrl) return null;
   try {
     const resp = await fetch(`${sheet}?sheet=doctors`);
@@ -39,7 +41,9 @@ async function findPhoto(sheet, profileUrl) {
     const json = await resp.json();
     const rows = (json[':type'] === 'multi-sheet' ? json.doctors : json)?.data || [];
     const path = new URL(profileUrl).pathname;
-    return rows.find((row) => row.profile && new URL(row.profile, profileUrl).pathname === path)?.image || null;
+    const row = rows.find((r) => r.profile && new URL(r.profile, profileUrl).pathname === path)
+      || rows.find((r) => r.name && r.name === name);
+    return row?.image || null;
   } catch (e) {
     return null;
   }
@@ -142,7 +146,7 @@ export default async function decorate(block) {
 
   block.replaceChildren(header, ...(quickLinks ? [quickLinks] : []), ...sections);
 
-  const image = await findPhoto(labels['doctor-results-sheet'], data.profileUrl);
+  const image = await findPhoto(labels['doctor-results-sheet'], data.profileUrl, baseName);
   if (image) {
     photo.append(createTag('img', {
       src: image, alt: baseName, width: 200, height: 200, loading: 'eager',
