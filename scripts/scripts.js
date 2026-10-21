@@ -22,7 +22,7 @@ import {
 import {
   initMartech, martechEager, martechLazy, martechDelayed,
 } from '../plugins/martech/src/index.js';
-import { getAllMetadata, getLocale } from './shared.js';
+import { getAllMetadata, getLocale, isGatedPage } from './shared.js';
 import { initPageSchemas } from './schema.js';
 import dynamicBlocks from '../blocks/dynamic/index.js';
 
@@ -415,15 +415,17 @@ async function loadLazy(doc) {
   }
 
   const main = doc.querySelector('main');
-  const { initContentProtection, applyContentProtection } = await import('./utils/gated-content.js');
-  initContentProtection();
+  // gated-content (and its auth toggle) only matters on gated pages; skip the extra
+  // round trips elsewhere so later sections are not held back
+  const protection = isGatedPage() ? await import('./utils/gated-content.js') : null;
+  protection?.initContentProtection();
   const sections = main ? [...main.querySelectorAll('div.section')] : [];
   for (let i = 0; i < sections.length; i += 1) {
     await loadSection(sections[i], loadFragments);
     if (i === 0 && sampleRUM.enhance) sampleRUM.enhance();
   }
   await dynamicBlocks(main);
-  applyContentProtection();
+  protection?.applyContentProtection();
   decorateCodeBlocks(main);
 
   const { hash } = window.location;
