@@ -215,6 +215,22 @@ function executeTransformers(hookName, element, payload) {
   });
 }
 
+// Site uploads (www./files.vanderbilthealth.com/sites/default/files/*) cannot be fetched by the
+// EDS media pipeline, so the images are stored with the site as images/<sanitized-file-name>.
+// Must run after WebImporter.rules.adjustImageUrls, which would re-absolutize relative paths.
+const SITE_UPLOAD = /^https:\/\/(?:www|files)\.vanderbilthealth\.com\/sites\/default\/files\/(.+)$/;
+
+function localizeSiteUploads(main) {
+  main.querySelectorAll("img[src]").forEach((img) => {
+    const match = img.getAttribute("src").match(SITE_UPLOAD);
+    if (!match) return;
+    const file = decodeURIComponent(match[1].split("/").pop())
+      .toLowerCase()
+      .replace(/[^a-z0-9.]+/g, "-");
+    img.setAttribute("src", `images/${file}`);
+  });
+}
+
 function findBlocksOnPage(document, template) {
   const pageBlocks = [];
   template.blocks.forEach((blockDef) => {
@@ -252,6 +268,7 @@ export default {
     WebImporter.rules.createMetadata(main, document);
     WebImporter.rules.transformBackgroundImages(main, document);
     WebImporter.rules.adjustImageUrls(main, url, params.originalURL);
+    localizeSiteUploads(main);
 
     const rawPath = new URL(params.originalURL).pathname
       .replace(/\/$/, "")
