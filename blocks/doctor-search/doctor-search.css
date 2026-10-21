@@ -1,0 +1,369 @@
+/* doctor-search – values measured on vanderbilthealth.com/doctors */
+
+/* the block spans the page: the form closes the white search card, results sit on a cream band */
+main > .section > .doctor-search-wrapper {
+  max-width: none;
+  padding: 0;
+}
+
+/* ---------- form (bottom part of the search card) ---------- */
+.doctor-search .doctor-search-form {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  max-width: var(--brand-content-max-width);
+  margin: 0 auto;
+  padding: 0 30px 30px;
+  border: 1px solid var(--vh-rule);
+  border-top: 0;
+  background-color: var(--vh-white);
+}
+
+.doctor-search .doctor-search-form > * {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 795px;
+  margin-inline: auto;
+}
+
+.doctor-search input[type='search'] {
+  box-sizing: border-box;
+  width: 100%;
+  height: 48px;
+  padding: 16px 8px 16px 30px;
+  border: 1px solid var(--vh-grey-200);
+  border-radius: var(--brand-button-radius);
+  background-color: var(--vh-grey-100);
+  color: var(--vh-charcoal);
+  font: inherit;
+  font-size: 15px;
+}
+
+.doctor-search input[type='search']:focus {
+  outline: 2px solid var(--vh-blue);
+  outline-offset: 2px;
+}
+
+.doctor-search .doctor-search-query {
+  margin-bottom: 46px;
+}
+
+/* selects: grey inset field with a chevron; blue border once a value is chosen */
+.doctor-search .doctor-search-select {
+  position: relative;
+  box-sizing: border-box;
+  height: 45px;
+  border: 2px solid transparent;
+  border-radius: var(--brand-button-radius);
+  background-color: var(--vh-grey-100);
+  box-shadow: inset 1px 2px 4px rgb(1 1 1 / 30%);
+}
+
+.doctor-search .doctor-search-select:has(option:checked:not([value=''])) {
+  border-color: var(--vh-steel-blue);
+  box-shadow: none;
+}
+
+.doctor-search .doctor-search-select::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 22px;
+  width: 8px;
+  height: 8px;
+  border-right: 2px solid var(--vh-charcoal);
+  border-bottom: 2px solid var(--vh-charcoal);
+  transform: translateY(-75%) rotate(45deg);
+  pointer-events: none;
+}
+
+.doctor-search select {
+  width: 100%;
+  height: 100%;
+  padding: 0 50px 0 30px;
+  border: 0;
+  background: transparent;
+  color: var(--vh-grey-500);
+  font: inherit;
+  font-size: 15px;
+  appearance: none;
+  cursor: pointer;
+}
+
+.doctor-search select:focus-visible {
+  outline: 2px solid var(--vh-blue);
+  outline-offset: 2px;
+}
+
+.doctor-search .doctor-search-select:has(option:checked:not([value=''])) select {
+  color: var(--vh-steel-blue);
+}
+
+.doctor-search .doctor-search-submit {
+  height: 56px;
+  margin-top: 15px;
+  padding: 15px 13px;
+  border: 2px solid transparent;
+  border-radius: var(--brand-button-radius);
+  background-color: var(--vh-green);
+  color: var(--vh-white);
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color var(--brand-button-transition);
+}
+
+.doctor-search .doctor-search-submit:hover {
+  background-color: var(--vh-green-dark);
+}
+
+.doctor-search .doctor-search-reset {
+  margin-top: 14px;
+  padding: 5px 0;
+  border: 0;
+  background: none;
+  color: var(--vh-blue-bright);
+  font: inherit;
+  font-weight: 600;
+  line-height: 27px;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  cursor: pointer;
+}
+
+.doctor-search .doctor-search-reset:hover {
+  text-decoration: none;
+}
+
+/* "Show More Filters +" sits on a hairline divider */
+.doctor-search .doctor-search-more-line {
+  display: flex;
+  align-items: center;
+  max-width: 815px;
+  margin-top: 8px;
+}
+
+.doctor-search .doctor-search-more-line::before,
+.doctor-search .doctor-search-more-line::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background-color: var(--vh-rule);
+}
+
+.doctor-search .doctor-search-more {
+  padding: 10px;
+  border: 0;
+  background: var(--vh-white);
+  color: #000;
+  font: inherit;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.doctor-search .doctor-search-filters {
+  display: grid;
+  gap: 19px;
+  margin-top: 16px;
+}
+
+.doctor-search .doctor-search-filters[hidden] {
+  display: none;
+}
+
+/* ---------- results (cream band) ---------- */
+.doctor-search .doctor-search-results:not(:empty) {
+  padding: 50px 20px 30px;
+  background-color: var(--vh-cream);
+}
+
+.doctor-search .doctor-search-results > * {
+  max-width: var(--brand-content-max-width);
+  margin-inline: auto;
+}
+
+.doctor-search .doctor-search-heading {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 0;
+  font-size: 24px;
+  line-height: 34px;
+}
+
+.doctor-search .doctor-search-count {
+  margin-right: 0.25em;
+  font-weight: 300;
+}
+
+.doctor-search .doctor-search-chips {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.doctor-search .doctor-search-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  margin-left: 10px;
+  padding: 5px 16px 4px;
+  border: 1px solid var(--vh-grey-500);
+  border-radius: var(--brand-button-radius);
+  background-color: var(--vh-grey-100);
+  color: var(--vh-blue);
+  font: inherit;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  cursor: pointer;
+}
+
+/* × drawn with two strokes */
+.doctor-search .doctor-search-chip::after {
+  content: '';
+  width: 12px;
+  height: 12px;
+  background:
+    linear-gradient(45deg, transparent 44%, currentcolor 44%, currentcolor 56%, transparent 56%),
+    linear-gradient(-45deg, transparent 44%, currentcolor 44%, currentcolor 56%, transparent 56%);
+}
+
+.doctor-search .doctor-search-chip:hover {
+  background-color: var(--vh-grey-200);
+}
+
+.doctor-search .doctor-search-list {
+  display: grid;
+  grid-template-columns: minmax(0, 300px);
+  justify-content: center;
+  gap: 30px;
+  margin-block: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.doctor-search .doctor-search-card {
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  border: 1px solid var(--vh-grey-200);
+  border-radius: var(--brand-button-radius);
+  background-color: var(--vh-white);
+  text-align: center;
+}
+
+.doctor-search .doctor-search-card-body {
+  flex: 1;
+}
+
+.doctor-search .doctor-search-photo {
+  width: 150px;
+  height: 150px;
+  margin: 0 auto 10px;
+  overflow: hidden;
+}
+
+.doctor-search .doctor-search-photo img {
+  display: block;
+  width: 150px;
+  height: auto;
+  margin-top: -10px;
+  aspect-ratio: auto;
+}
+
+.doctor-search .doctor-search-card h3 {
+  margin: 0 0 8px;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.doctor-search .doctor-search-card h3 a:any-link {
+  color: var(--vh-blue);
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.doctor-search .doctor-search-card h3 a:hover {
+  text-decoration: none;
+}
+
+.doctor-search .doctor-search-card p {
+  margin: 0;
+  color: var(--vh-charcoal);
+  line-height: 27px;
+}
+
+.doctor-search .doctor-search-card-footer {
+  margin: 16px -24px 0;
+  padding: 18px 24px 0;
+  border-top: 1px solid var(--vh-grey-200);
+}
+
+.doctor-search .doctor-search-profile:any-link {
+  display: block;
+  padding: 15px 13px;
+  border: 1px solid var(--vh-grey-500);
+  border-radius: var(--brand-button-radius);
+  background-color: var(--vh-grey-100);
+  color: var(--vh-blue);
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color var(--brand-button-transition), color var(--brand-button-transition);
+}
+
+.doctor-search .doctor-search-profile:hover {
+  border-color: var(--vh-steel-blue);
+  background-color: var(--vh-navy);
+  color: var(--vh-white);
+}
+
+.doctor-search .doctor-search-all {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.doctor-search .doctor-search-all-link:any-link {
+  color: var(--vh-blue-bright);
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+@media (width >= 600px) {
+  .doctor-search .doctor-search-list {
+    grid-template-columns: repeat(2, minmax(0, 370px));
+  }
+
+  .doctor-search .doctor-search-filters {
+    grid-template-columns: repeat(2, minmax(0, 197px));
+    justify-content: center;
+    gap: 8px;
+  }
+}
+
+@media (width >= 900px) {
+  .doctor-search .doctor-search-form {
+    padding: 0 40px 55px;
+  }
+
+  .doctor-search .doctor-search-results:not(:empty) {
+    padding: 90px 30px 45px;
+  }
+
+  .doctor-search .doctor-search-heading {
+    font-size: 34px;
+    line-height: 46px;
+  }
+
+  .doctor-search .doctor-search-list {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    justify-content: stretch;
+  }
+
+  .doctor-search .doctor-search-card h3 {
+    font-size: 24px;
+    line-height: 29px;
+  }
+}

@@ -649,6 +649,37 @@ main > .section.light-grey {
   background-color: light-dark(var(--vh-grey-100), #1c2147);
 }
 
+/* section-metadata style=search-panel: grey band with a white card holding the heading
+   and the search block (e.g. Find a Doctor) */
+main > .section.search-panel {
+  padding: 20px 5px 0;
+  background-color: var(--vh-grey-100);
+}
+
+main > .section.search-panel > .default-content-wrapper {
+  box-sizing: border-box;
+  max-width: var(--brand-content-max-width);
+  padding: 30px;
+  border: 1px solid var(--vh-rule);
+  border-bottom: 0;
+  background-color: var(--vh-white);
+}
+
+main > .section.search-panel h1 {
+  margin: 0;
+  text-align: center;
+}
+
+@media (width >= 900px) {
+  main > .section.search-panel {
+    padding: 30px 0 0;
+  }
+
+  main > .section.search-panel > .default-content-wrapper {
+    padding: 35px 40px 40px;
+  }
+}
+
 /* article card rows sit on a cream band */
 main > .section.cards-article-container {
   background-color: light-dark(var(--vh-cream), var(--vh-navy));

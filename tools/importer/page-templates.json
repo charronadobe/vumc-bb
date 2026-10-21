@@ -180,6 +180,53 @@
           ]
         }
       ]
+    },
+    {
+      "name": "find-a-doctor",
+      "urls": [
+        "https://www.vanderbilthealth.com/doctors"
+      ],
+      "representativeUrl": "https://www.vanderbilthealth.com/doctors",
+      "description": "Find a Doctor search page: heading + doctor search form (results from captured data), About Ratings and Comments text",
+      "urlPattern": "/doctors",
+      "blocks": [
+        {
+          "name": "doctor-search",
+          "instances": [
+            "#provider-search-form",
+            ".data-tracker-provider-search-page form"
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "s1",
+          "name": "Search",
+          "selector": [
+            ".data-tracker-provider-search-page > div:nth-of-type(1)"
+          ],
+          "style": "search-panel",
+          "blocks": [
+            "doctor-search"
+          ],
+          "defaultContent": [
+            ".data-tracker-provider-search-page > div:nth-of-type(1) h1"
+          ]
+        },
+        {
+          "id": "s2",
+          "name": "About Ratings and Comments",
+          "selector": [
+            ".data-tracker-provider-search-page > div:nth-of-type(2)"
+          ],
+          "style": null,
+          "blocks": [],
+          "defaultContent": [
+            ".data-tracker-provider-search-page > div:nth-of-type(2) h2",
+            ".data-tracker-provider-search-page > div:nth-of-type(2) p"
+          ]
+        }
+      ]
     }
   ],
   "metadata": {

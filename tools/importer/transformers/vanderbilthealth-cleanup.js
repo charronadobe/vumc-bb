@@ -117,6 +117,19 @@ export default function transform(hookName, element, payload) {
       });
     });
 
+    // "<p><span>Label</span><br>Text</p>" (e.g. About Ratings and Comments) becomes an h3 + p
+    element.querySelectorAll('p').forEach((p) => {
+      const label = p.firstElementChild;
+      if (!label || label.tagName !== 'SPAN' || p.firstChild !== label) return;
+      const br = label.nextSibling;
+      if (!br || br.nodeName !== 'BR') return;
+      const heading = element.ownerDocument.createElement('h3');
+      heading.textContent = label.textContent.trim();
+      label.remove();
+      br.remove();
+      p.before(heading);
+    });
+
     // www.vanderbilthealth.com/sites/default/files/* answers with a 307 redirect to the files
     // host; reference the files host directly. (The EDS media pipeline cannot fetch from it
     // either, so these images are uploaded to Document Authoring alongside the page.)
