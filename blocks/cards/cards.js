@@ -25,7 +25,6 @@ function buildLinksCard(article) {
   }
   link.append(body);
   li.append(link);
-
   return li;
 }
 
