@@ -25,4 +25,4 @@ The heading and status text attributes are optional. Without `heading`, the feed
 
 For local development, run `npm run dev:medical-feeds` and set `feed-url` to `http://localhost:8787/medical-feeds.xml`.
 
-The standalone local demo is available at `/widgets/medical-feeds/medical-feeds.html` while the project is being served locally. It uses the local worker URL; change `feed-url` to the deployed worker URL when publishing the demo page.
+The standalone demo is available at `/widgets/medical-feeds/medical-feeds.html`. It reads the hourly copy at `/widgets/medical-feeds/feed.xml`; point `feed-url` at `http://localhost:8787/medical-feeds.xml` to try it against the local worker.
