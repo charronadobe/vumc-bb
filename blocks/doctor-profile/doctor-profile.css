@@ -1,0 +1,130 @@
+.doctor-profile {
+  --doctor-profile-content-width: 1070px;
+
+  color: var(--color-text);
+}
+
+.doctor-profile .doctor-profile-header,
+.doctor-profile .doctor-profile-section {
+  width: min(var(--doctor-profile-content-width), 100% - 2 * var(--content-padding-inline));
+  margin-inline: auto;
+}
+
+.doctor-profile .doctor-profile-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-l);
+  padding-block: var(--space-xl);
+  border-bottom: 4px solid var(--vh-green);
+}
+
+.doctor-profile .doctor-profile-identity {
+  min-width: min(100%, 320px);
+  flex: 1 1 420px;
+}
+
+.doctor-profile h1 {
+  margin: 0 0 var(--space-s);
+  font-size: var(--heading-font-size-xl);
+  line-height: 1.15;
+}
+
+.doctor-profile-degree {
+  font-weight: 400;
+}
+
+.doctor-profile .doctor-profile-actions,
+.doctor-profile .doctor-profile-location-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-s);
+}
+
+.doctor-profile .doctor-profile-button,
+.doctor-profile .doctor-profile-action {
+  display: inline-block;
+  padding: 12px 18px;
+  border: 1px solid var(--vh-blue);
+  border-radius: var(--brand-button-radius);
+  color: var(--vh-blue);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.doctor-profile .doctor-profile-appointment {
+  border-color: var(--vh-green);
+  background-color: var(--vh-green);
+  color: var(--vh-white);
+}
+
+.doctor-profile .doctor-profile-section {
+  padding-block: var(--space-xl);
+  scroll-margin-top: var(--brand-nav-height);
+}
+
+.doctor-profile .doctor-profile-section h2 {
+  margin: 0 0 var(--space-l);
+  padding-bottom: var(--space-s);
+  border-bottom: 1px solid var(--vh-rule);
+  font-size: var(--heading-font-size-l);
+}
+
+.doctor-profile .doctor-profile-section > ul {
+  display: grid;
+  gap: var(--space-m);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.doctor-profile .doctor-profile-section > ul:not(.doctor-profile-location-list) > li {
+  padding-left: var(--space-m);
+  border-left: 3px solid var(--vh-green);
+}
+
+.doctor-profile .doctor-profile-location-list {
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 320px), 1fr));
+}
+
+.doctor-profile .doctor-profile-location {
+  padding: var(--space-l);
+  border: 1px solid var(--vh-grey-200);
+  border-radius: 8px;
+  background-color: var(--brand-background-color);
+}
+
+.doctor-profile .doctor-profile-location h3 {
+  margin: 0 0 var(--space-s);
+  color: var(--vh-blue);
+  font-size: var(--heading-font-size-m);
+}
+
+.doctor-profile .doctor-profile-location p {
+  margin: 0 0 var(--space-m);
+}
+
+.doctor-profile .doctor-profile-action {
+  padding: 8px 12px;
+  background-color: var(--vh-grey-100);
+  font-size: var(--body-font-size-s);
+}
+
+.doctor-profile .doctor-profile-button:hover,
+.doctor-profile .doctor-profile-button:focus-visible,
+.doctor-profile .doctor-profile-action:hover,
+.doctor-profile .doctor-profile-action:focus-visible {
+  text-decoration: underline;
+}
+
+@media (width >= 600px) {
+  .doctor-profile .doctor-profile-header {
+    padding-block: var(--space-2xl);
+  }
+
+  .doctor-profile h1 {
+    font-size: 40px;
+  }
+}
