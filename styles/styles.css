@@ -649,13 +649,21 @@ main > .section.light-grey {
   background-color: light-dark(var(--vh-grey-100), #1c2147);
 }
 
-/* section-metadata style=navy: page-title band with a white heading (e.g. solutions FAQ pages) */
+/* section-metadata style=navy: page-title band with a white heading (e.g. solutions FAQ pages).
+   Graphic measured on vanderbilthealth.com: a gradient shape at the right edge (mirrored on the
+   source; the flip is baked into the SVG) and, on wide screens, a line pattern near the left edge */
 main > .section.navy {
   display: flex;
   align-items: center;
-  min-height: 220px;
   margin: 0;
+  overflow: hidden;
   background-color: #223456;
+
+  /* mobile: the source rotates the shape a quarter turn instead of mirroring it */
+  background-image: url('navy-band-shape-mobile.svg');
+  background-repeat: no-repeat;
+  background-position: 0 73px;
+  background-size: 100% auto;
   color: var(--vh-white);
 }
 
@@ -666,7 +674,7 @@ main > .section.navy > div {
 /* the title lines up with the blocks below (content grid), not the narrow text column */
 main > .section.navy > .default-content-wrapper {
   max-width: var(--grid-container-width);
-  padding-block: var(--space-2xl);
+  padding-block: var(--space-m);
 }
 
 main > .section.navy :is(h1, h2, h3, p, a) {
@@ -676,15 +684,25 @@ main > .section.navy :is(h1, h2, h3, p, a) {
 main > .section.navy h1 {
   margin: 0;
   max-width: 830px;
+  font-size: 32px;
 }
 
-@media (width >= 900px) {
+@media (width >= 600px) {
   main > .section.navy {
     min-height: 300px;
+    background-image: url('navy-band-lines.svg'), url('navy-band-shape.svg');
+
+    /* lines start 708px left of the band's centre: (100% - 118px) / 2 - 649px = 50% - 708px */
+    background-position: calc(50% - 649px) 0, right top;
+    background-size: 118px 100%, 300px 300px;
+  }
+
+  main > .section.navy > .default-content-wrapper {
+    padding-block: var(--space-2xl);
   }
 
   main > .section.navy h1 {
-    font-size: var(--heading-font-size-xxl);
+    font-size: var(--brand-heading-font-size-xxl);
   }
 }
 
