@@ -649,6 +649,45 @@ main > .section.light-grey {
   background-color: light-dark(var(--vh-grey-100), #1c2147);
 }
 
+/* section-metadata style=navy: page-title band with a white heading (e.g. solutions FAQ pages) */
+main > .section.navy {
+  display: flex;
+  align-items: center;
+  min-height: 220px;
+  margin: 0;
+  background-color: #223456;
+  color: var(--vh-white);
+}
+
+main > .section.navy > div {
+  flex: 1;
+}
+
+/* the title lines up with the blocks below (content grid), not the narrow text column */
+main > .section.navy > .default-content-wrapper {
+  max-width: var(--grid-container-width);
+  padding-block: var(--space-2xl);
+}
+
+main > .section.navy :is(h1, h2, h3, p, a) {
+  color: var(--vh-white);
+}
+
+main > .section.navy h1 {
+  margin: 0;
+  max-width: 830px;
+}
+
+@media (width >= 900px) {
+  main > .section.navy {
+    min-height: 300px;
+  }
+
+  main > .section.navy h1 {
+    font-size: var(--heading-font-size-xxl);
+  }
+}
+
 /* section-metadata style=search-panel: grey band with a white card holding the heading
    and the search block (e.g. Find a Doctor) */
 main > .section.search-panel {

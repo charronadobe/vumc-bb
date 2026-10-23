@@ -227,6 +227,62 @@
           ]
         }
       ]
+    },
+    {
+      "name": "solutions-faq",
+      "urls": [
+        "https://www.vanderbilthealth.com/solutions/myorthohealth-hip-knee-surgery-faqs"
+      ],
+      "representativeUrl": "https://www.vanderbilthealth.com/solutions/myorthohealth-hip-knee-surgery-faqs",
+      "description": "Solutions FAQ page: navy title band with H1, authored FAQ block of question/answer pairs, More Information links",
+      "blocks": [
+        {
+          "name": "faq",
+          "instances": [
+            "#main-content div.module__2Tzb2TUFiV6oNnP9RfG9hx:has(.data-tracker-text-body)"
+          ]
+        }
+      ],
+      "urlPattern": "/solutions/*-faqs",
+      "sections": [
+        {
+          "id": "section-1",
+          "name": "Title band",
+          "selector": [
+            "#main-content .data-tracker-banner-hero"
+          ],
+          "style": "navy",
+          "blocks": [],
+          "defaultContent": [
+            "#main-content .data-tracker-banner-hero h1"
+          ]
+        },
+        {
+          "id": "section-2",
+          "name": "FAQ questions and answers",
+          "selector": [
+            "#main-content div.module__2Tzb2TUFiV6oNnP9RfG9hx:has(.data-tracker-text-body)"
+          ],
+          "style": null,
+          "blocks": [
+            "faq"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-3",
+          "name": "More Information",
+          "selector": [
+            "#main-content div.module__2Tzb2TUFiV6oNnP9RfG9hx:has(.data-tracker-list-section-ul)"
+          ],
+          "style": null,
+          "blocks": [],
+          "defaultContent": [
+            "#main-content div.module__2Tzb2TUFiV6oNnP9RfG9hx:has(.data-tracker-list-section-ul) h2",
+            "#main-content div.module__2Tzb2TUFiV6oNnP9RfG9hx:has(.data-tracker-list-section-ul) ul"
+          ]
+        }
+      ]
     }
   ],
   "metadata": {

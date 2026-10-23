@@ -46,7 +46,49 @@ function buildCategoryGroup(category, faqs) {
   return group;
 }
 
+/**
+ * Authored mode: each row is question | answer. Questions become headings and the answers
+ * (rich text: paragraphs, lists, links) stay visible below them.
+ * @param {Element} block The faq block element
+ * @param {Element[]} rows Rows with a question cell and an answer cell
+ */
+function decorateAuthored(block, rows) {
+  const entries = rows.map(({ children: [questionCell, answerCell] }) => ({
+    question: questionCell.textContent.trim(),
+    answer: answerCell,
+    answerText: answerCell.textContent.replace(/\s+/g, ' ').trim(),
+  })).filter(({ question }) => question);
+
+  const list = createTag('div', { class: 'faq-list' });
+  entries.forEach(({ question, answer }) => {
+    const heading = createTag('h2', { class: 'faq-entry-question' }, question);
+    const body = createTag('div', { class: 'faq-entry-answer' });
+    if (answer.querySelector('p, ul, ol, h3, h4, table')) body.append(...answer.childNodes);
+    else if (answer.textContent.trim()) body.append(createTag('p', {}, [...answer.childNodes]));
+    list.append(createTag('div', { class: 'faq-entry' }, [heading, body]));
+  });
+  block.replaceChildren(list);
+
+  extendSchema('WebPage', {
+    '@type': 'FAQPage',
+    mainEntity: entries.map(({ question, answerText }) => ({
+      '@type': 'Question',
+      name: question,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: answerText,
+      },
+    })),
+  });
+}
+
 export default async function decorate(block) {
+  const authoredRows = [...block.children].filter((row) => row.children.length >= 2);
+  if (authoredRows.length) {
+    decorateAuthored(block, authoredRows);
+    return;
+  }
+
   const categories = [...block.children].map(
     (row) => row.textContent.trim(),
   ).filter(Boolean);
