@@ -86,3 +86,68 @@ main .faq .faq-empty {
     font-size: var(--heading-font-size-m);
   }
 }
+
+/* ---------- authored questions and answers (always open), measured on vanderbilthealth.com ---------- */
+main .faq:has(> .faq-list) {
+  max-width: none;
+  padding-top: var(--space-2xl);
+}
+
+main .faq .faq-entry + .faq-entry {
+  margin-top: var(--space-2xl);
+}
+
+main .faq .faq-entry-question {
+  margin: 0 0 var(--space-l);
+  padding-bottom: var(--space-s);
+  border-bottom: 1px solid var(--vh-rule);
+  color: var(--color-heading);
+  font-size: var(--heading-font-size-l);
+  line-height: 1.25;
+}
+
+main .faq .faq-entry-answer {
+  max-width: 770px;
+  font-weight: 300;
+  line-height: var(--brand-body-line-height);
+}
+
+main .faq .faq-entry-answer > :first-child {
+  margin-top: 0;
+}
+
+main .faq .faq-entry-answer > :last-child {
+  margin-bottom: 0;
+}
+
+main .faq .faq-entry-answer :is(p, ul, ol) {
+  margin: 0 0 var(--space-m);
+}
+
+main .faq .faq-entry-answer :is(ul, ol) {
+  padding-left: 40px;
+}
+
+main .faq .faq-entry-answer li + li {
+  margin-top: 10px;
+}
+
+main .faq .faq-entry-answer a {
+  color: var(--vh-blue-bright);
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+main .faq .faq-entry-answer a:hover {
+  color: var(--color-link-hover);
+}
+
+@media (width >= 900px) {
+  main .faq .faq-entry + .faq-entry {
+    margin-top: 120px;
+  }
+
+  main .faq .faq-entry-question {
+    font-size: var(--heading-font-size-xl);
+  }
+}
