@@ -41,6 +41,7 @@ main .faq .faq-question {
 
 main .faq .faq-question::after {
   content: '+';
+  content: '+' / '';
   font-size: var(--body-font-size-xl);
   font-weight: 300;
   color: var(--color-accent);
@@ -51,6 +52,7 @@ main .faq .faq-question::after {
 
 main .faq .faq-question[aria-expanded='true']::after {
   content: '\2212';
+  content: '\2212' / '';
   transform: rotate(180deg);
 }
 
@@ -87,67 +89,89 @@ main .faq .faq-empty {
   }
 }
 
-/* ---------- authored questions and answers (always open), measured on vanderbilthealth.com ---------- */
+/* ---------- authored questions and answers (accordion) ---------- */
 main .faq:has(> .faq-list) {
   max-width: none;
-  padding-top: var(--space-2xl);
+  padding-top: var(--space-xl);
 }
 
-main .faq .faq-entry + .faq-entry {
-  margin-top: var(--space-2xl);
+main .faq .faq-list {
+  border-top: 1px solid var(--vh-rule);
+}
+
+main .faq .faq-list .faq-item {
+  border-bottom: 1px solid var(--vh-rule);
 }
 
 main .faq .faq-entry-question {
-  margin: 0 0 var(--space-l);
-  padding-bottom: var(--space-s);
-  border-bottom: 1px solid var(--vh-rule);
-  color: var(--color-heading);
-  font-size: var(--heading-font-size-l);
-  line-height: 1.25;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: var(--heading-font-size-s);
+  line-height: 1.3;
 }
 
-main .faq .faq-entry-answer {
+main .faq .faq-entry-question .faq-question {
+  padding: var(--space-l) 0;
+  font: inherit;
+  color: var(--color-heading);
+}
+
+main .faq .faq-entry-question .faq-question::after {
+  font-size: 1.5em;
+  line-height: 1;
+}
+
+main .faq .faq-entry-question .faq-question:hover {
+  color: var(--color-link-hover);
+}
+
+main .faq .faq-entry-question .faq-question:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+}
+
+main .faq .faq-list .faq-answer {
   max-width: 770px;
+  padding: 0 0 var(--space-l);
   font-weight: 300;
   line-height: var(--brand-body-line-height);
 }
 
-main .faq .faq-entry-answer > :first-child {
+main .faq .faq-list .faq-answer > :first-child {
   margin-top: 0;
 }
 
-main .faq .faq-entry-answer > :last-child {
+main .faq .faq-list .faq-answer > :last-child {
   margin-bottom: 0;
 }
 
-main .faq .faq-entry-answer :is(p, ul, ol) {
+main .faq .faq-list .faq-answer :is(p, ul, ol) {
   margin: 0 0 var(--space-m);
+  font-family: inherit;
+  line-height: inherit;
 }
 
-main .faq .faq-entry-answer :is(ul, ol) {
+main .faq .faq-list .faq-answer :is(ul, ol) {
   padding-left: 40px;
 }
 
-main .faq .faq-entry-answer li + li {
+main .faq .faq-list .faq-answer li + li {
   margin-top: 10px;
 }
 
-main .faq .faq-entry-answer a {
+main .faq .faq-list .faq-answer a {
   color: var(--vh-blue-bright);
   font-weight: 600;
   text-decoration: underline;
 }
 
-main .faq .faq-entry-answer a:hover {
+main .faq .faq-list .faq-answer a:hover {
   color: var(--color-link-hover);
 }
 
 @media (width >= 900px) {
-  main .faq .faq-entry + .faq-entry {
-    margin-top: 120px;
-  }
-
   main .faq .faq-entry-question {
-    font-size: var(--heading-font-size-xl);
+    font-size: var(--heading-font-size-m);
   }
 }
