@@ -10,10 +10,12 @@ async function fetchFaqs() {
   return json?.data || [];
 }
 
+let faqCount = 0;
+
 function toggleItem(button) {
   const expanded = button.getAttribute('aria-expanded') === 'true';
   button.setAttribute('aria-expanded', String(!expanded));
-  const panel = button.nextElementSibling;
+  const panel = button.closest('.faq-item').querySelector('.faq-answer');
   panel.hidden = expanded;
 }
 
@@ -47,8 +49,8 @@ function buildCategoryGroup(category, faqs) {
 }
 
 /**
- * Authored mode: each row is question | answer. Questions become headings and the answers
- * (rich text: paragraphs, lists, links) stay visible below them.
+ * Authored mode: each row is question | answer. Questions become accordion headings whose
+ * buttons show and hide the answers (rich text: paragraphs, lists, links).
  * @param {Element} block The faq block element
  * @param {Element[]} rows Rows with a question cell and an answer cell
  */
@@ -59,13 +61,31 @@ function decorateAuthored(block, rows) {
     answerText: answerCell.textContent.replace(/\s+/g, ' ').trim(),
   })).filter(({ question }) => question);
 
+  faqCount += 1;
   const list = createTag('div', { class: 'faq-list' });
-  entries.forEach(({ question, answer }) => {
-    const heading = createTag('h2', { class: 'faq-entry-question' }, question);
-    const body = createTag('div', { class: 'faq-entry-answer' });
+  entries.forEach(({ question, answer }, i) => {
+    const id = `faq-${faqCount}-${i + 1}`;
+    const button = createTag('button', {
+      class: 'faq-question',
+      type: 'button',
+      id: `${id}-question`,
+      'aria-expanded': 'false',
+      'aria-controls': `${id}-answer`,
+    }, question);
+    button.addEventListener('click', () => toggleItem(button));
+
+    const body = createTag('div', {
+      class: 'faq-answer',
+      id: `${id}-answer`,
+      role: 'region',
+      'aria-labelledby': `${id}-question`,
+      hidden: true,
+    });
     if (answer.querySelector('p, ul, ol, h3, h4, table')) body.append(...answer.childNodes);
     else if (answer.textContent.trim()) body.append(createTag('p', {}, [...answer.childNodes]));
-    list.append(createTag('div', { class: 'faq-entry' }, [heading, body]));
+
+    const heading = createTag('h2', { class: 'faq-entry-question' }, button);
+    list.append(createTag('div', { class: 'faq-item' }, [heading, body]));
   });
   block.replaceChildren(list);
 
