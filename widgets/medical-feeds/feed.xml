@@ -7,6 +7,15 @@
             <description>Medical Xpress internet news portal provides the latest news on science including: Physics, Nanotechnology, Life Sciences, Space Science, Earth Science, Environment, Health and Medicine.</description>
 
                             <item>
+                    <title>Vision-language AI agent could help radiologists interpret ultrasounds faster and more accurately</title>
+                    <description>When a patient arrives in the emergency department with severe abdominal pain, every minute counts. Researchers at the University of Colorado Anschutz School of Medicine are investigating ways to streamline the work of radiologists and make it more efficient. They also aim to quickly identify patients who may need urgent surgery and speed up the path to treatment.</description>
+                    <link>https://medicalxpress.com/news/2026-10-vision-language-ai-agent-radiologists.html</link>
+                    <category></category>
+                    <pubDate>Sun, 01 Nov 2026 12:00:01 EST</pubDate>
+                    <guid isPermaLink="false">news712512193</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/radiologists.jpg" width="90" height="90" />
+                                    </item>
+                            <item>
                     <title>Clot removal days after a stroke could help more patients recover, but the procedure is not without risks</title>
                     <description>After a person suffers a stroke, the clock starts ticking for doctors. Every minute that blood flow to the brain remains blocked, more brain tissue risks permanent damage or death. One way to restore circulation is through endovascular thrombectomy, a minimally invasive procedure that can physically remove the clot, restore blood flow and significantly reduce the risk of long-term disability or death. Such mechanical thrombectomy procedures are a standard emergency treatment within the first 24 hours of an acute ischemic stroke.</description>
                     <link>https://medicalxpress.com/news/2026-10-clot-days-patients-recover-procedure.html</link>
@@ -266,15 +275,6 @@
                     <pubDate>Fri, 30 Oct 2026 12:40:01 EDT</pubDate>
                     <guid isPermaLink="false">news712581002</guid>
                                             <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/why-some-patients-quit.jpg" width="90" height="90" />
-                                    </item>
-                            <item>
-                    <title>Study reveals how congenital anomalies and deprivation impact children&#039;s educational achievement</title>
-                    <description>New Welsh research has revealed how the combination of congenital anomalies, socioeconomic deprivation and other aspects of children&#039;s health and educational circumstances influences their attainment.</description>
-                    <link>https://medicalxpress.com/news/2026-10-reveals-congenital-anomalies-deprivation-impact.html</link>
-                    <category></category>
-                    <pubDate>Fri, 30 Oct 2026 12:20:10 EDT</pubDate>
-                    <guid isPermaLink="false">news712580543</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2025/child-school.jpg" width="90" height="90" />
                                     </item>
                     </channel>
 </rss>
