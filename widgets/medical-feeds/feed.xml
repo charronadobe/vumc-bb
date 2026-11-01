@@ -7,6 +7,15 @@
             <description>Medical Xpress internet news portal provides the latest news on science including: Physics, Nanotechnology, Life Sciences, Space Science, Earth Science, Environment, Health and Medicine.</description>
 
                             <item>
+                    <title>Tumor index can identify breast cancer patients&#039; drug response</title>
+                    <description>Researchers at The Hong Kong Polytechnic University (PolyU) have developed an imaging biomarker, the Tumour Heterogeneity Index (THI), which enables noninvasive assessment of breast cancer patients&#039; response to AKT inhibitors before treatment, helping clinicians identify patients most likely to benefit from therapy. The study found that patients with a high THI achieved an estimated pathological complete response (pCR) rate of 56.1%, significantly higher than that of patients with a low THI. The technology could help patients receive the most appropriate treatment at an earlier stage, reduce unnecessary side effects and enable clinicians to better tailor treatment strategies to individual patients.</description>
+                    <link>https://medicalxpress.com/news/2026-10-tumor-index-breast-cancer-patients.html</link>
+                    <category></category>
+                    <pubDate>Sun, 01 Nov 2026 17:00:10 EST</pubDate>
+                    <guid isPermaLink="false">news712498406</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/polyu-develops-tumour.jpg" width="90" height="90" />
+                                    </item>
+                            <item>
                     <title>Vision-language AI agent could help radiologists interpret ultrasounds faster and more accurately</title>
                     <description>When a patient arrives in the emergency department with severe abdominal pain, every minute counts. Researchers at the University of Colorado Anschutz School of Medicine are investigating ways to streamline the work of radiologists and make it more efficient. They also aim to quickly identify patients who may need urgent surgery and speed up the path to treatment.</description>
                     <link>https://medicalxpress.com/news/2026-10-vision-language-ai-agent-radiologists.html</link>
@@ -266,15 +275,6 @@
                     <pubDate>Fri, 30 Oct 2026 12:40:10 EDT</pubDate>
                     <guid isPermaLink="false">news712582142</guid>
                                             <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/new-treatment-reduces-1.jpg" width="90" height="90" />
-                                    </item>
-                            <item>
-                    <title>Why some patients quit a newer insomnia medication</title>
-                    <description>Researchers from Rutgers and other universities analyzed hundreds of online reviews on lemborexant—and learned that about 1 in 4 of the reviewers stopped or planned to stop taking the prescription medication used to treat insomnia.</description>
-                    <link>https://medicalxpress.com/news/2026-10-patients-insomnia-medication.html</link>
-                    <category></category>
-                    <pubDate>Fri, 30 Oct 2026 12:40:01 EDT</pubDate>
-                    <guid isPermaLink="false">news712581002</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/why-some-patients-quit.jpg" width="90" height="90" />
                                     </item>
                     </channel>
 </rss>
