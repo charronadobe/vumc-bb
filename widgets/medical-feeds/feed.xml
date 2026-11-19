@@ -1,250 +1,280 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
+<channel>
                     <title>Medical Xpress - latest medical and health news stories</title>
             <link>https://medicalxpress.com/</link>
-            <language>en-us</language>
+            <language>en-us</language> 
             <description>Medical Xpress internet news portal provides the latest news on science including: Physics, Nanotechnology, Life Sciences, Space Science, Earth Science, Environment, Health and Medicine.</description>
 
                             <item>
-                    <title>Exercise may be good for your social life, studies in mice suggest</title>
-                    <description>If you&#039;ve been thinking about joining one of the social running, walking or hiking clubs popping up on your social media feeds, new research from The Ohio State University offers another reason to give it a try: Working out with other people might serve as a social lubricant.</description>
-                    <link>https://medicalxpress.com/news/2026-11-good-social-life-mice.html</link>
-                    <category>Fitness &amp; Physical activity</category>                    <pubDate>Thu, 19 Nov 2026 08:10:01 EST</pubDate>
-                    <guid isPermaLink="false">news714287617</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/hiking-1.jpg" width="90" height="90" />
+                    <title>New smartphone tool could help young people seek support for eating disorders earlier</title>
+                    <description>Researchers have found that a smartphone-friendly digital tool designed to encourage help-seeking among young people with eating disorders is both feasible and acceptable, paving the way for a larger clinical trial.</description>
+                    <link>https://medicalxpress.com/news/2026-11-smartphone-tool-young-people-disorders.html</link>
+                    <category></category>
+                    <pubDate>Thu, 19 Nov 2026 16:30:09 EST</pubDate>
+                    <guid isPermaLink="false">news714308626</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/teen-screen-time.jpg" width="90" height="90" />
                                     </item>
                             <item>
-                    <title>US loses measles elimination status as knowledge gaps about disease and vaccine persist</title>
-                    <description>As the United States loses its status as a country that has eliminated measles, a new nationally representative Annenberg Public Policy Center (APPC) survey finds many Americans still lack basic knowledge about the disease and the vaccine that prevents it.</description>
-                    <link>https://medicalxpress.com/news/2026-11-measles-status-knowledge-gaps-disease.html</link>
-                    <category>Common illnesses &amp; Prevention</category>                    <pubDate>Thu, 19 Nov 2026 07:40:06 EST</pubDate>
-                    <guid isPermaLink="false">news714286545</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/measles.jpg" width="90" height="90" />
+                    <title>Researchers urge significant &#039;peacetime&#039; investment in contact tracing apps and digital public health tools</title>
+                    <description>Drawing on lessons from the COVID-19 pandemic, university researchers have detailed how public health agencies across the world can be better prepared for the next epidemic through effective deployment of Bluetooth contact tracing apps and related digital public health tools.</description>
+                    <link>https://medicalxpress.com/news/2026-11-urge-significant-peacetime-investment-contact.html</link>
+                    <category></category>
+                    <pubDate>Thu, 19 Nov 2026 16:30:04 EST</pubDate>
+                    <guid isPermaLink="false">news714327302</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2022/pandemic-3.jpg" width="90" height="90" />
                                     </item>
                             <item>
-                    <title>Small changes can make for a healthier holiday season</title>
-                    <description>As the holidays approach, Pennington Biomedical Research Center is sharing practical tips to help families enjoy their holiday traditions while maintaining healthy habits. From making mindful food choices to finding opportunities for physical activity, experts say a few small changes can help people navigate the season without sacrificing the foods and traditions they enjoy.</description>
-                    <link>https://medicalxpress.com/news/2026-11-small-healthier-holiday-season.html</link>
-                    <category>Nutrition &amp; Healthy eating</category>                    <pubDate>Thu, 19 Nov 2026 07:20:01 EST</pubDate>
-                    <guid isPermaLink="false">news714286102</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/thanksgiving-feast.jpg" width="90" height="90" />
+                    <title>Discovery points to new approach for treating diabetes—no insulin required</title>
+                    <description>Researchers at the University of Cincinnati College of Medicine have identified a previously unknown way the body&#039;s muscles absorb glucose from the blood—without insulin.</description>
+                    <link>https://medicalxpress.com/news/2026-11-discovery-approach-diabetes-insulin-required.html</link>
+                    <category></category>
+                    <pubDate>Thu, 19 Nov 2026 16:20:02 EST</pubDate>
+                    <guid isPermaLink="false">news714323521</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/discovery-points-to-ne.jpg" width="90" height="90" />
                                     </item>
                             <item>
-                    <title>Researchers find two understudied &#039;forever chemicals&#039; raise liver cancer risk</title>
-                    <description>A first-of-its-kind USC study links two little-studied &quot;forever chemicals&quot; to liver cancer, with the greatest risk in those already genetically susceptible to fatty liver disease. The study, published in Environmental Health Perspectives, finds that two per- and polyfluoroalkyl substances (PFAS), also known as &quot;forever chemicals,&quot; are associated with a significantly higher risk of liver cancer, with the strongest effects in people genetically predisposed to metabolic dysfunction-associated steatotic liver disease (MASLD), also known as fatty liver disease.</description>
-                    <link>https://medicalxpress.com/news/2026-11-understudied-chemicals-liver-cancer.html</link>
-                    <category>Digestive health</category>                    <pubDate>Thu, 19 Nov 2026 07:00:26 EST</pubDate>
-                    <guid isPermaLink="false">news714291823</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2025/liver-genes.jpg" width="90" height="90" />
+                    <title>Brain stacking: An expert weighs in on whether this TikTok trend can really boost your brainpower</title>
+                    <description>Brain stacking is a new TikTok trend dedicated to making time for activities that engage our mind, such as reading or doing puzzles.</description>
+                    <link>https://medicalxpress.com/news/2026-11-brain-stacking-expert-tiktok-trend.html</link>
+                    <category></category>
+                    <pubDate>Thu, 19 Nov 2026 16:00:27 EST</pubDate>
+                    <guid isPermaLink="false">news714307579</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/person-studying.jpg" width="90" height="90" />
                                     </item>
                             <item>
-                    <title>New &#039;atlas&#039; of rare lung disease may help researchers develop improved treatments</title>
-                    <description>When women develop the hard-to-pronounce lung disease called lymphangioleiomyomatosis (LAM), a natural set of brakes on cell growth fails inside their lungs, causing affected cells to form cysts that can threaten their ability to breathe.</description>
-                    <link>https://medicalxpress.com/news/2026-11-atlas-rare-lung-disease-treatments.html</link>
-                    <category>Women&#039;s health</category>                    <pubDate>Thu, 19 Nov 2026 07:00:01 EST</pubDate>
-                    <guid isPermaLink="false">news714284003</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/new-atlas-of-rare-lung.jpg" width="90" height="90" />
+                    <title>Newly discovered mechanism may help ovarian cancer cells silence tumor-suppressor genes</title>
+                    <description>Researchers at Umeå University have discovered how chemical marks on RNA control a DNA methylation enzyme and contribute to the silencing of tumor-suppressor genes in ovarian cancer cells. The findings provide new insights into the disease and may, in the long term, contribute to the development of new treatment strategies for high-grade serous ovarian carcinoma.</description>
+                    <link>https://medicalxpress.com/news/2026-11-newly-mechanism-ovarian-cancer-cells.html</link>
+                    <category></category>
+                    <pubDate>Thu, 19 Nov 2026 16:00:25 EST</pubDate>
+                    <guid isPermaLink="false">news714322861</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/kanchan-kumari-och-fra.jpg" width="90" height="90" />
                                     </item>
                             <item>
-                    <title>Sugar made by gut bacterium may help the body burn visceral fat</title>
-                    <description>Scientists have discovered that a sugar produced by a gut bacterium can increase energy burning in visceral fat—the harmful fat that accumulates around internal organs—while reducing weight gain and improving metabolic health, offering a potential new approach to tackling obesity.</description>
-                    <link>https://medicalxpress.com/news/2026-11-sugar-gut-bacterium-body-visceral.html</link>
-                    <category>Weight management</category>                    <pubDate>Thu, 19 Nov 2026 06:40:08 EST</pubDate>
-                    <guid isPermaLink="false">news714291914</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/sugar-made-by-gut-bact.jpg" width="90" height="90" />
+                    <title>Screen time and smart device usage reflected in adolescent brain structures involved in attention, memory and learning</title>
+                    <description>According to a recent Finnish study, leisure-time screen time, total physical activity and physical fitness are reflected in the brain structures of young people in various ways. Adolescents who spent a lot of time on screens and smart devices had a smaller volume of gray matter in the medial temporal lobe related to memory and learning than others. The paper is published in the journal NeuroImage: Reports.</description>
+                    <link>https://medicalxpress.com/news/2026-11-screen-smart-device-usage-adolescent.html</link>
+                    <category></category>
+                    <pubDate>Thu, 19 Nov 2026 15:40:23 EST</pubDate>
+                    <guid isPermaLink="false">news714307283</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/young-person-and-scree.jpg" width="90" height="90" />
                                     </item>
                             <item>
-                    <title>Antibody-drug conjugate shows promising early results in Phase I trial in sarcoma patients</title>
-                    <description>An antibody-drug conjugate, a type of drug that targets and enters cancer cells like a Trojan Horse, has shown promising early results across diverse types of soft tissue sarcoma in a Phase I trial. The findings were presented at the 38th EORTC-NCI-AACR Symposium on Molecular Targets and Cancer Therapeutics in Barcelona, Spain.</description>
-                    <link>https://medicalxpress.com/news/2026-11-antibody-drug-conjugate-early-results.html</link>
-                                        <pubDate>Thu, 19 Nov 2026 06:39:42 EST</pubDate>
-                    <guid isPermaLink="false">news714292751</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2020/6-patient.jpg" width="90" height="90" />
+                    <title>Injectable hydrogel material shows promise for regenerating damaged tissue</title>
+                    <description>A biomedical engineer at the University of Houston has developed an injectable peptide hydrogel—about the consistency of hand sanitizer—that stimulates new blood vessel growth while providing structural support for healing tissue. The discovery, published in Science Advances by Vivek Kumar, associate professor of biomedical engineering at UH, and colleagues, offers a customizable blueprint for regenerative medicine.</description>
+                    <link>https://medicalxpress.com/news/2026-11-hydrogel-material-regenerating-tissue.html</link>
+                    <category></category>
+                    <pubDate>Thu, 19 Nov 2026 15:40:01 EST</pubDate>
+                    <guid isPermaLink="false">news714322682</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/engineer-develops-hydr.jpg" width="90" height="90" />
                                     </item>
                             <item>
-                    <title>Mexico launches anti-measles drive after losing eradication status</title>
-                    <description>Mexico on Wednesday launched a 90-day &quot;rapid response plan&quot; against an ongoing outbreak of measles that has caused the country to lose its eradication status for the highly contagious disease.</description>
-                    <link>https://medicalxpress.com/news/2026-11-mexico-anti-measles-eradication-status.html</link>
-                    <category>Common illnesses &amp; Prevention</category>                    <pubDate>Thu, 19 Nov 2026 06:11:58 EST</pubDate>
-                    <guid isPermaLink="false">news714291075</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/measles-2.jpg" width="90" height="90" />
+                    <title>What is &#039;intergenerational trauma&#039;? A social worker explains how one generation&#039;s experiences can affect descendants</title>
+                    <description>Throughout history, millions of people have experienced widespread violence, persecution and loss. During the Holocaust, 6 million Jewish people were murdered. Beginning in 1619 and through the mid-1800s, 12.5 million African people were forced onto ships during the trans-Atlantic slave trade. These are just two examples of many that have affected communities in ways that last long after the initial experiences.</description>
+                    <link>https://medicalxpress.com/news/2026-11-intergenerational-trauma-social-worker-generation.html</link>
+                    <category></category>
+                    <pubDate>Thu, 19 Nov 2026 15:20:04 EST</pubDate>
+                    <guid isPermaLink="false">news714306629</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/trauma-2.jpg" width="90" height="90" />
                                     </item>
                             <item>
-                    <title>Neurosteroid offers clues to brain changes linked to depression</title>
-                    <description>UT Southwestern Medical Center researchers and colleagues, including two at UT Dallas, have found evidence that pregnenolone—a naturally occurring steroid hormone the body produces from cholesterol—may alter patterns of communication between key brain regions involved in depression and cognitive control.</description>
-                    <link>https://medicalxpress.com/news/2026-11-neurosteroid-clues-brain-linked-depression.html</link>
-                    <category>Psychology &amp; Mental health</category>                    <pubDate>Thu, 19 Nov 2026 05:20:09 EST</pubDate>
-                    <guid isPermaLink="false">news714286581</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/neurosteroid-offers-cl.jpg" width="90" height="90" />
+                    <title>An experimental treatment improves the cognitive ability and gut microbiota of mice with fragile X syndrome</title>
+                    <description>Ongoing treatment with a drug that inhibits the endocannabinoid system peripherally improves memory deficits, reduces synaptic alterations, mitigates gut microbiota dysbiosis and restores intestinal barrier integrity markers in fragile X syndrome mouse models. This experimental approach opens the door to studying a potential therapy to improve the cognitive ability of people who have the syndrome and underscores the role that alterations to the microbiota–gut–brain axis may play in intellectual disability.</description>
+                    <link>https://medicalxpress.com/news/2026-11-experimental-treatment-cognitive-ability-gut.html</link>
+                    <category></category>
+                    <pubDate>Thu, 19 Nov 2026 15:20:01 EST</pubDate>
+                    <guid isPermaLink="false">news714322261</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/an-experimental-treatm.jpg" width="90" height="90" />
                                     </item>
                             <item>
-                    <title>Changes needed to allow more GPs to attend aged care facilities</title>
-                    <description>Attendance by general practitioners (GPs) at aged care facilities is a crucial health care concern, with an increasing number of Australians living permanently in residential aged care, and South Australia recording the highest rate—44 people per 1,000.</description>
-                    <link>https://medicalxpress.com/news/2026-11-gps-aged-facilities.html</link>
-                    <category>Healthy aging</category>                    <pubDate>Wed, 18 Nov 2026 23:40:01 EST</pubDate>
-                    <guid isPermaLink="false">news714218826</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/dr-examining-older-pat.jpg" width="90" height="90" />
+                    <title>Type 1 and type 2 diabetes therapies show great promise—but treatment is only effective if people can access it</title>
+                    <description>In 2026, over 830 million people worldwide are estimated to live with diabetes—more than ever before.</description>
+                    <link>https://medicalxpress.com/news/2026-11-diabetes-therapies-great-treatment-effective.html</link>
+                    <category></category>
+                    <pubDate>Thu, 19 Nov 2026 15:00:07 EST</pubDate>
+                    <guid isPermaLink="false">news714306377</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/finger-prick-1.jpg" width="90" height="90" />
                                     </item>
                             <item>
-                    <title>Two measures to help prevent obesity in young people</title>
-                    <description>Obesity in children and young people increases the risk of health problems later in life to such an extent that tackling it is important, both for individuals and for the population as a whole. The condition is generally linked to diet and lifestyle. A new study including almost 125,000 children examines how best to help parents and children make healthier choices. The paper is published in the journal Acta Paediatrica.</description>
-                    <link>https://medicalxpress.com/news/2026-11-obesity-young-people.html</link>
-                    <category>Weight management</category>                    <pubDate>Wed, 18 Nov 2026 22:40:06 EST</pubDate>
-                    <guid isPermaLink="false">news714204400</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/overweight-child.jpg" width="90" height="90" />
+                    <title>AI in medicine and biology: Researchers call for a multilayered security architecture</title>
+                    <description>Artificial intelligence is now capable not only of analyzing biological data but also of designing new DNA, RNA, and protein sequences. To lay the groundwork for responsible innovation, an international and interdisciplinary research team led by University Medical Center Mainz proposes a multi-tiered security architecture for the use of generative AI in biology. The publication was published in the journal Nature Communications.</description>
+                    <link>https://medicalxpress.com/news/2026-11-ai-medicine-biology-multilayered-architecture.html</link>
+                    <category></category>
+                    <pubDate>Thu, 19 Nov 2026 14:40:10 EST</pubDate>
+                    <guid isPermaLink="false">news714304525</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/ai-in-medicine-and-bio.jpg" width="90" height="90" />
                                     </item>
                             <item>
-                    <title>Home-based auricular vagus nerve stimulation shows early promise for kids and teens with migraines</title>
-                    <description>As clinicians and researchers, we often see how heavily migraine attacks weigh on children and adolescents, yet non-pharmacological, child-friendly treatment options remain strikingly scarce. For years, our team at Nanfang Hospital and collaborating institutes have been looking into ways to bridge this gap.</description>
-                    <link>https://medicalxpress.com/news/2026-11-home-based-auricular-vagus-nerve.html</link>
-                    <category>Children&#039;s health</category>                    <pubDate>Wed, 18 Nov 2026 21:00:06 EST</pubDate>
-                    <guid isPermaLink="false">news714220574</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/home-based-auricular-v.jpg" width="90" height="90" />
+                    <title>Commonly mutated gene could be a therapeutic target in sarcoma</title>
+                    <description>Researchers at The University of Texas MD Anderson Cancer Center have discovered that sarcomas lacking the ATRX gene tend to be more aggressive and may be particularly vulnerable to a class of targeted therapies known as TEAD inhibitors. The findings identify ATRX loss as both a marker of poor prognosis and a potential therapeutic target.</description>
+                    <link>https://medicalxpress.com/news/2026-11-commonly-mutated-gene-therapeutic-sarcoma.html</link>
+                    <category></category>
+                    <pubDate>Thu, 19 Nov 2026 14:40:02 EST</pubDate>
+                    <guid isPermaLink="false">news714316370</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/commonly-mutated-gene.jpg" width="90" height="90" />
                                     </item>
                             <item>
-                    <title>New evidence questions benefits of turmeric for knee arthritis</title>
-                    <description>A new Cochrane review has found that turmeric supplements may provide little or no clinically important pain relief for people with knee osteoarthritis, challenging conclusions from earlier research that suggested a benefit. The work appears in the Cochrane Database of Systematic Reviews.</description>
-                    <link>https://medicalxpress.com/news/2026-11-evidence-benefits-turmeric-knee-arthritis.html</link>
-                    <category>Nutrition &amp; Healthy eating</category>                    <pubDate>Wed, 18 Nov 2026 20:00:05 EST</pubDate>
-                    <guid isPermaLink="false">news714204284</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/turmeric.jpg" width="90" height="90" />
+                    <title>The Harry Potter soundtrack helps researchers test how the brain differentiates speech and background music</title>
+                    <description>When speech and music overlap or occur in rapid succession, listeners can recognize both almost instantaneously. Researchers have wanted to understand why this happens for a while. Now, a new study, published in Science Advances, corroborates previous findings that suggest the brain&#039;s auditory cortex differentiates between speech and music using patterns that describe how acoustic energy changes over time and across frequencies. The new study suggests these processes are sufficient to do the job under normal listening conditions—which, in this study, involve the Harry Potter soundtrack.</description>
+                    <link>https://medicalxpress.com/news/2026-11-harry-potter-soundtrack-brain-differentiates.html</link>
+                    <category></category>
+                    <pubDate>Thu, 19 Nov 2026 14:20:13 EST</pubDate>
+                    <guid isPermaLink="false">news714316107</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/the-harry-potter-sound.jpg" width="90" height="90" />
                                     </item>
                             <item>
-                    <title>Analysis of over 69,000 younger patients questions one-size-fits-all cutoff for colorectal cancer stool test</title>
-                    <description>A new study led by experts at the University of Nottingham has provided new insight into how a commonly used test for colorectal cancer performs in people under 50.</description>
-                    <link>https://medicalxpress.com/news/2026-11-analysis-younger-patients-size-cutoff.html</link>
-                    <category>Digestive health</category>                    <pubDate>Wed, 18 Nov 2026 19:10:01 EST</pubDate>
-                    <guid isPermaLink="false">news714217981</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2022/bowel.jpg" width="90" height="90" />
+                    <title>EU officials call for &#039;swift and sustained&#039; action on antimicrobial resistance</title>
+                    <description>European health officials are calling for urgent action as a series of new reports shows a mixed picture on antibiotic consumption and antimicrobial resistance (AMR).</description>
+                    <link>https://medicalxpress.com/news/2026-11-eu-swift-sustained-action-antimicrobial.html</link>
+                    <category></category>
+                    <pubDate>Thu, 19 Nov 2026 14:20:04 EST</pubDate>
+                    <guid isPermaLink="false">news714304460</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/petri-dish-1.jpg" width="90" height="90" />
                                     </item>
                             <item>
-                    <title>How research paved the way for progress in a rare form of ALS</title>
-                    <description>An experimental ALS drug that grew out of basic and clinical research at Columbia University&#039;s Vagelos College of Physicians and Surgeons may soon become available for patients with a rare and aggressive form of the disease.</description>
-                    <link>https://medicalxpress.com/news/2026-11-paved-rare-als.html</link>
-                                        <pubDate>Wed, 18 Nov 2026 19:00:06 EST</pubDate>
-                    <guid isPermaLink="false">news714239161</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/neuron-1.jpg" width="90" height="90" />
+                    <title>Ultrasound imaging without the goop: A gel-free patch shows promise</title>
+                    <description>Engineers at MIT and the Singapore-MIT Alliance for Research and Technology&#039;s Wearable Imaging for Transforming Elderly Care project (SMART WITEC) have developed a dry and stretchy material that could eliminate the need for a wet and sticky gel in ultrasound imaging.</description>
+                    <link>https://medicalxpress.com/news/2026-11-ultrasound-imaging-goop-gel-free.html</link>
+                    <category></category>
+                    <pubDate>Thu, 19 Nov 2026 14:00:16 EST</pubDate>
+                    <guid isPermaLink="false">news714227641</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/ultrasound-imaging-wit.jpg" width="90" height="90" />
                                     </item>
                             <item>
-                    <title>No clear benefit from two drugs intended to increase spontaneous birth after induction in first-time moms</title>
-                    <description>There is no clear evidence that hyoscine butylbromide or sodium bicarbonate improves spontaneous vaginal birth rates (without the assistance of forceps or vacuum) in first-time moms after induction of labor, finds a large Norwegian trial published by The BMJ. Although small benefits of either drug can&#039;t be entirely ruled out, the researchers say the findings do not support their routine use.</description>
-                    <link>https://medicalxpress.com/news/2026-11-benefit-drugs-spontaneous-birth-induction.html</link>
-                    <category>Pregnancy</category>                    <pubDate>Wed, 18 Nov 2026 18:30:06 EST</pubDate>
-                    <guid isPermaLink="false">news714205999</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/woman-in-labor.jpg" width="90" height="90" />
+                    <title>Scientists find the brain&#039;s blueprint for spoken words</title>
+                    <description>A new discovery by scientists at UC San Francisco rewrites our understanding of how the human brain processes speech, challenging the century-old view that understanding and producing speech are handled by separate systems. It also resolves a longstanding paradox: Why can injury to a brain region that is critical for speech comprehension also impair the ability to produce words?</description>
+                    <link>https://medicalxpress.com/news/2026-11-scientists-brain-blueprint-spoken-words.html</link>
+                    <category></category>
+                    <pubDate>Thu, 19 Nov 2026 14:00:15 EST</pubDate>
+                    <guid isPermaLink="false">news714238442</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/brain-2.jpg" width="90" height="90" />
                                     </item>
                             <item>
-                    <title>Use of AI in medical recruitment could miss top talent, doctors warn</title>
-                    <description>As NHS England prepares to introduce a £1.2 billion AI-driven workforce management and recruitment platform, a new report from BMJ Careers raises concerns about quality, fairness and missing top talent as medical recruiters respond to a flood of AI-powered applications.</description>
-                    <link>https://medicalxpress.com/news/2026-11-ai-medical-talent-doctors.html</link>
-                                        <pubDate>Wed, 18 Nov 2026 18:30:01 EST</pubDate>
-                    <guid isPermaLink="false">news714204351</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/medical-recruitment.jpg" width="90" height="90" />
+                    <title>Low back pain patients carry similar abdominal muscle mass to others, study finds</title>
+                    <description>People with low back pain have about the same amount of abdominal muscle as people without it, but a lower ratio of abdominal muscle to fat, according to a new study published Nov. 19 in the journal PLOS Digital Health by Kathryn Marusich of Stanford University, U.S., and colleagues.</description>
+                    <link>https://medicalxpress.com/news/2026-11-pain-patients-similar-abdominal-muscle.html</link>
+                    <category></category>
+                    <pubDate>Thu, 19 Nov 2026 14:00:13 EST</pubDate>
+                    <guid isPermaLink="false">news714227344</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/is-low-back-pain-linke.jpg" width="90" height="90" />
                                     </item>
                             <item>
-                    <title>Morphea linked to higher risk for cancer</title>
-                    <description>Morphea is associated with excess cancer incidence, according to a study published online Nov. 11 in JAMA Dermatology.</description>
-                    <link>https://medicalxpress.com/news/2026-11-morphea-linked-higher-cancer.html</link>
-                    <category>Skin &amp; Hair care</category>                    <pubDate>Wed, 18 Nov 2026 18:20:01 EST</pubDate>
-                    <guid isPermaLink="false">news714236581</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/morphea.jpg" width="90" height="90" />
+                    <title>Army blast in Iowa could spread toxic lead dust up to 100 miles</title>
+                    <description>The U.S. Army plans to blow up unstable explosives in southeastern Iowa on Friday, a blast that could carry toxic lead dust up to 100 miles (161 kilometers).</description>
+                    <link>https://medicalxpress.com/news/2026-11-army-blast-iowa-toxic-miles.html</link>
+                    <category></category>
+                    <pubDate>Thu, 19 Nov 2026 14:00:08 EST</pubDate>
+                    <guid isPermaLink="false">news714317572</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/air-particles.jpg" width="90" height="90" />
                                     </item>
                             <item>
-                    <title>Most children labeled allergic to antibiotics may not have an allergy, researchers warn</title>
-                    <description>It&#039;s 7 p.m. on a Saturday in an urgent care center. A 10-year-old boy is &quot;really sick&quot; with severe tonsillitis and clearly needs antibiotics. Just before I (Rebecca Payne) head out to find a suitable medicine, I ask his mother: &quot;Does he have any allergies?&quot;</description>
-                    <link>https://medicalxpress.com/news/2026-11-children-allergic-antibiotics-allergy.html</link>
-                    <category>Children&#039;s health</category>                    <pubDate>Wed, 18 Nov 2026 18:00:04 EST</pubDate>
-                    <guid isPermaLink="false">news714228966</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/children-medicine-1.jpg" width="90" height="90" />
+                    <title>A shared molecular weakness in glioblastoma tumor cells may offer a new treatment target</title>
+                    <description>Researchers at the Icahn School of Medicine at Mount Sinai have identified a shared molecular trait in glioblastoma, an aggressive brain cancer in adults. It resembles one used by immature cells during brain development and may reveal a target for future treatments.</description>
+                    <link>https://medicalxpress.com/news/2026-11-molecular-weakness-glioblastoma-tumor-cells.html</link>
+                    <category></category>
+                    <pubDate>Thu, 19 Nov 2026 13:40:10 EST</pubDate>
+                    <guid isPermaLink="false">news714313861</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/researchers-identify-a-8.jpg" width="90" height="90" />
                                     </item>
                             <item>
-                    <title>Creatine supplement use nearly doubles among US college students, new study finds</title>
-                    <description>The use of creatine and protein supplements among U.S. college and university students has increased significantly over a five-year period, according to new research published in the journal Performance Enhancement &amp;amp; Health and led by researchers at the University of Toronto.</description>
-                    <link>https://medicalxpress.com/news/2026-11-creatine-supplement-college-students.html</link>
-                    <category>Nutrition &amp; Healthy eating</category>                    <pubDate>Wed, 18 Nov 2026 17:40:05 EST</pubDate>
-                    <guid isPermaLink="false">news714242341</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/creatine-1.jpg" width="90" height="90" />
+                    <title>Two new 16-week tuberculosis regimens advance in clinical trial</title>
+                    <description>Tuberculosis remains one of the world&#039;s deadliest infectious diseases, causing more than 1 million deaths each year. The development of new therapeutic regimens remains slow, costly and complex, while treatment remains lengthy and patients face the burden of side effects. Accelerating the identification of safer, shorter and more effective treatment options is essential to achieving global TB elimination goals.</description>
+                    <link>https://medicalxpress.com/news/2026-11-week-tuberculosis-regimens-advance-clinical.html</link>
+                    <category></category>
+                    <pubDate>Thu, 19 Nov 2026 13:40:05 EST</pubDate>
+                    <guid isPermaLink="false">news714304446</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/laboratory-work-as-par.jpg" width="90" height="90" />
                                     </item>
                             <item>
-                    <title>How to relieve a stress headache (and keep the next one away)</title>
-                    <description>You had a rough day at work and got stuck in traffic on the way home, and suddenly your head starts to ache.</description>
-                    <link>https://medicalxpress.com/news/2026-11-relieve-stress-headache.html</link>
-                    <category>Common illnesses &amp; Prevention</category>                    <pubDate>Wed, 18 Nov 2026 17:40:01 EST</pubDate>
-                    <guid isPermaLink="false">news714223315</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/headache-2.jpg" width="90" height="90" />
+                    <title>Duran Duran&#039;s drummer has retired because of tinnitus—here&#039;s why musicians are at higher risk</title>
+                    <description>After more than 40 years performing with Duran Duran, drummer Roger Taylor has announced he&#039;s retiring because of his worsening tinnitus.</description>
+                    <link>https://medicalxpress.com/news/2026-11-duran-drummer-tinnitus-musicians-higher.html</link>
+                    <category></category>
+                    <pubDate>Thu, 19 Nov 2026 13:40:01 EST</pubDate>
+                    <guid isPermaLink="false">news714317361</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/tinnitus.jpg" width="90" height="90" />
                                     </item>
                             <item>
-                    <title>Brepocitinib yields improvements in cutaneous sarcoidosis</title>
-                    <description>For patients with cutaneous sarcoidosis (CS), brepocitinib is associated with dose-dependent and clinically meaningful improvements, according to a study published online in JAMA Dermatology to coincide with the annual meeting of the American College of Rheumatology, held from Nov. 6 to 11 in Orlando, Florida.</description>
-                    <link>https://medicalxpress.com/news/2026-11-brepocitinib-yields-cutaneous-sarcoidosis.html</link>
-                    <category>Skin &amp; Hair care</category>                    <pubDate>Wed, 18 Nov 2026 17:20:12 EST</pubDate>
-                    <guid isPermaLink="false">news714218774</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/brepocitinib-yields-im.jpg" width="90" height="90" />
+                    <title>PACER trial evaluates online cognitive behavioral therapy for anxiety after chest pain</title>
+                    <description>Some patients returned to the emergency department with the same chest pain that had brought them in before, even after an evaluation ruled out a heart attack or another emergency. For emergency physician and Regenstrief Institute research scientist Paul I. Musey Jr., M.D., M.S., those repeat visits raised a question: What could emergency departments offer patients who also screened positive for clinically significant anxiety?</description>
+                    <link>https://medicalxpress.com/news/2026-11-pacer-trial-online-cognitive-behavioral.html</link>
+                    <category></category>
+                    <pubDate>Thu, 19 Nov 2026 13:20:10 EST</pubDate>
+                    <guid isPermaLink="false">news714302902</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/chest-pain-1.jpg" width="90" height="90" />
                                     </item>
                             <item>
-                    <title>Noninvasive deep brain stimulation improves subclinical depression, study finds</title>
-                    <description>Researchers led by professor Tu Yiheng from the Institute of Psychology of the Chinese Academy of Sciences, in collaboration with researchers from Shenzhen University and other institutions, have developed a noninvasive deep brain stimulation approach that enhances reward learning and improves depressive symptoms in individuals with subclinical depression.</description>
-                    <link>https://medicalxpress.com/news/2026-11-noninvasive-deep-brain-subclinical-depression.html</link>
-                    <category>Psychology &amp; Mental health</category>                    <pubDate>Wed, 18 Nov 2026 17:20:06 EST</pubDate>
-                    <guid isPermaLink="false">news714241561</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2022/depressed-2.jpg" width="90" height="90" />
+                    <title>Lingering CAR T cells may be the cause of serious gut complication after myeloma therapy</title>
+                    <description>Patients with multiple myeloma who developed a serious gastrointestinal side effect after treatment with chimeric antigen receptor (CAR) T cell therapy had significantly more CAR T cells persisting in their bloodstream, according to new research from The University of Texas MD Anderson Cancer Center.</description>
+                    <link>https://medicalxpress.com/news/2026-11-lingering-car-cells-gut-complication.html</link>
+                    <category></category>
+                    <pubDate>Thu, 19 Nov 2026 13:20:07 EST</pubDate>
+                    <guid isPermaLink="false">news714310621</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/researchers-uncover-ca.jpg" width="90" height="90" />
                                     </item>
                             <item>
-                    <title>Your brain may be hiding Alzheimer&#039;s from you—and that&#039;s not always a good thing</title>
-                    <description>When scientists examine the brains of older people after death, what they find can often be puzzling. One such puzzle is that around a third of people who showed no signs of dementia when they were alive had brains that contained key indicators of Alzheimer&#039;s disease.</description>
-                    <link>https://medicalxpress.com/news/2026-11-brain-alzheimer-good.html</link>
-                    <category>Healthy aging</category>                    <pubDate>Wed, 18 Nov 2026 17:10:06 EST</pubDate>
-                    <guid isPermaLink="false">news714224518</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/senior-doing-a-crosswo.jpg" width="90" height="90" />
+                    <title>Mpox cases persist in US, but public awareness remains low</title>
+                    <description>Four years after a major global outbreak of mpox, the United States continues to see a persistent, low level of cases of the viral disease. But Americans&#039; awareness and knowledge of mpox have changed little over the past couple of years, according to a new nationally representative survey conducted by the Annenberg Public Policy Center (APPC) of the University of Pennsylvania.</description>
+                    <link>https://medicalxpress.com/news/2026-11-mpox-cases-persist-awareness.html</link>
+                    <category></category>
+                    <pubDate>Thu, 19 Nov 2026 13:00:06 EST</pubDate>
+                    <guid isPermaLink="false">news714302119</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/mpox-cases-persist-in.jpg" width="90" height="90" />
                                     </item>
                             <item>
-                    <title>FDA approves drug for infantile-onset Niemann-Pick type C after analysis finds longer survival</title>
-                    <description>Researchers at the National Institutes of Health (NIH) and their collaborators at Beren Therapeutics, Thousand Oaks, California, have developed a treatment for infants with Niemann-Pick type C (NPC) disease, which is a rare and rapidly fatal pediatric neurodegenerative disorder. The drug, known as cyclodextrin (brand name Adrabetadex), extended the survival of participants with NPC in a large, international clinical trial and represents foundational scientific research efforts that began 20 years ago. The drug was approved by the U.S. Food and Drug Administration (FDA) on Nov. 17, 2026.</description>
-                    <link>https://medicalxpress.com/news/2026-11-fda-drug-infantile-onset-niemann.html</link>
-                    <category>Children&#039;s health</category>                    <pubDate>Wed, 18 Nov 2026 17:00:07 EST</pubDate>
-                    <guid isPermaLink="false">news714237961</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/microscopic-image-of-h.jpg" width="90" height="90" />
+                    <title>Little-known protein may help protect spinal disks from aging</title>
+                    <description>University of Utah researchers have characterized a protein that may help protect spinal disks from age-related damage, pointing to a possible direction for future back pain treatments. Using CRISPR to target ZNF865, also known as BLST, in human cells and mouse and rat models, the interdisciplinary team showed how increasing or decreasing BLST levels affected spinal disk health.</description>
+                    <link>https://medicalxpress.com/news/2026-11-protein-spinal-disks-aging.html</link>
+                    <category></category>
+                    <pubDate>Thu, 19 Nov 2026 13:00:01 EST</pubDate>
+                    <guid isPermaLink="false">news714310021</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/spine-x-ray.jpg" width="90" height="90" />
                                     </item>
                             <item>
-                    <title>Targeting immune overactivity in Down syndrome shows promise in phase 2 clinical trial</title>
-                    <description>In a first-of-its-kind clinical trial, researchers at the Linda Crnic Institute for Down Syndrome (Crnic Institute) at the University of Colorado Anschutz found that a medication targeting immune overactivity in people with Down syndrome reduced underlying inflammation and was associated with improvements in inflammatory skin conditions, while opening new avenues for research on brain health and Alzheimer&#039;s disease.</description>
-                    <link>https://medicalxpress.com/news/2026-11-immune-overactivity-syndrome-phase-clinical.html</link>
-                    <category>Skin &amp; Hair care</category>                    <pubDate>Wed, 18 Nov 2026 16:40:14 EST</pubDate>
-                    <guid isPermaLink="false">news714235741</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/new-treatment-targetin.jpg" width="90" height="90" />
+                    <title>Smart floss can measure blood sugar and inflammation markers</title>
+                    <description>While the biological link between oral health and whole-body wellness has long been recognized, medicine has lacked practical tools to monitor both at home. To bridge this gap, an interdisciplinary research team led by The Hong Kong University of Science and Technology (HKUST) has developed an innovative gingival fluid device (GFD) featuring a disposable &quot;Smart Floss&quot; with a microfluidic channel and sensor array built directly inside.</description>
+                    <link>https://medicalxpress.com/news/2026-11-smart-floss-blood-sugar-inflammation.html</link>
+                    <category></category>
+                    <pubDate>Thu, 19 Nov 2026 12:40:15 EST</pubDate>
+                    <guid isPermaLink="false">news714306901</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/team-creates-smart-flo-2.jpg" width="90" height="90" />
                                     </item>
                             <item>
-                    <title>Acupuncture‑like treatment linked to sustained weight loss in new study</title>
-                    <description>A form of acupuncture that leaves dissolvable threads under the skin may help people lose weight, a small trial in China suggests.</description>
-                    <link>https://medicalxpress.com/news/2026-11-acupuncturelike-treatment-linked-sustained-weight.html</link>
-                    <category>Weight management</category>                    <pubDate>Wed, 18 Nov 2026 16:40:07 EST</pubDate>
-                    <guid isPermaLink="false">news714223472</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/acupuncture-2.jpg" width="90" height="90" />
+                    <title>A convincing vegan meat alternative needs both taste and texture—here&#039;s how food scientists manufacture it</title>
+                    <description>This Thanksgiving, you may sit down to a table laden with mashed potatoes, cranberry sauce, vegetables and a golden-brown turkey. And, if you have any vegetarians or vegans in your family, you may even see a plant-based meat alternative. But how do food scientists make something taste and look similar to turkey entirely from plants?</description>
+                    <link>https://medicalxpress.com/news/2026-11-convincing-vegan-meat-alternative-texture.html</link>
+                    <category></category>
+                    <pubDate>Thu, 19 Nov 2026 12:40:08 EST</pubDate>
+                    <guid isPermaLink="false">news714298819</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/plant-meat.jpg" width="90" height="90" />
                                     </item>
                             <item>
-                    <title>Blood test may reveal which lymphoma patients will respond to immunotherapy</title>
-                    <description>Cornell engineers and Dana-Farber oncologists found that RNA floating in the plasma carries a signature of a lymphoma tumor&#039;s surroundings, one that tracked with whether patients were still in remission a year later.</description>
-                    <link>https://medicalxpress.com/news/2026-11-blood-reveal-lymphoma-patients-immunotherapy.html</link>
-                                        <pubDate>Wed, 18 Nov 2026 16:20:25 EST</pubDate>
-                    <guid isPermaLink="false">news714235501</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/blood-test-may-reveal.jpg" width="90" height="90" />
+                    <title>Infinite scroll and autoplay are fueling a global problem, commission warns</title>
+                    <description>More than one in 10 people worldwide may be affected by problematic internet use, with researchers warning the economic and social costs could run into billions of dollars each year. In the U.K. alone, this burden has been estimated at £10 billion to £12 billion annually.</description>
+                    <link>https://medicalxpress.com/news/2026-11-infinite-scroll-autoplay-fueling-global.html</link>
+                    <category></category>
+                    <pubDate>Thu, 19 Nov 2026 12:20:13 EST</pubDate>
+                    <guid isPermaLink="false">news714306661</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/internet-use.jpg" width="90" height="90" />
                                     </item>
                             <item>
-                    <title>Milkshake study offers clues to diet&#039;s brain effects in young adults</title>
-                    <description>Results from a Virginia Tech eating trial add to evidence that the developing brain responds differently to foods that have been through industrial processing or contain ingredients not found in a home kitchen.</description>
-                    <link>https://medicalxpress.com/news/2026-11-milkshake-clues-diet-brain-effects.html</link>
-                    <category>Nutrition &amp; Healthy eating</category>                    <pubDate>Wed, 18 Nov 2026 16:20:05 EST</pubDate>
-                    <guid isPermaLink="false">news714223981</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/milkshake-study-offers.jpg" width="90" height="90" />
+                    <title>Exercise intensity may influence postexercise cooling</title>
+                    <description>Athletes and physically active individuals often exercise in hot environments, which can dangerously increase body temperature and cardiovascular strain. Water immersion is a commonly used strategy to cool the body after exercise because water transfers heat more efficiently than air. However, how quickly the body cools down may depend on the type of exercise performed before cooling begins.</description>
+                    <link>https://medicalxpress.com/news/2026-11-intensity-postexercise-cooling.html</link>
+                    <category></category>
+                    <pubDate>Thu, 19 Nov 2026 12:20:04 EST</pubDate>
+                    <guid isPermaLink="false">news714294859</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/exercise-intensity-may.jpg" width="90" height="90" />
                                     </item>
                             <item>
-                    <title>Migraine and smoking associated with increased risk of stroke by age 60</title>
-                    <description>Migraine and smoking were each associated with a higher risk of early stroke in people who had given birth, while participants with both had the highest risk, according to a study published in Neurology. The study defined early stroke as occurring at age 60 or younger.</description>
-                    <link>https://medicalxpress.com/news/2026-11-migraine-age.html</link>
-                    <category>Common illnesses &amp; Prevention</category>                    <pubDate>Wed, 18 Nov 2026 16:00:10 EST</pubDate>
-                    <guid isPermaLink="false">news714199888</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2025/migraine-woman.jpg" width="90" height="90" />
+                    <title>When&#039;s a new organ not really new? Two anatomists explain</title>
+                    <description>People have been dissecting the human body for more than 2,500 years. In recent times, we&#039;ve been over every nanometer with high-resolution medical imaging. So you&#039;d think we know all there is to know about human anatomy. Surely, there are no new organs left to discover.</description>
+                    <link>https://medicalxpress.com/news/2026-11-anatomists.html</link>
+                    <category></category>
+                    <pubDate>Thu, 19 Nov 2026 12:00:09 EST</pubDate>
+                    <guid isPermaLink="false">news714294563</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2025/heart-anatomy.jpg" width="90" height="90" />
                                     </item>
-                        </channel>
+                    </channel>
 </rss>
