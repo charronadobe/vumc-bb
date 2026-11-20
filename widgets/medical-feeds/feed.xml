@@ -1,250 +1,280 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
-    <channel>
+<channel>
                     <title>Medical Xpress - latest medical and health news stories</title>
             <link>https://medicalxpress.com/</link>
-            <language>en-us</language>
+            <language>en-us</language> 
             <description>Medical Xpress internet news portal provides the latest news on science including: Physics, Nanotechnology, Life Sciences, Space Science, Earth Science, Environment, Health and Medicine.</description>
 
                             <item>
-                    <title>Molecular glues: Unlocking new targets in cancer</title>
-                    <description>The human genome encodes several hundred E3 ligases—the enzymes that decide which proteins a cell destroys. Drug developers have so far harnessed a small number of them. In a new review in Molecular Cell, researchers at Karolinska Institutet and the University of Verona argue that the rest of these E3 ligases are where the next generation of cancer drugs will be found.</description>
-                    <link>https://medicalxpress.com/news/2026-11-molecular-cancer.html</link>
-                                        <pubDate>Fri, 20 Nov 2026 07:40:10 EST</pubDate>
-                    <guid isPermaLink="false">news714377299</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/molecular-glues-unlock.jpg" width="90" height="90" />
+                    <title>Less than half of TikTok videos on RSV prevention offer high-quality info, paper notes</title>
+                    <description>Many people rely on social media to learn more about health conditions and trends. A study published in Vaccine that examined TikTok videos about respiratory syncytial virus (RSV) prevention—including the maternal vaccine (Abrysvo) and the long-acting antibody nirsevimab (Beyfortus) for infants—finds that only 47% present high-quality information.</description>
+                    <link>https://medicalxpress.com/news/2026-11-tiktok-videos-rsv-high-quality.html</link>
+                    <category></category>
+                    <pubDate>Fri, 20 Nov 2026 16:00:08 EST</pubDate>
+                    <guid isPermaLink="false">news714403983</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/almost-half-of-tiktok.jpg" width="90" height="90" />
                                     </item>
                             <item>
-                    <title>Why older adults take longer to bounce back—and what to do about it</title>
-                    <description>A class of fatty acid molecules called prostaglandins may be responsible for why older adults often fail to recover muscle strength after illness or injury, while young adults quickly bounce back, a new study has found. Produced by nondividing &quot;zombie cells&quot; called senescent cells, excessive prostaglandins promote muscle atrophy.</description>
-                    <link>https://medicalxpress.com/news/2026-11-older-adults-longer.html</link>
-                    <category>Healthy aging</category>                    <pubDate>Fri, 20 Nov 2026 07:40:04 EST</pubDate>
-                    <guid isPermaLink="false">news714380818</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2025/older-adult.jpg" width="90" height="90" />
+                    <title>Alcohol addiction and eating disorders often go hand in hand—here&#039;s why</title>
+                    <description>When some people drink, they purposely skip meals in order to amplify the effects of the alcohol or to save calories for their drinks. The practice, sometimes referred to as &quot;drunkorexia,&quot; highlights the crossover that can exist between risky drinking behavior and disordered eating.</description>
+                    <link>https://medicalxpress.com/news/2026-11-alcohol-addiction-disorders.html</link>
+                    <category></category>
+                    <pubDate>Fri, 20 Nov 2026 15:40:03 EST</pubDate>
+                    <guid isPermaLink="false">news714402600</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/alcohol-addiction.jpg" width="90" height="90" />
                                     </item>
                             <item>
-                    <title>Research team finds an antibody that recognizes DNA shape and responds to antibiotic-induced structural changes</title>
-                    <description>DNA aptamers are attracting attention as alternatives to antibodies in biosensing and diagnostics. Yet little is known about whether antibodies themselves can recognize the folded structures of DNA aptamers. Researchers at Saitama University have now identified a VHH antibody that preferentially binds an oxytetracycline-associated DNA aptamer.</description>
-                    <link>https://medicalxpress.com/news/2026-11-team-antibody-dna-antibiotic.html</link>
-                                        <pubDate>Fri, 20 Nov 2026 07:20:01 EST</pubDate>
-                    <guid isPermaLink="false">news714376099</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/saitama-university-res-7.jpg" width="90" height="90" />
+                    <title>Commonly used drug kills leukemia cells early by acting mainly on RNA, not DNA</title>
+                    <description>For more than two decades, azacitidine has been a major treatment for blood cancers such as high-risk myelodysplastic syndromes (MDS) and acute myeloid leukemia (AML). The drug was thought to work through DNA, by stripping off the chemical tags that keep genes silenced and allowing those genes to switch back on.</description>
+                    <link>https://medicalxpress.com/news/2026-11-commonly-drug-leukemia-cells-early.html</link>
+                    <category></category>
+                    <pubDate>Fri, 20 Nov 2026 15:20:13 EST</pubDate>
+                    <guid isPermaLink="false">news714400016</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/commonly-used-drug-kil.jpg" width="90" height="90" />
                                     </item>
                             <item>
-                    <title>Continuing advanced therapies before elective Crohn&#039;s surgery may reduce serious complications</title>
-                    <description>Patients with Crohn&#039;s disease who continue advanced therapies, including biologics and small-molecule drugs, in the months before elective colorectal surgery may have a lower risk of two postoperative complications: anastomotic leak and organ space surgical site infection, according to a study published in the Journal of the American College of Surgeons.</description>
-                    <link>https://medicalxpress.com/news/2026-11-advanced-therapies-elective-crohn-surgery.html</link>
-                    <category>Digestive health</category>                    <pubDate>Fri, 20 Nov 2026 07:07:20 EST</pubDate>
-                    <guid isPermaLink="false">news714380809</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2022/surgery.jpg" width="90" height="90" />
+                    <title>Researchers uncover the mechanisms of adhesion formation after thoracic surgery</title>
+                    <description>Intrathoracic adhesions can develop after thoracic surgery and increase the risk of complications during repeat surgery. However, the detailed molecular mechanisms underlying their formation have remained unclear. In a Letter published in Signal Transduction and Targeted Therapy, a team from Japan aimed to establish an animal model that closely reproduces pleural adhesions seen in patients and to identify key cells and signaling pathways involved in adhesion formation. The goal was to find new methods to prevent adhesions after thoracic surgery.</description>
+                    <link>https://medicalxpress.com/news/2026-11-uncover-mechanisms-adhesion-formation-thoracic.html</link>
+                    <category></category>
+                    <pubDate>Fri, 20 Nov 2026 15:20:02 EST</pubDate>
+                    <guid isPermaLink="false">news714390060</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/uncovering-the-mechani.jpg" width="90" height="90" />
                                     </item>
                             <item>
-                    <title>Beyond the shoe: The overlooked role of running socks in foot protection</title>
-                    <description>For many runners, socks may seem less important than shoes, insoles or training devices. However, as the layer in direct contact with the skin, running socks play an essential role in comfort, impact protection and injury prevention.</description>
-                    <link>https://medicalxpress.com/news/2026-11-overlooked-role-socks-foot.html</link>
-                    <category>Fitness &amp; Physical activity</category>                    <pubDate>Fri, 20 Nov 2026 07:00:05 EST</pubDate>
-                    <guid isPermaLink="false">news714376046</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/beyond-the-shoe-the-ov.jpg" width="90" height="90" />
+                    <title>Patients give dental implants high marks after 40 years</title>
+                    <description>Nearly 40 years after receiving dental implants and crowns, patients remain highly satisfied with how well they function. Their views on appearance are more mixed, according to a study from the University of Gothenburg, Sweden.</description>
+                    <link>https://medicalxpress.com/news/2026-11-patients-dental-implants-high-years.html</link>
+                    <category></category>
+                    <pubDate>Fri, 20 Nov 2026 15:00:01 EST</pubDate>
+                    <guid isPermaLink="false">news714399841</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/patients-give-dental-i-1.jpg" width="90" height="90" />
                                     </item>
                             <item>
-                    <title>Changes in the heart&#039;s electrical signals anticipate the most severe arrhythmias in heart failure patients</title>
-                    <description>The heart gives warning signs. It does so through small electrical variations—signals so subtle that until now they have gone unnoticed among the millions of data points generated by implantable defibrillators. Today, thanks to remote analysis of the cardiac signal, these whispers can become an early warning.</description>
-                    <link>https://medicalxpress.com/news/2026-11-heart-electrical-severe-arrhythmias-failure.html</link>
-                                        <pubDate>Fri, 20 Nov 2026 05:00:01 EST</pubDate>
-                    <guid isPermaLink="false">news714371783</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/changes-in-the-hearts.jpg" width="90" height="90" />
+                    <title>Improved mapping reveals location of small molecules in the brain</title>
+                    <description>Hsi-Chun Chao, a postdoctoral researcher at the Beckman Institute for Advanced Science and Technology at the University of Illinois Urbana-Champaign, developed a new methodology to map the locations of and differentiate nearly identical molecules in the brain.</description>
+                    <link>https://medicalxpress.com/news/2026-11-reveals-small-molecules-brain.html</link>
+                    <category></category>
+                    <pubDate>Fri, 20 Nov 2026 14:40:12 EST</pubDate>
+                    <guid isPermaLink="false">news714404762</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/research-reveals-locat-1.jpg" width="90" height="90" />
                                     </item>
                             <item>
-                    <title>South Korea confirms its first case of cholera in 10 years</title>
-                    <description>South Korea on Friday reported its first case of cholera in 10 years, with health authorities urging people to take precautionary measures, use only safe water and wash their food properly.</description>
-                    <link>https://medicalxpress.com/news/2026-11-south-korea-case-cholera-years.html</link>
-                    <category>Common illnesses &amp; Prevention</category>                    <pubDate>Fri, 20 Nov 2026 03:30:28 EST</pubDate>
-                    <guid isPermaLink="false">news714367789</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2017/cholera.jpg" width="90" height="90" />
+                    <title>Metastatic pancreatic cancer responds well to treatment with combination of daraxonrasib and chemotherapy</title>
+                    <description>Daraxonrasib combined with chemotherapy caused substantial tumor shrinkage in patients with pancreatic cancer that had spread to other parts of the body, according to new results from a Phase I/II clinical trial.</description>
+                    <link>https://medicalxpress.com/news/2026-11-metastatic-pancreatic-cancer-treatment-combination.html</link>
+                    <category></category>
+                    <pubDate>Fri, 20 Nov 2026 14:40:08 EST</pubDate>
+                    <guid isPermaLink="false">news714399421</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2025/patient-1.jpg" width="90" height="90" />
                                     </item>
                             <item>
-                    <title>Singapore sees 65% decline in cervical cancer mortality rate since 1990, but screening gaps remain</title>
-                    <description>Cervical cancer remains one of the few cancers that can potentially be eliminated through human papillomavirus (HPV) vaccination, regular screening and timely treatment of precancerous changes. Despite the availability of effective prevention and treatment measures, global deaths from cervical cancer are projected to increase by nearly 40% by 2050, according to a study involving researchers from the Yong Loo Lin School of Medicine, National University of Singapore (NUS Medicine) and the Institute for Health Metrics and Evaluation (IHME) at the University of Washington.</description>
-                    <link>https://medicalxpress.com/news/2026-11-singapore-decline-cervical-cancer-mortality.html</link>
-                    <category>Women&#039;s health</category>                    <pubDate>Thu, 19 Nov 2026 23:00:01 EST</pubDate>
-                    <guid isPermaLink="false">news714324284</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/singapore-women.jpg" width="90" height="90" />
+                    <title>Heart rhythm data reveal early signs of heart disease before conventional measures</title>
+                    <description>The heart does not beat like a regular clock. Even at rest, the time between successive heartbeats continuously varies. Researchers at Tampere and Stanford universities have shown that the patterns of these subtle variations can reveal the early effects of cardiomyopathy, which is a hereditary heart disease. The paper is published in the journal Circulation: Arrhythmia and Electrophysiology.</description>
+                    <link>https://medicalxpress.com/news/2026-11-heart-rhythm-reveal-early-disease.html</link>
+                    <category></category>
+                    <pubDate>Fri, 20 Nov 2026 14:30:01 EST</pubDate>
+                    <guid isPermaLink="false">news714398877</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/heart-rhythm-data-reve.jpg" width="90" height="90" />
                                     </item>
                             <item>
-                    <title>Over half of NHS hospitals putting vulnerable patients in public areas, data reveal</title>
-                    <description>Exclusive data published by The BMJ today reveal that half of hospital trusts in England are breaching NHS corridor care guidelines by treating vulnerable groups in emergency department corridors, including children, mental health patients and those with physical and learning disabilities.</description>
-                    <link>https://medicalxpress.com/news/2026-11-nhs-hospitals-vulnerable-patients-areas.html</link>
-                    <category>Children&#039;s health</category>                    <pubDate>Thu, 19 Nov 2026 22:40:06 EST</pubDate>
-                    <guid isPermaLink="false">news714291839</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/emergency-department.jpg" width="90" height="90" />
+                    <title>People respond faster to a sugary drink&#039;s logo after three weeks of daily consumption</title>
+                    <description>You may not love the taste of a certain soda, yet you can still find yourself gravitating toward it when you spot the logo. New discoveries at the Monell Center show that people who drank a labeled, high-sugar beverage for three weeks became more motivated by the drink&#039;s logo than by the actual taste of the drink.</description>
+                    <link>https://medicalxpress.com/news/2026-11-people-faster-sugary-logo-weeks.html</link>
+                    <category></category>
+                    <pubDate>Fri, 20 Nov 2026 14:20:10 EST</pubDate>
+                    <guid isPermaLink="false">news714404341</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/people-respond-faster-1.jpg" width="90" height="90" />
                                     </item>
                             <item>
-                    <title>Paramedics need time and support to recover between emergency calls</title>
-                    <description>When a paramedic arrives at your door, they may have come straight from someone else&#039;s emergency. &quot;I don&#039;t know how you do your job,&quot; people often tell me. I think about how little time there can be to take in what&#039;s happened on one call before the next one comes in.</description>
-                    <link>https://medicalxpress.com/news/2026-11-paramedics-recover-emergency.html</link>
-                    <category>Psychology &amp; Mental health</category>                    <pubDate>Thu, 19 Nov 2026 22:20:01 EST</pubDate>
-                    <guid isPermaLink="false">news714317303</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2022/paramedic.jpg" width="90" height="90" />
+                    <title>Immune aging blueprint offers new clues to fighting cancer</title>
+                    <description>A new study from Monash University has uncovered a genetic blueprint of immune aging, shedding light on why our bodies become less effective at fighting cancer and infections as we grow older. Published in Science Immunology, the preclinical study identified genetic changes that cause aging immune cells to become less effective, helping to explain why older people are more susceptible to cancer and experience more frequent and severe infections.</description>
+                    <link>https://medicalxpress.com/news/2026-11-immune-aging-blueprint-clues-cancer.html</link>
+                    <category></category>
+                    <pubDate>Fri, 20 Nov 2026 14:00:24 EST</pubDate>
+                    <guid isPermaLink="false">news714381756</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/grow-old.jpg" width="90" height="90" />
                                     </item>
                             <item>
-                    <title>Pennsylvania logs another measles death as survey finds few Americans fully understand the disease&#039;s risks</title>
-                    <description>Many Americans are confused about the risks of measles, as well as the safety and benefits of childhood vaccines, according to a survey of more than 1,000 adults released today by the Annenberg Public Policy Center at the University of Pennsylvania.</description>
-                    <link>https://medicalxpress.com/news/2026-11-pennsylvania-measles-death-survey-americans.html</link>
-                    <category>Common illnesses &amp; Prevention</category>                    <pubDate>Thu, 19 Nov 2026 22:00:02 EST</pubDate>
-                    <guid isPermaLink="false">news714316346</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/pennsylvania-logs-anot.jpg" width="90" height="90" />
+                    <title>Nearly half of adults over 70 benefited from exercise training across several areas of physical function</title>
+                    <description>A yearlong exercise program improved physical function among adults aged over 70, but the benefits varied considerably between individuals. A study conducted at the University of Jyväskylä highlights that the success of exercise interventions should not be evaluated using a single outcome measure, as positive changes may occur in different aspects of physical function.</description>
+                    <link>https://medicalxpress.com/news/2026-11-adults-benefited-areas-physical-function.html</link>
+                    <category></category>
+                    <pubDate>Fri, 20 Nov 2026 14:00:20 EST</pubDate>
+                    <guid isPermaLink="false">news714398651</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/nearly-half-of-adults.jpg" width="90" height="90" />
                                     </item>
                             <item>
-                    <title>At least 178 pregnant Americans have been infected with measles since 2025</title>
-                    <description>The young woman had weathered a measles infection during pregnancy and recovered—something to celebrate, given the dangers that the virus poses to expectant mothers and babies.</description>
-                    <link>https://medicalxpress.com/news/2026-11-pregnant-americans-infected-measles.html</link>
-                    <category>Pregnancy</category>                    <pubDate>Thu, 19 Nov 2026 21:40:06 EST</pubDate>
-                    <guid isPermaLink="false">news714316462</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/pregnant-in-hospital-1.jpg" width="90" height="90" />
+                    <title>Cell biologists uncover key mechanism behind a rare cause of childhood epilepsy</title>
+                    <description>University of Liverpool scientists have discovered how a protein linked to a severe form of childhood epilepsy is positioned within nerve cells, providing new insights into a rare genetic neurological disorder.</description>
+                    <link>https://medicalxpress.com/news/2026-11-cell-biologists-uncover-key-mechanism.html</link>
+                    <category></category>
+                    <pubDate>Fri, 20 Nov 2026 14:00:11 EST</pubDate>
+                    <guid isPermaLink="false">news714394761</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2024/child-patient.jpg" width="90" height="90" />
                                     </item>
                             <item>
-                    <title>Wearable heart monitor moves from lab to clinical trial</title>
-                    <description>A new lightweight, gel-free and waterproof heart monitor that provides real-time insights into heart health is being trialed at an Australian clinic. Originally invented through research at RMIT University and now being developed by Australian startup Lubdub, the wearable wireless patch continuously tracks the heart&#039;s rhythm for up to 14 days—giving doctors the same detailed information as a medical-grade electrocardiogram (ECG) Holter monitor.</description>
-                    <link>https://medicalxpress.com/news/2026-11-wearable-heart-lab-clinical-trial.html</link>
-                                        <pubDate>Thu, 19 Nov 2026 21:20:01 EST</pubDate>
-                    <guid isPermaLink="false">news714304214</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/wearable-heart-monitor.jpg" width="90" height="90" />
+                    <title>Inner ear study challenges canonical understanding of hearing</title>
+                    <description>New research offers a new understanding of how the inner ear processes sound, which could lead to improvements in hearing technology like cochlear implants.</description>
+                    <link>https://medicalxpress.com/news/2026-11-ear-canonical.html</link>
+                    <category></category>
+                    <pubDate>Fri, 20 Nov 2026 14:00:09 EST</pubDate>
+                    <guid isPermaLink="false">news714388021</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/study-challenges-canon.jpg" width="90" height="90" />
                                     </item>
                             <item>
-                    <title>New state-by-state scorecard reveals wide gaps in access to obesity treatments</title>
-                    <description>Where Americans live can make a profound difference in their ability to access obesity treatment, according to a new state-by-state scorecard and report that gives 20 states D or F grades and finds significant barriers to care in every state in the nation.</description>
-                    <link>https://medicalxpress.com/news/2026-11-state-scorecard-reveals-wide-gaps.html</link>
-                    <category>Weight management</category>                    <pubDate>Thu, 19 Nov 2026 21:00:02 EST</pubDate>
-                    <guid isPermaLink="false">news714316405</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/weight-loss-clinic.jpg" width="90" height="90" />
+                    <title>Can psychedelics improve decision-making?</title>
+                    <description>For the one-in-five Americans with a mental health condition, the options for treatment aren&#039;t too much different from what they were half a century ago. Most medicines for psychiatric disorders were first pioneered in the 1950s.</description>
+                    <link>https://medicalxpress.com/news/2026-11-psychedelics-decision.html</link>
+                    <category></category>
+                    <pubDate>Fri, 20 Nov 2026 14:00:06 EST</pubDate>
+                    <guid isPermaLink="false">news714230101</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2025/psychedelic-1.jpg" width="90" height="90" />
                                     </item>
                             <item>
-                    <title>ChatGPT&#039;s translation of mental health questionnaires into Mandarin reveals inconsistent results</title>
-                    <description>As more Asian New Zealanders report experiencing mental health challenges, a Te Whare Wānanga o Waitaha | University of Canterbury (UC) researcher is asking a critical question: Can artificial intelligence (AI) help bridge language barriers when human translation resources are limited?</description>
-                    <link>https://medicalxpress.com/news/2026-11-chatgpt-mental-health-questionnaires-mandarin.html</link>
-                    <category>Psychology &amp; Mental health</category>                    <pubDate>Thu, 19 Nov 2026 20:40:01 EST</pubDate>
-                    <guid isPermaLink="false">news714316360</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2025/chatgpt-2.jpg" width="90" height="90" />
+                    <title>Custom MRI tool could show within weeks if pancreatic cancer treatment is working</title>
+                    <description>About 60% of people diagnosed with pancreatic cancer don&#039;t qualify for surgery because their disease is too advanced. For these patients, treatment typically begins with chemotherapy, in the hope that the tumor will shrink enough to be surgically removed, which offers the best chance of long-term survival. A new clinical trial at The Ohio State University Comprehensive Cancer Center—Arthur G. James Cancer Hospital and Richard J. Solove Research Institute (OSUCCC—James) is testing a custom imaging tool designed to measure much earlier whether that chemotherapy is working, so treatment can change quickly if it is not.</description>
+                    <link>https://medicalxpress.com/news/2026-11-custom-mri-tool-weeks-pancreatic.html</link>
+                    <category></category>
+                    <pubDate>Fri, 20 Nov 2026 13:40:22 EST</pubDate>
+                    <guid isPermaLink="false">news714402662</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/ohio-state-developed-c-1.jpg" width="90" height="90" />
                                     </item>
                             <item>
-                    <title>&#039;Just one more episode&#039;? How to keep digital distractions from stealing your sleep</title>
-                    <description>It&#039;s happened to us all: You&#039;re poised to go to sleep, but a &quot;digital distraction&quot; keeps you up hours later than planned.</description>
-                    <link>https://medicalxpress.com/news/2026-11-episode-digital-distractions.html</link>
-                    <category>Sleep &amp; Recovery</category>                    <pubDate>Thu, 19 Nov 2026 20:20:02 EST</pubDate>
-                    <guid isPermaLink="false">news714316396</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/adult-screen-time.jpg" width="90" height="90" />
+                    <title>Transgender consumers can face harm simply by trying to access everyday services, research finds</title>
+                    <description>Transgender consumers can experience discrimination and psychological harm when carrying out everyday tasks such as changing their name, visiting a gym or accessing banking and health care, according to new research from the University of Bath.</description>
+                    <link>https://medicalxpress.com/news/2026-11-transgender-consumers-simply-access-everyday.html</link>
+                    <category></category>
+                    <pubDate>Fri, 20 Nov 2026 13:40:09 EST</pubDate>
+                    <guid isPermaLink="false">news714397084</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/transgender-consumers.jpg" width="90" height="90" />
                                     </item>
                             <item>
-                    <title>International report discusses risks of chemicals in everyday items</title>
-                    <description>Two University of Massachusetts Amherst researchers made significant contributions to a new report—more than 10 years in the making—from the United Nations Environment Program (UNEP) and the World Health Organization (WHO) that finds hormone-disrupting chemicals are a &quot;global and growing threat&quot; to human health and the environment.</description>
-                    <link>https://medicalxpress.com/news/2026-11-international-discusses-chemicals-everyday-items.html</link>
-                    <category>Healthy living</category>                    <pubDate>Thu, 19 Nov 2026 20:00:05 EST</pubDate>
-                    <guid isPermaLink="false">news714316164</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/cleaning-product.jpg" width="90" height="90" />
+                    <title>Preventable vision loss affects more than a billion people globally—and uneven access to care is the major culprit</title>
+                    <description>Around the world, more than 1 billion people are living with vision loss in their daily lives. For many, this means they don&#039;t have the glasses they need to see clearly. For others, conditions such as cataracts, glaucoma, macular degeneration or diabetic eye disease have caused vision loss.</description>
+                    <link>https://medicalxpress.com/news/2026-11-vision-loss-affects-billion-people.html</link>
+                    <category></category>
+                    <pubDate>Fri, 20 Nov 2026 13:30:01 EST</pubDate>
+                    <guid isPermaLink="false">news714394853</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/eye-doctor.jpg" width="90" height="90" />
                                     </item>
                             <item>
-                    <title>Anti-inflammatory peptide shows potential to prevent diabetes-related vision loss</title>
-                    <description>According to a study published in October in the journal Biomedicine &amp; Pharmacotherapy, a molecule naturally produced by the human body may help protect vision against damage caused by high blood sugar. This finding paves the way for new strategies to prevent diabetic retinopathy. This complication affects more than 22% of people with diabetes worldwide. It occurs when high blood sugar levels cause inflammation and damage neurons and blood vessels in the retina, which can lead to permanent vision loss.</description>
-                    <link>https://medicalxpress.com/news/2026-11-anti-inflammatory-peptide-potential-diabetes.html</link>
-                    <category>Common illnesses &amp; Prevention</category>                    <pubDate>Thu, 19 Nov 2026 19:40:22 EST</pubDate>
-                    <guid isPermaLink="false">news714330061</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/study-identifies-molec.jpg" width="90" height="90" />
+                    <title>Open-source platform combines brain commands, spinal circuits and muscle responses in one simulation</title>
+                    <description>Immense progress has been made in recent years in developing assistive systems for people who are paralyzed. However, the underlying neuromotor processes—from the brain&#039;s commands through the neural circuits in the spinal cord to the activation of the muscles—have so far been mostly studied in isolation. Researchers at Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU) and their partners in Brazil have developed the MyoGen platform, which integrates these processes into a single simulation. The model, presented in the journal Nature Communications, is freely accessible and is intended to support both clinical research and the optimization of medical devices.</description>
+                    <link>https://medicalxpress.com/news/2026-11-source-platform-combines-brain-spinal.html</link>
+                    <category></category>
+                    <pubDate>Fri, 20 Nov 2026 13:20:15 EST</pubDate>
+                    <guid isPermaLink="false">news714402481</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/better-simulation-of-n.jpg" width="90" height="90" />
                                     </item>
                             <item>
-                    <title>Nicotine and tobacco smoke damage cells involved in tissue repair</title>
-                    <description>Nicotine pouches can expose the oral mucosa to high local concentrations of nicotine. A study by the University of Oulu shows that nicotine and tobacco smoke have harmful effects on cells that play a key role in tissue regeneration and wound healing. The findings, published in the Archives of Toxicology, shed light on how nicotine products may compromise oral health and the body&#039;s ability to repair damaged tissue.</description>
-                    <link>https://medicalxpress.com/news/2026-11-nicotine-tobacco-cells-involved-tissue.html</link>
-                    <category>Healthy living</category>                    <pubDate>Thu, 19 Nov 2026 19:40:12 EST</pubDate>
-                    <guid isPermaLink="false">news714304235</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/nicotine-and-tobacco-s.jpg" width="90" height="90" />
+                    <title>A doctor&#039;s guide to surviving—and enjoying—holiday feasting while on GLP‑1 medication</title>
+                    <description>Thanksgiving and the winter holidays bring celebration, connection and plenty of opportunities to come together with family and friends.</description>
+                    <link>https://medicalxpress.com/news/2026-11-doctor-surviving-enjoying-holiday-feasting.html</link>
+                    <category></category>
+                    <pubDate>Fri, 20 Nov 2026 13:00:17 EST</pubDate>
+                    <guid isPermaLink="false">news714390264</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/holiday-meal.jpg" width="90" height="90" />
                                     </item>
                             <item>
-                    <title>Improved blood test offers less invasive way to detect Alzheimer&#039;s disease</title>
-                    <description>A new study in Nature Aging from Lund University in Sweden shows that improved blood tests for the diagnosis of Alzheimer&#039;s disease can now be used with accuracy similar to that of the cerebrospinal fluid tests that have long been the standard in health care. The blood test has been approved for use in Europe, the U.S. and Japan, among other places. The researchers hope that doctors will now gradually be able to use it more widely—and that, in many cases, patients will be able to avoid the more invasive cerebrospinal fluid test.</description>
-                    <link>https://medicalxpress.com/news/2026-11-blood-invasive-alzheimer-disease.html</link>
-                    <category>Healthy aging</category>                    <pubDate>Thu, 19 Nov 2026 19:20:11 EST</pubDate>
-                    <guid isPermaLink="false">news714328502</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2025/blood-test-1.jpg" width="90" height="90" />
+                    <title>Experimental anesthetic may also blunt pain at nonsedating doses</title>
+                    <description>Common intravenous anesthetics such as propofol and etomidate usually require additional pain medicines. Propofol and etomidate enhance GABA-A receptors, which act as brakes on nerve-cell activity, but generally do not relieve pain at nonsedating doses. In addition, propofol is known to commonly cause low blood pressure and slowed (or sometimes stopped) breathing, while etomidate can cause adrenal suppression by lowering cortisol production, potentially causing severe or life-threatening effects. Therefore, researchers are looking for suitable alternatives.</description>
+                    <link>https://medicalxpress.com/news/2026-11-experimental-anesthetic-blunt-pain-nonsedating.html</link>
+                    <category></category>
+                    <pubDate>Fri, 20 Nov 2026 13:00:02 EST</pubDate>
+                    <guid isPermaLink="false">news714399692</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/experimental-anestheti.jpg" width="90" height="90" />
                                     </item>
                             <item>
-                    <title>Outside stressors for military members can cause more medical visits</title>
-                    <description>A new University of Massachusetts Amherst and Naval Health Research Center–led study of more than 34,000 active-duty U.S. military members enrolled in the U.S. Millennium Cohort Study finds those dealing with stress beyond their roles in the service tend to utilize health care more often.</description>
-                    <link>https://medicalxpress.com/news/2026-11-stressors-military-members-medical.html</link>
-                    <category>Psychology &amp; Mental health</category>                    <pubDate>Thu, 19 Nov 2026 19:20:08 EST</pubDate>
-                    <guid isPermaLink="false">news714315920</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/military-member.jpg" width="90" height="90" />
+                    <title>Blood pressure medication more likely to prevent heart attacks and strokes than cause serious falls, study finds</title>
+                    <description>A major study led by researchers at the Nuffield Department of Primary Care Health Sciences, University of Oxford, has found that blood pressure-lowering medication is more likely to prevent serious cardiovascular events, such as heart attacks and strokes, than cause serious falls, even among older people and those living with frailty.</description>
+                    <link>https://medicalxpress.com/news/2026-11-blood-pressure-medication-heart-falls.html</link>
+                    <category></category>
+                    <pubDate>Fri, 20 Nov 2026 12:40:04 EST</pubDate>
+                    <guid isPermaLink="false">news714399602</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2023/blood-pressure-2.jpg" width="90" height="90" />
                                     </item>
                             <item>
-                    <title>How the brain builds the present through the lens of the past</title>
-                    <description>Why does the same sensory stimulus sometimes feel different depending on what came before it? In a study published in Science Advances, a team of neuroscientists at SISSA-Scuola Internazionale Superiore di Studi Avanzati has identified a neural mechanism that helps explain how recent experience shapes present perception: a frontal cortical area carries a memory trace of previous sensory events and combines it with current sensory input.</description>
-                    <link>https://medicalxpress.com/news/2026-11-brain-lens.html</link>
-                    <category>Psychology &amp; Mental health</category>                    <pubDate>Thu, 19 Nov 2026 19:00:06 EST</pubDate>
-                    <guid isPermaLink="false">news714327961</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2022/memory-2.jpg" width="90" height="90" />
+                    <title>New cancer frontiers: Could COVID vaccines help make treatments more effective?</title>
+                    <description>Recent years have brought extraordinary advances in vaccines and treatments that harness our immune systems.</description>
+                    <link>https://medicalxpress.com/news/2026-11-cancer-frontiers-covid-vaccines-treatments.html</link>
+                    <category></category>
+                    <pubDate>Fri, 20 Nov 2026 12:40:02 EST</pubDate>
+                    <guid isPermaLink="false">news714390083</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2025/vaccine-5.jpg" width="90" height="90" />
                                     </item>
                             <item>
-                    <title>New research: Timing of prenatal stress matters for both mothers and infants</title>
-                    <description>Mental health challenges during pregnancy remain a critical public health issue. As many as 70% of women experience symptoms of stress and anxiety during pregnancy, which can not only affect their own health but also contribute to preterm births, or births before 37 weeks, threatening the health and well-being of infants.</description>
-                    <link>https://medicalxpress.com/news/2026-11-prenatal-stress-mothers-infants.html</link>
-                    <category>Pregnancy</category>                    <pubDate>Thu, 19 Nov 2026 19:00:01 EST</pubDate>
-                    <guid isPermaLink="false">news714314302</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/prenatal.jpg" width="90" height="90" />
+                    <title>Smoking harms fertility for women and men, WHO warns</title>
+                    <description>Every cigarette puff could lower the odds of having a child for both women and men, the World Health Organization (WHO) warned in a recent report.</description>
+                    <link>https://medicalxpress.com/news/2026-11-fertility-women-men.html</link>
+                    <category></category>
+                    <pubDate>Fri, 20 Nov 2026 12:20:22 EST</pubDate>
+                    <guid isPermaLink="false">news714390046</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2024/fertility.jpg" width="90" height="90" />
                                     </item>
                             <item>
-                    <title>Study: Seeing social media as having one purpose makes it feel like a better place to reconnect</title>
-                    <description>You can&#039;t be all things to all people, and the same apparently holds true for social media platforms. At its core, social media is supposed to be, well, social. But platforms that do many things at once may feel like an awkward place to reach out to an old friend.</description>
-                    <link>https://medicalxpress.com/news/2026-11-social-media-purpose-reconnect.html</link>
-                    <category>Psychology &amp; Mental health</category>                    <pubDate>Thu, 19 Nov 2026 18:40:05 EST</pubDate>
-                    <guid isPermaLink="false">news714313217</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/using-social-media.jpg" width="90" height="90" />
+                    <title>Helping families of children with chronic illnesses navigate and respond to online misinformation</title>
+                    <description>Children with lifelong diseases and their families often seek answers about their illness from the internet. However, filtering out what is trustworthy information and what is not and struggling to understand medical jargon can leave children, teens and parents at risk of accepting unreliable information. That can be detrimental to care.</description>
+                    <link>https://medicalxpress.com/news/2026-11-families-children-chronic-illnesses-online.html</link>
+                    <category></category>
+                    <pubDate>Fri, 20 Nov 2026 12:00:06 EST</pubDate>
+                    <guid isPermaLink="false">news714390023</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/family-on-computer.jpg" width="90" height="90" />
                                     </item>
                             <item>
-                    <title>Seasonal mass vaccination with R21 malaria vaccine effective in reducing malaria infection</title>
-                    <description>Vaccinating whole communities with the malaria vaccine R21 before the rainy season, alongside existing malaria control tools, can reduce the odds of infection by up to 70%, according to a new study published in The Lancet.</description>
-                    <link>https://medicalxpress.com/news/2026-11-seasonal-mass-vaccination-r21-malaria.html</link>
-                    <category>Common illnesses &amp; Prevention</category>                    <pubDate>Thu, 19 Nov 2026 18:30:01 EST</pubDate>
-                    <guid isPermaLink="false">news714322201</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/malaria.jpg" width="90" height="90" />
+                    <title>Some allergies may start with cells running short of energy, not immune system misfires</title>
+                    <description>Scientists are challenging centuries-old teaching that allergies start in the immune system, suggesting instead that they may be due to a power failure inside the body&#039;s barrier cells, which line the skin, gut, nose, lungs and esophagus.</description>
+                    <link>https://medicalxpress.com/news/2026-11-allergies-cells-short-energy-immune.html</link>
+                    <category></category>
+                    <pubDate>Fri, 20 Nov 2026 11:40:04 EST</pubDate>
+                    <guid isPermaLink="false">news714396063</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/scientists-may-have-di-4.jpg" width="90" height="90" />
                                     </item>
                             <item>
-                    <title>Where math and language meet: Brain scans reveal shared regions</title>
-                    <description>Researchers, including those at the University of Tokyo, are helping solve an ongoing debate in the field of neuroscience. Two contradictory positions assume that either math and language are processed in unique areas of the brain, or they are processed together somewhere. Their new research, published in the journal Science Advances, says both are correct in some way: While specialized regions do exist, so does a region newly identified as processing both math and language.</description>
-                    <link>https://medicalxpress.com/news/2026-11-math-language-brain-scans-reveal.html</link>
-                                        <pubDate>Thu, 19 Nov 2026 18:20:08 EST</pubDate>
-                    <guid isPermaLink="false">news714327061</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/where-maths-and-langua.jpg" width="90" height="90" />
+                    <title>Could an erectile dysfunction drug offer a new way to treat Alzheimer&#039;s?</title>
+                    <description>A drug developed to treat erectile dysfunction might seem an unlikely treatment for Alzheimer&#039;s disease. But researchers are increasingly interested in whether medicines such as Viagra could also help protect the brain.</description>
+                    <link>https://medicalxpress.com/news/2026-11-erectile-dysfunction-drug-alzheimer.html</link>
+                    <category></category>
+                    <pubDate>Fri, 20 Nov 2026 11:40:01 EST</pubDate>
+                    <guid isPermaLink="false">news714389906</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/blue-pill.jpg" width="90" height="90" />
                                     </item>
                             <item>
-                    <title>Cancer cases among trans people could more than double in the next decade, study warns</title>
-                    <description>A study led by Queen Mary University of London has found that the number of new cancer cases each year among transgender and gender-diverse people in England could more than double over the next decade.</description>
-                    <link>https://medicalxpress.com/news/2026-11-cancer-cases-trans-people-decade.html</link>
-                    <category>Common illnesses &amp; Prevention</category>                    <pubDate>Thu, 19 Nov 2026 18:20:01 EST</pubDate>
-                    <guid isPermaLink="false">news714313041</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/cancer-cases-among-tra.jpg" width="90" height="90" />
+                    <title>Resistance training could help boost brain health and confidence in older adults</title>
+                    <description>Think about the last time you stood up from a chair or lifted a heavy shopping bag from the floor. These movements might feel automatic, but they take a surprising amount of coordination between your brain and your muscles.</description>
+                    <link>https://medicalxpress.com/news/2026-11-resistance-boost-brain-health-confidence.html</link>
+                    <category></category>
+                    <pubDate>Fri, 20 Nov 2026 11:30:01 EST</pubDate>
+                    <guid isPermaLink="false">news714386145</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/resistance-training-ol.jpg" width="90" height="90" />
                                     </item>
                             <item>
-                    <title>&#039;We are finally listening to the experiences of autistic people&#039;</title>
-                    <description>Dr. Lonnie Zwaigenbaum uses the word &quot;joy&quot; a lot when he talks about autism.</description>
-                    <link>https://medicalxpress.com/news/2026-11-autistic-people.html</link>
-                    <category>Children&#039;s health</category>                    <pubDate>Thu, 19 Nov 2026 18:00:09 EST</pubDate>
-                    <guid isPermaLink="false">news714312438</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/dr-lonnie-zwaigenbaum.jpg" width="90" height="90" />
+                    <title>Genetic data from over one million people reveals new clues to how endometriosis develops</title>
+                    <description>In a large, international study analyzing data from over 1 million people, researchers identified multiple genomic regions, associations and pathways underlying endometriosis, a debilitating, chronic condition in which tissue similar to the lining of the uterus grows in other places in the body.</description>
+                    <link>https://medicalxpress.com/news/2026-11-genetic-million-people-reveals-clues.html</link>
+                    <category></category>
+                    <pubDate>Fri, 20 Nov 2026 11:20:12 EST</pubDate>
+                    <guid isPermaLink="false">news714394923</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/large-study-identifies.jpg" width="90" height="90" />
                                     </item>
                             <item>
-                    <title>Lyme disease leaves lasting changes in bone marrow, study finds</title>
-                    <description>A new study led by researchers at Tufts University School of Medicine suggests that infection with Borrelia burgdorferi, the bacterium that causes Lyme disease, can leave lasting changes in the immune system, even after the infection is treated. The changes occur in the bone marrow, where many of the body&#039;s immune cells are made, potentially altering how the immune system responds to future threats.</description>
-                    <link>https://medicalxpress.com/news/2026-11-lyme-disease-bone-marrow.html</link>
-                    <category>Common illnesses &amp; Prevention</category>                    <pubDate>Thu, 19 Nov 2026 18:00:06 EST</pubDate>
-                    <guid isPermaLink="false">news714326401</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/lyme-disease-leaves-la.jpg" width="90" height="90" />
+                    <title>Opioid misuse recognized, but not always recorded, national survey finds</title>
+                    <description>Primary care clinicians who recognized opioid misuse in their patients did not always record it in the medical record, according to a national survey of 1,470 clinicians led by researchers at Wake Forest University School of Medicine.</description>
+                    <link>https://medicalxpress.com/news/2026-11-opioid-misuse-national-survey.html</link>
+                    <category></category>
+                    <pubDate>Fri, 20 Nov 2026 11:00:22 EST</pubDate>
+                    <guid isPermaLink="false">news714372198</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/doctor-and-female-pati.jpg" width="90" height="90" />
                                     </item>
                             <item>
-                    <title>Common type 1 diabetes score misses over half of partial remissions in youth with overweight or obesity</title>
-                    <description>A Baylor College of Medicine–led team is raising awareness about applying the widely used values of insulin dose-adjusted hemoglobin A1c (IDAA1c) when screening for partial type 1 diabetes remission in youth with overweight or obesity. The study appeared in Diabetes Care.</description>
-                    <link>https://medicalxpress.com/news/2026-11-common-diabetes-score-partial-remissions.html</link>
-                    <category>Children&#039;s health</category>                    <pubDate>Thu, 19 Nov 2026 17:50:04 EST</pubDate>
-                    <guid isPermaLink="false">news714329521</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2020/6-diabetes.jpg" width="90" height="90" />
+                    <title>PTSD may shape the human brain differently depending on gender, race and the age at which a person&#039;s trauma occurred</title>
+                    <description>Stress and trauma can leave molecular marks in the brain that may help explain the development of post-traumatic stress disorder (PTSD). A study published in the journal Cell Reports on Nov. 20 that examined the postmortem brains of 101 people with PTSD found that genes associated with PTSD varied more than expected across different brain regions when it comes to DNA methylation, a natural biological process that acts like a genetic &quot;dimmer switch&quot; for genes, sometimes blocking genetic code entirely.</description>
+                    <link>https://medicalxpress.com/news/2026-11-ptsd-human-brain-differently-gender.html</link>
+                    <category></category>
+                    <pubDate>Fri, 20 Nov 2026 11:00:12 EST</pubDate>
+                    <guid isPermaLink="false">news714230221</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/trauma-1.jpg" width="90" height="90" />
                                     </item>
-                        </channel>
+                    </channel>
 </rss>
