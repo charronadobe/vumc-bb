@@ -7,6 +7,15 @@
             <description>Medical Xpress internet news portal provides the latest news on science including: Physics, Nanotechnology, Life Sciences, Space Science, Earth Science, Environment, Health and Medicine.</description>
 
                             <item>
+                    <title>New imaging technology reveals previously unseen immune cell patterns in tissue</title>
+                    <description>Scientists can now see a previously hidden dimension of the immune system thanks to BCR-MERFISH, a new imaging technology developed by researchers at Boston Children&#039;s Hospital. By mapping where different groups of antibody-producing cells are located in tissue, the technology could help researchers better understand how immune responses contribute to disease and eventually inform new approaches to diagnosis and treatment. The breakthrough, published in Nature Methods, opens new possibilities for investigating inflammatory bowel disease, autoimmune disorders, infections and cancer.</description>
+                    <link>https://medicalxpress.com/news/2026-11-imaging-technology-reveals-previously-unseen.html</link>
+                    <category></category>
+                    <pubDate>Sun, 22 Nov 2026 09:00:04 EST</pubDate>
+                    <guid isPermaLink="false">news714400002</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/new-imaging-technology-3.jpg" width="90" height="90" />
+                                    </item>
+                            <item>
                     <title>New structures come into view in brain wiring maps</title>
                     <description>Researchers at Harvard Medical School and the University of California San Diego have sped up a powerful imaging technique enough to map, for the first time, large volumes of brain tissue in nanoscale detail. The approach reveals fine structures that brain wiring maps, known as connectomes, can miss.</description>
                     <link>https://medicalxpress.com/news/2026-11-view-brain-wiring.html</link>
@@ -266,15 +275,6 @@
                     <pubDate>Fri, 20 Nov 2026 13:30:01 EST</pubDate>
                     <guid isPermaLink="false">news714394853</guid>
                                             <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/eye-doctor.jpg" width="90" height="90" />
-                                    </item>
-                            <item>
-                    <title>Open-source platform combines brain commands, spinal circuits and muscle responses in one simulation</title>
-                    <description>Immense progress has been made in recent years in developing assistive systems for people who are paralyzed. However, the underlying neuromotor processes—from the brain&#039;s commands through the neural circuits in the spinal cord to the activation of the muscles—have so far been mostly studied in isolation. Researchers at Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU) and their partners in Brazil have developed the MyoGen platform, which integrates these processes into a single simulation. The model, presented in the journal Nature Communications, is freely accessible and is intended to support both clinical research and the optimization of medical devices.</description>
-                    <link>https://medicalxpress.com/news/2026-11-source-platform-combines-brain-spinal.html</link>
-                    <category></category>
-                    <pubDate>Fri, 20 Nov 2026 13:20:15 EST</pubDate>
-                    <guid isPermaLink="false">news714402481</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/better-simulation-of-n.jpg" width="90" height="90" />
                                     </item>
                     </channel>
 </rss>
