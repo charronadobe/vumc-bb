@@ -1,17 +1,168 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
-<channel>
+    <channel>
                     <title>Medical Xpress - latest medical and health news stories</title>
             <link>https://medicalxpress.com/</link>
-            <language>en-us</language> 
+            <language>en-us</language>
             <description>Medical Xpress internet news portal provides the latest news on science including: Physics, Nanotechnology, Life Sciences, Space Science, Earth Science, Environment, Health and Medicine.</description>
 
+                            <item>
+                    <title>Early-stage breast cancer gains first newly approved hormone therapy in more than 20 years</title>
+                    <description>For the first time in more than two decades, the FDA has approved a new hormone therapy for early-stage breast cancer, marking a monumental shift in how the most common form of the disease is treated.</description>
+                    <link>https://medicalxpress.com/news/2026-11-early-stage-breast-cancer-gains.html</link>
+                    <category>Women&#039;s health</category>                    <pubDate>Tue, 24 Nov 2026 22:20:06 EST</pubDate>
+                    <guid isPermaLink="false">news714735926</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2022/prostate-cancer-1.jpg" width="90" height="90" />
+                                    </item>
+                            <item>
+                    <title>A doctor&#039;s take on the US losing measles elimination status</title>
+                    <description>For many physicians of my generation, measles was a disease we rarely—or never—saw in practice. That was a sign of how well vaccination and public health efforts had worked.</description>
+                    <link>https://medicalxpress.com/news/2026-11-doctor-measles-status.html</link>
+                    <category>Common illnesses &amp; Prevention</category>                    <pubDate>Tue, 24 Nov 2026 21:40:02 EST</pubDate>
+                    <guid isPermaLink="false">news714753371</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/measles-4.jpg" width="90" height="90" />
+                                    </item>
+                            <item>
+                    <title>Drones could soon fly blood, defibrillators and medicine to patients</title>
+                    <description>Paramedics in one Florida county may soon be able to call in a drone to bring blood to a patient who&#039;s bleeding heavily.</description>
+                    <link>https://medicalxpress.com/news/2026-11-drones-fly-blood-defibrillators-medicine.html</link>
+                                        <pubDate>Tue, 24 Nov 2026 21:00:02 EST</pubDate>
+                    <guid isPermaLink="false">news714754276</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2024/air-drones.jpg" width="90" height="90" />
+                                    </item>
+                            <item>
+                    <title>Disrupting a developing brain circuit in adolescence may have lasting social effects</title>
+                    <description>Adolescence is often described as a turbulent period of life marked by growing independence, changing social relationships and unpredictable shifts in behavior. According to researchers, tweens&#039; and teens&#039; behavioral changes reflect a brain that is still actively developing, yet scientists know surprisingly little about the neural mechanisms that shape social behavior during this critical stage of life.</description>
+                    <link>https://medicalxpress.com/news/2026-11-disrupting-brain-circuit-adolescence-social.html</link>
+                    <category>Psychology &amp; Mental health</category>                    <pubDate>Tue, 24 Nov 2026 20:20:06 EST</pubDate>
+                    <guid isPermaLink="false">news714762481</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/adolescence.jpg" width="90" height="90" />
+                                    </item>
+                            <item>
+                    <title>England shows widest socioeconomic gap in frailty among 31 countries</title>
+                    <description>Older adults from disadvantaged socioeconomic backgrounds experience greater levels of frailty, with England showing the biggest gap between socioeconomic groups among the 31 countries studied.</description>
+                    <link>https://medicalxpress.com/news/2026-11-england-widest-socioeconomic-gap-frailty.html</link>
+                    <category>Healthy aging</category>                    <pubDate>Tue, 24 Nov 2026 20:00:08 EST</pubDate>
+                    <guid isPermaLink="false">news714670861</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/england-seniors.jpg" width="90" height="90" />
+                                    </item>
+                            <item>
+                    <title>Prior authorization limits help expand opioid addiction treatment where approvals were a frequent roadblock, study finds</title>
+                    <description>State laws limiting prior authorization requirements for opioid use disorder medications were associated with increased buprenorphine use in Medicaid, but only in states where those requirements were frequent barriers to access, according to a new study led by University of Michigan researchers.</description>
+                    <link>https://medicalxpress.com/news/2026-11-prior-authorization-limits-opioid-addiction.html</link>
+                    <category>Psychology &amp; Mental health</category>                    <pubDate>Tue, 24 Nov 2026 19:40:09 EST</pubDate>
+                    <guid isPermaLink="false">news714760982</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/opioid-addiction.jpg" width="90" height="90" />
+                                    </item>
+                            <item>
+                    <title>FDA approves bezuclastinib in combination with sunitinib as new second-line therapy for patients with GIST</title>
+                    <description>The U.S. Food and Drug Administration (FDA) has approved a combination of bezuclastinib plus sunitinib as second-line therapy after first-line treatment with imatinib for adults with advanced gastrointestinal stromal tumors (GIST) based on evidence from the phase 3 PEAK study led by Dana-Farber Cancer Institute showing that the combination outperformed standard therapy with sunitinib alone.</description>
+                    <link>https://medicalxpress.com/news/2026-11-fda-bezuclastinib-combination-sunitinib-line.html</link>
+                                        <pubDate>Tue, 24 Nov 2026 19:20:06 EST</pubDate>
+                    <guid isPermaLink="false">news714760381</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2025/fda.jpg" width="90" height="90" />
+                                    </item>
+                            <item>
+                    <title>Reducing or quitting smoking linked to lower risk for developing psoriasis</title>
+                    <description>Smoking reduction is associated with a reduced risk for developing psoriasis, including psoriasis vulgaris (PsV) and palmoplantar pustulosis (PPP), according to a research letter published online Nov. 18 in JAMA Dermatology.</description>
+                    <link>https://medicalxpress.com/news/2026-11-linked-psoriasis.html</link>
+                    <category>Skin &amp; Hair care</category>                    <pubDate>Tue, 24 Nov 2026 19:00:01 EST</pubDate>
+                    <guid isPermaLink="false">news714754621</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/quitting-smoking.jpg" width="90" height="90" />
+                                    </item>
+                            <item>
+                    <title>Inflammatory bowel disease linked to increased risk for cirrhosis</title>
+                    <description>Inflammatory bowel disease (IBD), especially ulcerative colitis, is associated with an increased risk for cirrhosis diagnosis, according to a study recently published in Sage Open Chronic Diseases.</description>
+                    <link>https://medicalxpress.com/news/2026-11-inflammatory-bowel-disease-linked-cirrhosis.html</link>
+                    <category>Digestive health</category>                    <pubDate>Tue, 24 Nov 2026 18:40:01 EST</pubDate>
+                    <guid isPermaLink="false">news714754501</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2025/cirrhosis.jpg" width="90" height="90" />
+                                    </item>
+                            <item>
+                    <title>FDA approves Nelkarmi for ALK-positive non-small cell lung cancer</title>
+                    <description>The U.S. Food and Drug Administration has granted approval to Nelkarmi (neladalkib), a kinase inhibitor, for adults with locally advanced or metastatic anaplastic lymphoma kinase (ALK)-positive non-small cell lung cancer (NSCLC) who were previously treated. The approval was granted to Nuvalent and GSK.</description>
+                    <link>https://medicalxpress.com/news/2026-11-fda-nelkarmi-alk-positive-small.html</link>
+                                        <pubDate>Tue, 24 Nov 2026 18:20:01 EST</pubDate>
+                    <guid isPermaLink="false">news714723498</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/lung-cancer.jpg" width="90" height="90" />
+                                    </item>
+                            <item>
+                    <title>Common patterns of b/tsDMARD use identified in rheumatoid arthritis</title>
+                    <description>Common patterns of biologic and targeted synthetic disease-modifying antirheumatic drug (b/tsDMARD) use are seen among patients with rheumatoid arthritis (RA), and these patterns are associated with underlying genetic associations, according to a study published online Nov. 20 in Arthritis &amp; Rheumatology.</description>
+                    <link>https://medicalxpress.com/news/2026-11-common-patterns-btsdmard-rheumatoid-arthritis.html</link>
+                                        <pubDate>Tue, 24 Nov 2026 18:00:08 EST</pubDate>
+                    <guid isPermaLink="false">news714754021</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2023/rheumatoid-arthritis.jpg" width="90" height="90" />
+                                    </item>
+                            <item>
+                    <title>How methylmercury impairs forebrain inhibitory circuits and induces abnormal behavior in mice</title>
+                    <description>Global efforts have sought to reduce mercury pollution, but methylmercury (MeHg) remains a persistent environmental hazard that bioaccumulates in aquatic food chains. Humans are exposed to MeHg primarily through contaminated seafood. Minamata disease, officially recognized in Japan in 1956, demonstrated the devastating neurological consequences of MeHg poisoning. Since then, researchers have investigated its neurotoxic effects, including sensory, motor and psychiatric symptoms. Despite clinical reports of behavioral disturbances in people affected by MeHg poisoning, the neural circuits underlying these abnormalities remain poorly understood.</description>
+                    <link>https://medicalxpress.com/news/2026-11-methylmercury-impairs-forebrain-inhibitory-circuits.html</link>
+                    <category>Psychology &amp; Mental health</category>                    <pubDate>Tue, 24 Nov 2026 17:40:04 EST</pubDate>
+                    <guid isPermaLink="false">news714753301</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/how-methylmercury-impa.jpg" width="90" height="90" />
+                                    </item>
+                            <item>
+                    <title>HIV viral control is necessary but not sufficient for healthy aging</title>
+                    <description>Individuals with HIV show signs of faster biological aging compared with people without HIV. In other words, indicators of bodily functions that can be measured in the blood appear more like those of an older individual than those of someone the same age.</description>
+                    <link>https://medicalxpress.com/news/2026-11-hiv-viral-sufficient-healthy-aging.html</link>
+                    <category>HIV &amp; AIDS</category>                    <pubDate>Tue, 24 Nov 2026 17:20:01 EST</pubDate>
+                    <guid isPermaLink="false">news714753122</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/hiv-viral-control-is-n.jpg" width="90" height="90" />
+                                    </item>
+                            <item>
+                    <title>Doctors report less burnout in practices they rate as efficient, even during long workweeks</title>
+                    <description>When it comes to physician burnout, how you spend your working hours may matter more than how many hours you work.</description>
+                    <link>https://medicalxpress.com/news/2026-11-doctors-burnout-efficient-workweeks.html</link>
+                    <category>Psychology &amp; Mental health</category>                    <pubDate>Tue, 24 Nov 2026 17:00:06 EST</pubDate>
+                    <guid isPermaLink="false">news714760801</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2021/doctor.jpg" width="90" height="90" />
+                                    </item>
+                            <item>
+                    <title>Novel metric accurately distinguishes metastasis from an independent primary tumor</title>
+                    <description>Research has found that the newly developed Clonal Relatedness Index (CRI) can accurately determine whether tumors in the same patient share a common clonal origin. The findings, detailed in an article appearing in The Journal of Molecular Diagnostics, have important implications for the clinical management of complex cases of cancers of the digestive system and abdominal lining, specifically gastrointestinal, hepatopancreatobiliary and peritoneal carcinomas.</description>
+                    <link>https://medicalxpress.com/news/2026-11-metric-accurately-distinguishes-metastasis-independent.html</link>
+                    <category>Digestive health</category>                    <pubDate>Tue, 24 Nov 2026 17:00:01 EST</pubDate>
+                    <guid isPermaLink="false">news714749061</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/novel-metric-accuratel.jpg" width="90" height="90" />
+                                    </item>
+                            <item>
+                    <title>Low vitamin D could be keeping you up at night</title>
+                    <description>Tossing and turning at night? The problem might not be your mattress—it could be your vitamin D levels.</description>
+                    <link>https://medicalxpress.com/news/2026-11-vitamin-d-night.html</link>
+                    <category>Sleep &amp; Recovery</category>                    <pubDate>Tue, 24 Nov 2026 16:40:13 EST</pubDate>
+                    <guid isPermaLink="false">news714747362</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/awake-in-bed.jpg" width="90" height="90" />
+                                    </item>
+                            <item>
+                    <title>How antibody therapy reverses type 1 diabetes in mice</title>
+                    <description>Researchers at UC Davis Health have uncovered key mechanisms behind an experimental antibody that reverses type 1 diabetes (T1D) in mice. Findings from their study, published in the journal Diabetes, could advance efforts to develop treatments for patients with acute T1D.</description>
+                    <link>https://medicalxpress.com/news/2026-11-antibody-therapy-reverses-diabetes-mice.html</link>
+                                        <pubDate>Tue, 24 Nov 2026 16:40:04 EST</pubDate>
+                    <guid isPermaLink="false">news714755461</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2025/type-1-diabetes.jpg" width="90" height="90" />
+                                    </item>
+                            <item>
+                    <title>Smarter EHR alerts increase use of first-line antibiotics for patients with penicillin allergy labels</title>
+                    <description>Researchers at Vanderbilt Health successfully redesigned electronic health record (EHR) pop-up alerts that appear when clinicians prescribe antibiotics to patients with penicillin allergies. This adjustment significantly reduced alarm notifications for clinicians and safely provided more patients with first-line antibiotics, cephalosporins, despite their untested penicillin allergies.</description>
+                    <link>https://medicalxpress.com/news/2026-11-smarter-ehr-line-antibiotics-patients.html</link>
+                                        <pubDate>Tue, 24 Nov 2026 16:20:12 EST</pubDate>
+                    <guid isPermaLink="false">news714754561</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/health-record.jpg" width="90" height="90" />
+                                    </item>
+                            <item>
+                    <title>Biotech firm predicts its antibody injections could compete with COVID vaccines</title>
+                    <description>A biotech company yesterday announced that its lab-grown antibodies may provide an alternative to COVID vaccines.</description>
+                    <link>https://medicalxpress.com/news/2026-11-biotech-firm-antibody-covid-vaccines.html</link>
+                    <category>Common illnesses &amp; Prevention</category>                    <pubDate>Tue, 24 Nov 2026 16:20:04 EST</pubDate>
+                    <guid isPermaLink="false">news714745162</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2025/-injection.jpg" width="90" height="90" />
+                                    </item>
                             <item>
                     <title>Textile electrodes could bring wearable relief for menstrual pain and muscle soreness</title>
                     <description>Applying a mild electrical current through the skin is a drug-free way to manage menstrual pain and intense muscle soreness, but at-home devices that deliver the current are bulky and difficult to use effectively, and they require sticky gels. Now, scientists reporting in ACS Applied Materials &amp; Interfaces have developed a reusable pain-relieving textile electrode that could be incorporated into clothing. In a preliminary test, the electrodes transmitted electrical stimulation through skin-care products to a person&#039;s skin.</description>
                     <link>https://medicalxpress.com/news/2026-11-textile-electrodes-wearable-relief-menstrual.html</link>
-                    <category></category>
-                    <pubDate>Tue, 24 Nov 2026 16:00:06 EST</pubDate>
+                    <category>Women&#039;s health</category>                    <pubDate>Tue, 24 Nov 2026 16:00:06 EST</pubDate>
                     <guid isPermaLink="false">news714754321</guid>
                                             <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/textile-electrodes-cou.jpg" width="90" height="90" />
                                     </item>
@@ -19,8 +170,7 @@
                     <title>Counting gut bacteria sheds new light on multiple sclerosis</title>
                     <description>Researchers from the Vrije Universiteit Brussel (VUB), Flemish Institute for Biotechnology, KU Leuven and the Belgian National MS Centre in Melsbroek have taken a significant step toward understanding the relationship between gut microbiota and multiple sclerosis (MS). This could lead to better insights and treatments in the future.</description>
                     <link>https://medicalxpress.com/news/2026-11-gut-bacteria-multiple-sclerosis.html</link>
-                    <category></category>
-                    <pubDate>Tue, 24 Nov 2026 16:00:01 EST</pubDate>
+                    <category>Digestive health</category>                    <pubDate>Tue, 24 Nov 2026 16:00:01 EST</pubDate>
                     <guid isPermaLink="false">news714742339</guid>
                                             <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/counting-gut-bacteria.jpg" width="90" height="90" />
                                     </item>
@@ -28,8 +178,7 @@
                     <title>Growing miniature tumors to help personalize cancer treatment</title>
                     <description>Modern cancer care is based on many factors. Physicians use scans, lab tests and decades of clinical research to help decide which treatments are best for patients.</description>
                     <link>https://medicalxpress.com/news/2026-11-miniature-tumors-personalize-cancer-treatment.html</link>
-                    <category></category>
-                    <pubDate>Tue, 24 Nov 2026 15:40:10 EST</pubDate>
+                                        <pubDate>Tue, 24 Nov 2026 15:40:10 EST</pubDate>
                     <guid isPermaLink="false">news714739342</guid>
                                             <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/growing-miniature-tumo.jpg" width="90" height="90" />
                                     </item>
@@ -37,8 +186,7 @@
                     <title>How persistent inflammation reprograms the immune system to promote T-cell exhaustion</title>
                     <description>When the body encounters an infection, its immune system must respond rapidly and effectively. Dendritic cells play a central role in this process. They detect pathogens, capture their components and activate specialized immune cells known as CD8 T cells, which can recognize and eliminate infected cells.</description>
                     <link>https://medicalxpress.com/news/2026-11-persistent-inflammation-reprograms-immune-cell.html</link>
-                    <category></category>
-                    <pubDate>Tue, 24 Nov 2026 15:40:03 EST</pubDate>
+                                        <pubDate>Tue, 24 Nov 2026 15:40:03 EST</pubDate>
                     <guid isPermaLink="false">news714753901</guid>
                                             <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/when-inflammation-repr.jpg" width="90" height="90" />
                                     </item>
@@ -46,8 +194,7 @@
                     <title>E-scooter injuries can cause lasting symptoms and work disruption</title>
                     <description>Many people treated for traumatic brain injury (TBI) after electric scooter crashes experience significant time away from work and symptoms that persist for months, according to findings published Nov. 17 in JAMA Network Open.</description>
                     <link>https://medicalxpress.com/news/2026-11-scooter-injuries-symptoms-disruption.html</link>
-                    <category></category>
-                    <pubDate>Tue, 24 Nov 2026 15:20:08 EST</pubDate>
+                    <category>Sleep &amp; Recovery</category>                    <pubDate>Tue, 24 Nov 2026 15:20:08 EST</pubDate>
                     <guid isPermaLink="false">news714753362</guid>
                                             <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2025/e-scooter.jpg" width="90" height="90" />
                                     </item>
@@ -55,8 +202,7 @@
                     <title>Cosmetic surgery is on the rise globally. Social media, celebrities reduce taboos and influence beauty ideals</title>
                     <description>Nearly 18 million cosmetic surgeries were performed worldwide in 2025, increasing by roughly 25% since 2021.</description>
                     <link>https://medicalxpress.com/news/2026-11-cosmetic-surgery-globally-social-media.html</link>
-                    <category></category>
-                    <pubDate>Tue, 24 Nov 2026 15:20:01 EST</pubDate>
+                                        <pubDate>Tue, 24 Nov 2026 15:20:01 EST</pubDate>
                     <guid isPermaLink="false">news714737663</guid>
                                             <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/cosmetic-surgery.jpg" width="90" height="90" />
                                     </item>
@@ -64,8 +210,7 @@
                     <title>Sleeping 9 or more hours linked to a higher risk of death in people with heart disease</title>
                     <description>Adults with heart disease who sleep nine or more hours a day may be at greater risk of dying prematurely. That&#039;s the conclusion of a study published in the journal PLOS One that examined the relationship between sleep duration and mortality in more than 3,000 adults from the U.S.</description>
                     <link>https://medicalxpress.com/news/2026-11-hours-linked-higher-death-people.html</link>
-                    <category></category>
-                    <pubDate>Tue, 24 Nov 2026 15:00:07 EST</pubDate>
+                    <category>Sleep &amp; Recovery</category>                    <pubDate>Tue, 24 Nov 2026 15:00:07 EST</pubDate>
                     <guid isPermaLink="false">news714753335</guid>
                                             <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/heavy-sleeper.jpg" width="90" height="90" />
                                     </item>
@@ -73,8 +218,7 @@
                     <title>The DRC&#039;s Ebola crisis revives an old ethical question: What do health workers owe patients?</title>
                     <description>The World Health Organization declared the Bundibugyo Ebola outbreak on May 15, 2026. As of Nov. 18, there have been 11,712 cases and 5,720 deaths, nearly all in the Democratic Republic of Congo, or DRC.</description>
                     <link>https://medicalxpress.com/news/2026-11-drc-ebola-crisis-revives-ethical.html</link>
-                    <category></category>
-                    <pubDate>Tue, 24 Nov 2026 15:00:02 EST</pubDate>
+                                        <pubDate>Tue, 24 Nov 2026 15:00:02 EST</pubDate>
                     <guid isPermaLink="false">news714737425</guid>
                                             <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/nurse-in-protective-eq.jpg" width="90" height="90" />
                                     </item>
@@ -82,8 +226,7 @@
                     <title>Pimple‑popping videos can be disgusting—and strangely satisfying</title>
                     <description>Some people relax by watching someone squeeze pus from a stranger&#039;s face. I&#039;m one of them. I have favorite accounts, strong opinions about technique and very little patience for a video that ends before the pore has been properly cleared.</description>
                     <link>https://medicalxpress.com/news/2026-11-pimplepopping-videos-disgusting-strangely.html</link>
-                    <category></category>
-                    <pubDate>Tue, 24 Nov 2026 14:50:01 EST</pubDate>
+                    <category>Psychology &amp; Mental health</category>                    <pubDate>Tue, 24 Nov 2026 14:50:01 EST</pubDate>
                     <guid isPermaLink="false">news714736730</guid>
                                             <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/pimple-pop.jpg" width="90" height="90" />
                                     </item>
@@ -91,8 +234,7 @@
                     <title>What if rheumatoid arthritis could be prevented before the pain begins?</title>
                     <description>Rheumatoid arthritis (RA) begins years before someone experiences the joint pain, swelling and stiffness associated with the disease. Now, researchers at the University of Colorado Anschutz are exploring how artificial intelligence and advances in biological research could help identify the immune mechanisms underlying those early warning symptoms and signs and potentially prevent the disease before it starts.</description>
                     <link>https://medicalxpress.com/news/2026-11-rheumatoid-arthritis-pain.html</link>
-                    <category></category>
-                    <pubDate>Tue, 24 Nov 2026 14:40:01 EST</pubDate>
+                    <category>Common illnesses &amp; Prevention</category>                    <pubDate>Tue, 24 Nov 2026 14:40:01 EST</pubDate>
                     <guid isPermaLink="false">news714749099</guid>
                                             <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/what-if-rheumatoid-art.jpg" width="90" height="90" />
                                     </item>
@@ -100,181 +242,9 @@
                     <title>Glucose sensors for type 2 diabetes deserve second look from NHS</title>
                     <description>A wearable sensor that allows people with type 2 diabetes using insulin to track their glucose levels in real time could prove good value for the NHS, a University of Manchester–led study suggests. The research, published in Diabetes, Obesity and Metabolism, assessed the value for money of real-time continuous glucose monitoring compared with standard finger-prick testing.</description>
                     <link>https://medicalxpress.com/news/2026-11-glucose-sensors-diabetes-nhs.html</link>
-                    <category></category>
-                    <pubDate>Tue, 24 Nov 2026 14:30:02 EST</pubDate>
+                    <category>Common illnesses &amp; Prevention</category>                    <pubDate>Tue, 24 Nov 2026 14:30:02 EST</pubDate>
                     <guid isPermaLink="false">news714736190</guid>
                                             <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/glucose-sensor.jpg" width="90" height="90" />
                                     </item>
-                            <item>
-                    <title>Summer may be best time to test for vitamin D deficiency</title>
-                    <description>Swedish women and men with low vitamin D levels when tested in the summer had a higher risk of bone fractures and death—risks not seen in people with low test results during winter.</description>
-                    <link>https://medicalxpress.com/news/2026-11-summer-vitamin-d-deficiency.html</link>
-                    <category></category>
-                    <pubDate>Tue, 24 Nov 2026 14:00:09 EST</pubDate>
-                    <guid isPermaLink="false">news714642806</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/summer-may-be-best-tim.jpg" width="90" height="90" />
-                                    </item>
-                            <item>
-                    <title>Exploring the underrecognized role of lipid metabolism in neurodegenerative disease</title>
-                    <description>Ole Isacson, M.D., Ph.D., founding director of the Neuroregeneration Institute at McLean Hospital within Mass General Brigham, is the lead and corresponding author of a paper published in Cell Reports Medicine titled &quot;Lipid homeostasis and cellular metabolism in neurodegenerative disease: a maturing framework to guide therapeutic development,&quot; co-authored with Penelope Hallett, Ph.D. Their perspective article supports a broader interpretation of neurodegenerative disease in which lipid metabolism, cellular energy regulation, inflammation and protein abnormalities form an interconnected biological system.</description>
-                    <link>https://medicalxpress.com/news/2026-11-exploring-underrecognized-role-lipid-metabolism.html</link>
-                    <category></category>
-                    <pubDate>Tue, 24 Nov 2026 14:00:02 EST</pubDate>
-                    <guid isPermaLink="false">news714736161</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/exploring-the-underrec.jpg" width="90" height="90" />
-                                    </item>
-                            <item>
-                    <title>Researchers look beyond the screen to help keep seniors, people with cognitive concerns connected</title>
-                    <description>Nancy Roderer &#039;73&#039;s online physical therapy sessions are an important part of her routine, so she initially brushed off a recent stumble she took while logged on alone at home.</description>
-                    <link>https://medicalxpress.com/news/2026-11-screen-seniors-people-cognitive.html</link>
-                    <category></category>
-                    <pubDate>Tue, 24 Nov 2026 13:50:01 EST</pubDate>
-                    <guid isPermaLink="false">news714736131</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/umd-researchers-look-b.jpg" width="90" height="90" />
-                                    </item>
-                            <item>
-                    <title>Pregnancy and breastfeeding bone disease with &#039;catastrophic&#039; impact on new moms may be missed by doctors</title>
-                    <description>An in-depth study of women with pregnancy and lactation-associated osteoporosis (PLO), a rare condition affecting around 50 women a year in the U.K., found it causes debilitating multiple fractures, acute and chronic pain, disability and long-term psychological distress. The research was carried out by Imperial College London, Imperial College Healthcare NHS Trust and the Royal National Orthopaedic Hospital NHS Trust and is published in Osteoporosis International.</description>
-                    <link>https://medicalxpress.com/news/2026-11-pregnancy-breastfeeding-bone-disease-catastrophic.html</link>
-                    <category></category>
-                    <pubDate>Tue, 24 Nov 2026 13:30:05 EST</pubDate>
-                    <guid isPermaLink="false">news714735814</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/pregnancy-and-breastfe.jpg" width="90" height="90" />
-                                    </item>
-                            <item>
-                    <title>Paxlovid tied to 12% lower risk of long COVID in high-risk adults</title>
-                    <description>Adults at high risk for severe COVID-19 who were prescribed nirmatrelvir-ritonavir (Paxlovid) within five days of infection were less likely to be hospitalized or die in the next six months than those who weren&#039;t given the antiviral drug, according to a large study published in PLOS Global Public Health. For patients at low risk for severe outcomes, the results were inconclusive.</description>
-                    <link>https://medicalxpress.com/news/2026-11-paxlovid-covid-high-adults.html</link>
-                    <category></category>
-                    <pubDate>Tue, 24 Nov 2026 13:00:12 EST</pubDate>
-                    <guid isPermaLink="false">news714735446</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/paxlovid-tied-to-12-lo.jpg" width="90" height="90" />
-                                    </item>
-                            <item>
-                    <title>Flu vaccine might help stave off early signs of Alzheimer&#039;s</title>
-                    <description>Brain health is a concern for many older adults because it&#039;s tied to their longevity and independence. A new study published in the Annals of Geriatric Medicine and Research finds that getting the flu shot might help people stay sharp, as vaccinated adults were less likely to experience signs of dementia.</description>
-                    <link>https://medicalxpress.com/news/2026-11-flu-vaccine-stave-early-alzheimer.html</link>
-                    <category></category>
-                    <pubDate>Tue, 24 Nov 2026 12:50:01 EST</pubDate>
-                    <guid isPermaLink="false">news714734695</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/older-couple-3.jpg" width="90" height="90" />
-                                    </item>
-                            <item>
-                    <title>Straight to the source: The case for targeted immunotherapy for lupus</title>
-                    <description>CAR T-cell therapy is an established treatment for some blood cancers, engineering a person&#039;s own T cells to recognize and attack specific cell types, including cancer cells. In recent years, CAR-T therapy has been shown to also work for conditions beyond cancer.</description>
-                    <link>https://medicalxpress.com/news/2026-11-straight-source-case-immunotherapy-lupus.html</link>
-                    <category></category>
-                    <pubDate>Tue, 24 Nov 2026 12:40:12 EST</pubDate>
-                    <guid isPermaLink="false">news714742261</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/straight-to-the-source-1.jpg" width="90" height="90" />
-                                    </item>
-                            <item>
-                    <title>Researchers develop a novel scaffold HPK1 inhibitor for cancer immunotherapy</title>
-                    <description>Scientists have recently developed IHMT-HPK1-550, a small-molecule HPK1 inhibitor featuring a novel scaffold, providing a new candidate compound for cancer immunotherapy. The study was led by professor Liu Qingsong from the Hefei Institutes of Physical Science of the Chinese Academy of Sciences, and the findings were published in the Journal of Medicinal Chemistry on Oct. 28.</description>
-                    <link>https://medicalxpress.com/news/2026-11-scaffold-hpk1-inhibitor-cancer-immunotherapy.html</link>
-                    <category></category>
-                    <pubDate>Tue, 24 Nov 2026 12:30:04 EST</pubDate>
-                    <guid isPermaLink="false">news714734277</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/researchers-develop-a-20.jpg" width="90" height="90" />
-                                    </item>
-                            <item>
-                    <title>Two new studies point to advances in personalized lung cancer treatment</title>
-                    <description>Lung cancer is the leading cause of cancer death in the United States, but for a growing number of patients, the outlook is improving. As Lung Cancer Awareness Month draws attention to the disease and advances in care, Marina Garassino, M.D., a thoracic oncologist at the University of Chicago Medicine, is helping push the field forward.</description>
-                    <link>https://medicalxpress.com/news/2026-11-advances-personalized-lung-cancer-treatment.html</link>
-                    <category></category>
-                    <pubDate>Tue, 24 Nov 2026 12:20:10 EST</pubDate>
-                    <guid isPermaLink="false">news714741841</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/two-new-studies-point.jpg" width="90" height="90" />
-                                    </item>
-                            <item>
-                    <title>Mail-order antibiotic kits pose safety, resistance risks, pharmacy expert warns</title>
-                    <description>Sometimes, inspiration can spark from interesting places.</description>
-                    <link>https://medicalxpress.com/news/2026-11-mail-antibiotic-kits-pose-safety.html</link>
-                    <category></category>
-                    <pubDate>Tue, 24 Nov 2026 12:00:06 EST</pubDate>
-                    <guid isPermaLink="false">news714734124</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/mail-order.jpg" width="90" height="90" />
-                                    </item>
-                            <item>
-                    <title>An unexpected link: More coarse particles in indoor air, lower odds of Kawasaki disease</title>
-                    <description>Kawasaki disease (KD) is an acute inflammatory condition that primarily affects children under 5. It causes inflammation of blood vessels throughout the body and can lead to serious complications, particularly affecting the coronary arteries that supply blood to the heart. Although Kawasaki disease is a major cause of acquired heart disease in children, its exact cause remains unclear. Genetic susceptibility and environmental exposures are thought to contribute to its development, but the underlying mechanisms are not fully understood.</description>
-                    <link>https://medicalxpress.com/news/2026-11-unexpected-link-coarse-particles-indoor.html</link>
-                    <category></category>
-                    <pubDate>Tue, 24 Nov 2026 12:00:02 EST</pubDate>
-                    <guid isPermaLink="false">news714738781</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/household-specific-ind.jpg" width="90" height="90" />
-                                    </item>
-                            <item>
-                    <title>Norovirus is spreading—how to recognize the symptoms and what to do</title>
-                    <description>Described as the &quot;Ferrari of the virus world&quot; for the way it races from person to person, norovirus is once again on the move as we head into winter.</description>
-                    <link>https://medicalxpress.com/news/2026-11-norovirus-symptoms.html</link>
-                    <category></category>
-                    <pubDate>Tue, 24 Nov 2026 11:40:09 EST</pubDate>
-                    <guid isPermaLink="false">news714732086</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/vomiting-person.jpg" width="90" height="90" />
-                                    </item>
-                            <item>
-                    <title>Large clinical trial clarifies clot prevention trade-offs after hip and knee replacement</title>
-                    <description>A large, multisite clinical trial involving researchers at the University of Maryland School of Medicine (UMSOM) has provided important new evidence about the medications commonly used to prevent potentially life-threatening blood clots following hip and knee replacement surgery.</description>
-                    <link>https://medicalxpress.com/news/2026-11-large-clinical-trial-clot-offs.html</link>
-                    <category></category>
-                    <pubDate>Tue, 24 Nov 2026 11:40:06 EST</pubDate>
-                    <guid isPermaLink="false">news714736381</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2021/blood-clots.jpg" width="90" height="90" />
-                                    </item>
-                            <item>
-                    <title>Blood tests and new cancer models reveal how small cell lung cancer responds to and resists tarlatamab</title>
-                    <description>Researchers at Dana-Farber Cancer Institute have used a blood-based test combined with the development of new preclinical models to follow how small cell lung cancer responds to tarlatamab and changes as it becomes resistant. The study identified a tumor subtype associated with greater treatment benefit and revealed two ways the cancer may escape therapy.</description>
-                    <link>https://medicalxpress.com/news/2026-11-blood-cancer-reveal-small-cell.html</link>
-                    <category></category>
-                    <pubDate>Tue, 24 Nov 2026 11:20:04 EST</pubDate>
-                    <guid isPermaLink="false">news714736268</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/blood-tests.jpg" width="90" height="90" />
-                                    </item>
-                            <item>
-                    <title>Brain lesions: What causes them and when they need follow‑up</title>
-                    <description>You open your brain scan report and see the word &quot;lesion.&quot; It&#039;s a worrying word to come across while waiting to speak to your doctor. In a report, it means there&#039;s an area in or around the brain that looks abnormal on the scan. That could be anything from an area of tissue damaged by a stroke to a pocket of fluid that&#039;s been there for years.</description>
-                    <link>https://medicalxpress.com/news/2026-11-brain-lesions-followup.html</link>
-                    <category></category>
-                    <pubDate>Tue, 24 Nov 2026 11:20:01 EST</pubDate>
-                    <guid isPermaLink="false">news714724465</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2023/mri-brain.jpg" width="90" height="90" />
-                                    </item>
-                            <item>
-                    <title>Programming cancer immunity with 3 mRNAs: Development of a modular mRNA cocktail</title>
-                    <description>A research team has developed a modular mRNA cocktail that combines three types of mRNA encoding a tumor antigen, a costimulatory molecule and a cytokine, and successfully demonstrated its ability to synergistically activate T cells specific for cancer antigens. The research is published in the journal OncoImmunology.</description>
-                    <link>https://medicalxpress.com/news/2026-11-cancer-immunity-mrnas-modular-mrna.html</link>
-                    <category></category>
-                    <pubDate>Tue, 24 Nov 2026 11:10:03 EST</pubDate>
-                    <guid isPermaLink="false">news714723995</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/programming-cancer-imm.jpg" width="90" height="90" />
-                                    </item>
-                            <item>
-                    <title>A new drug treatment for head and neck cancer</title>
-                    <description>On Nov. 5, the U.S. Food and Drug Administration (FDA) approved the use of a new drug to treat head and neck cancer, the first in seven years. Called amivantamab, the drug is the first to target two growth receptors for head and neck cancer simultaneously, reducing the cancer&#039;s ability to adapt to the treatment. The FDA granted amivantamab accelerated approval because of the promising results it showed during clinical trials, which were led by Yale School of Medicine researchers.</description>
-                    <link>https://medicalxpress.com/news/2026-11-drug-treatment-neck-cancer.html</link>
-                    <category></category>
-                    <pubDate>Tue, 24 Nov 2026 11:00:06 EST</pubDate>
-                    <guid isPermaLink="false">news714736175</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/a-new-drug-treatment-f.jpg" width="90" height="90" />
-                                    </item>
-                            <item>
-                    <title>Hot nights linked to poorer memory in middle-aged and older Australians</title>
-                    <description>As overnight temperatures continue to rise across Australia, a new study suggests warmer nights may be linked to poorer memory in middle-aged and older Australians.</description>
-                    <link>https://medicalxpress.com/news/2026-11-hot-nights-linked-poorer-memory.html</link>
-                    <category></category>
-                    <pubDate>Tue, 24 Nov 2026 10:40:06 EST</pubDate>
-                    <guid isPermaLink="false">news714723570</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/memory-1.jpg" width="90" height="90" />
-                                    </item>
-                            <item>
-                    <title>Inhaled antibiotics may enhance immunotherapy by targeting bacteria in lung metastases</title>
-                    <description>Researchers at the Leibniz Institute for Immunotherapy (LIT) in Regensburg, Germany, at the University of Milan and at the National Cancer Institute (INT) in Milan, Italy, have identified tumor-associated bacteria in lung metastases as a potential barrier to immunotherapy. In mice, aerosolized antibiotics disrupted this immunosuppressive environment and enhanced treatment responses, including complete tumor regressions. The study is published in Cancer Immunology Research.</description>
-                    <link>https://medicalxpress.com/news/2026-11-inhaled-antibiotics-immunotherapy-bacteria-lung.html</link>
-                    <category></category>
-                    <pubDate>Tue, 24 Nov 2026 10:40:02 EST</pubDate>
-                    <guid isPermaLink="false">news714735977</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/inhaled-antibiotics-ma.jpg" width="90" height="90" />
-                                    </item>
-                    </channel>
+                        </channel>
 </rss>
