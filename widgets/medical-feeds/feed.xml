@@ -1,280 +1,250 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
-<channel>
+    <channel>
                     <title>Medical Xpress - latest medical and health news stories</title>
             <link>https://medicalxpress.com/</link>
-            <language>en-us</language> 
+            <language>en-us</language>
             <description>Medical Xpress internet news portal provides the latest news on science including: Physics, Nanotechnology, Life Sciences, Space Science, Earth Science, Environment, Health and Medicine.</description>
 
                             <item>
-                    <title>Why intimate partner violence can be a barrier to breastfeeding</title>
-                    <description>When a mother struggles to breastfeed, it is not always obvious why. But a meta-analysis from a University of Wollongong (UOW) Ph.D. candidate has revealed that intimate partner violence (IPV) in the perinatal period could play a hidden role.</description>
-                    <link>https://medicalxpress.com/news/2026-11-intimate-partner-violence-barrier-breastfeeding.html</link>
-                    <category></category>
-                    <pubDate>Wed, 25 Nov 2026 10:30:02 EST</pubDate>
-                    <guid isPermaLink="false">news714810109</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2022/baby-milk-bottle.jpg" width="90" height="90" />
+                    <title>Premature screen use can take away play, movement, and face-to-face interaction from young children</title>
+                    <description>Nearly half of Hungarian children are exposed to screens daily by the age of 18 months, yet what they need most for their development is play, physical activity, face-to-face interactions and active exploration of their surroundings. Early and intensive use of digital devices may pose risks not only because of the time spent in front of screens, but also because it may take time away from these essential experiences.</description>
+                    <link>https://medicalxpress.com/news/2026-11-premature-screen-play-movement-interaction.html</link>
+                    <category>Children&#039;s health</category>                    <pubDate>Wed, 25 Nov 2026 19:00:08 EST</pubDate>
+                    <guid isPermaLink="false">news714833520</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/what-does-premature-sc.jpg" width="90" height="90" />
                                     </item>
                             <item>
-                    <title>New research identifies potentially overlooked factor in male fertility</title>
-                    <description>A new study conducted by a team of researchers at the Wayne State University School of Medicine suggests that men can show normal semen analysis results yet harbor a sperm characteristic associated with a reduced likelihood of achieving pregnancy with their partners.</description>
-                    <link>https://medicalxpress.com/news/2026-11-potentially-overlooked-factor-male-fertility.html</link>
-                    <category></category>
-                    <pubDate>Wed, 25 Nov 2026 10:20:02 EST</pubDate>
-                    <guid isPermaLink="false">news714823203</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/new-wayne-state-univer.jpg" width="90" height="90" />
+                    <title>How to prepare youth to respond to firearm injury risk</title>
+                    <description>Firearm injury is the leading cause of death for adolescents in the United States. Most firearm owners prioritize safety, research shows, but strategies aimed at firearm injury prevention among youth have largely focused on policy change instead of teaching them how to identify injury risk.</description>
+                    <link>https://medicalxpress.com/news/2026-11-youth-firearm-injury.html</link>
+                    <category>Children&#039;s health</category>                    <pubDate>Wed, 25 Nov 2026 18:50:02 EST</pubDate>
+                    <guid isPermaLink="false">news714832971</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2021/firearms.jpg" width="90" height="90" />
                                     </item>
                             <item>
-                    <title>Food delivery apps: An emerging public health challenge</title>
-                    <description>Food delivery giants including Uber Eats and DoorDash may be fueling Australia&#039;s growing obesity crisis, with new research showing their platforms are bombarding consumers with junk food promotions and encouraging poor eating habits.</description>
-                    <link>https://medicalxpress.com/news/2026-11-food-delivery-apps-emerging-health.html</link>
-                    <category></category>
-                    <pubDate>Wed, 25 Nov 2026 10:10:01 EST</pubDate>
-                    <guid isPermaLink="false">news714809633</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/food-delivery-1.jpg" width="90" height="90" />
+                    <title>Dad&#039;s antidepressant use linked to higher metabolic disorder risk in children</title>
+                    <description>Use of antidepressants by fathers in the months just before pregnancy is associated with a slightly increased risk of metabolic disorders, particularly high blood pressure, in their children, finds a large study from Denmark published by The BMJ.</description>
+                    <link>https://medicalxpress.com/news/2026-11-dad-antidepressant-linked-higher-metabolic.html</link>
+                    <category>Children&#039;s health</category>                    <pubDate>Wed, 25 Nov 2026 18:30:05 EST</pubDate>
+                    <guid isPermaLink="false">news714748502</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/man-using-medication.jpg" width="90" height="90" />
                                     </item>
                             <item>
-                    <title>Nerve signaling pathway reveals how a tuberculosis molecule triggers cough</title>
-                    <description>A molecule produced by some highly transmissible strains of tuberculosis (TB) bacteria activates sensory nerves and triggers coughing, according to a study led by UT Southwestern Medical Center researchers. The findings, published in Nature Microbiology, uncover a signaling pathway that could be targeted with drugs developed for chronic cough, offering a possible approach to relieving TB-associated cough and reducing transmission.</description>
-                    <link>https://medicalxpress.com/news/2026-11-nerve-pathway-reveals-tuberculosis-molecule.html</link>
-                    <category></category>
-                    <pubDate>Wed, 25 Nov 2026 10:00:07 EST</pubDate>
-                    <guid isPermaLink="false">news714822781</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/study-reveals-how-a-tu.jpg" width="90" height="90" />
+                    <title>ADHD meds in pregnancy not linked to developmental disorders in children</title>
+                    <description>Children born to mothers who used attention-deficit hyperactivity disorder (ADHD) medication during pregnancy face no increased risk of neurodevelopmental conditions such as autism, ADHD, intellectual disability and learning disorders, finds a large Scandinavian study published by The BMJ.</description>
+                    <link>https://medicalxpress.com/news/2026-11-adhd-meds-pregnancy-linked-developmental.html</link>
+                    <category>Pregnancy</category>                    <pubDate>Wed, 25 Nov 2026 18:30:02 EST</pubDate>
+                    <guid isPermaLink="false">news714748561</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/pregnancy-12.jpg" width="90" height="90" />
                                     </item>
                             <item>
-                    <title>Molecular backdoor destroys &#039;undruggable&#039; protein driving rare childhood cancer</title>
-                    <description>A secret molecular backdoor let researchers from Penn State College of Medicine destroy a protein that drives a rare and often fatal bone and soft tissue cancer in children and adolescents that often returns in treatment-resistant forms. Now, just three years after the discovery, a Phase I clinical trial is underway and, once complete, a Phase II trial to test the approach&#039;s efficacy in patients will follow shortly thereafter.</description>
-                    <link>https://medicalxpress.com/news/2026-11-molecular-backdoor-destroys-undruggable-protein.html</link>
-                    <category></category>
-                    <pubDate>Wed, 25 Nov 2026 09:40:09 EST</pubDate>
-                    <guid isPermaLink="false">news714819241</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/molecular-backdoor-des.jpg" width="90" height="90" />
+                    <title>Gut microbiome may shape blood sugar benefits of whole grains</title>
+                    <description>People with prediabetes are at very high risk for developing type 2 diabetes, and improving their diet is one way they can try to fend off advanced disease.</description>
+                    <link>https://medicalxpress.com/news/2026-11-gut-microbiome-blood-sugar-benefits.html</link>
+                    <category>Nutrition &amp; Healthy eating</category>                    <pubDate>Wed, 25 Nov 2026 18:20:01 EST</pubDate>
+                    <guid isPermaLink="false">news714832085</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/gut-microbiome-may-sha.jpg" width="90" height="90" />
                                     </item>
                             <item>
-                    <title>Q&amp;A: Can short, animated videos boost screen mindfulness?</title>
-                    <description>Smartphones are an indispensable part of daily life, but many young adults struggle with compulsive scrolling, late-night use and feeling anxious whenever their phones aren&#039;t nearby. Researchers at Stanford Medicine worked with young adults at Avenues the World School in New York City to co-design short, animated videos aimed at boosting awareness of the risks of overusing our phones.</description>
-                    <link>https://medicalxpress.com/news/2026-11-qa-short-animated-videos-boost.html</link>
-                    <category></category>
-                    <pubDate>Wed, 25 Nov 2026 09:40:01 EST</pubDate>
-                    <guid isPermaLink="false">news714809053</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/compulsive-scrolling.jpg" width="90" height="90" />
+                    <title>Heart failure: Advances include earlier detection, treatment options, expert explains</title>
+                    <description>Heart failure is a common complication of heart conditions; collectively, cardiovascular diseases are the leading cause of death globally. In heart failure, the heart doesn&#039;t pump blood well enough to meet the body&#039;s needs, causing a range of symptoms. Jose Nativi Nicolau, M.D., a transplant cardiologist at Mayo Clinic in Florida, describes advances in detection and treatment.</description>
+                    <link>https://medicalxpress.com/news/2026-11-heart-failure-advances-earlier-treatment.html</link>
+                    <category>Common illnesses &amp; Prevention</category>                    <pubDate>Wed, 25 Nov 2026 18:10:01 EST</pubDate>
+                    <guid isPermaLink="false">news714831885</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/circulation.jpg" width="90" height="90" />
                                     </item>
                             <item>
-                    <title>How brain aging differs from neurodegeneration: New data could help in the search for dementia drugs</title>
-                    <description>Researchers from Skoltech, together with colleagues from Ben-Gurion University (Israel) and other organizations, studied how the spatial organization of DNA in neurons changes during natural aging and in the development of neurodegenerative diseases such as Alzheimer&#039;s. The results showed that, although chromatin regulation is disrupted during aging, the onset of neurodegenerative diseases is driven by an additional factor—the accumulation of DNA damage.</description>
-                    <link>https://medicalxpress.com/news/2026-11-brain-aging-differs-neurodegeneration-dementia.html</link>
-                    <category></category>
-                    <pubDate>Wed, 25 Nov 2026 09:20:05 EST</pubDate>
-                    <guid isPermaLink="false">news714808634</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2024/dementia.jpg" width="90" height="90" />
+                    <title>Genetic information can improve prostate cancer risk assessment</title>
+                    <description>Genetic information can help provide a more individual assessment of prostate cancer risk among men undergoing PSA testing, according to a new study from Karolinska Institutet published in JAMA Network Open. PSA is a protein produced by the prostate that can be measured with a blood test. An elevated PSA level can be a sign of prostate cancer, but PSA levels can also be affected by other changes in the prostate.</description>
+                    <link>https://medicalxpress.com/news/2026-11-genetic-prostate-cancer.html</link>
+                    <category>Men&#039;s health</category>                    <pubDate>Wed, 25 Nov 2026 17:50:02 EST</pubDate>
+                    <guid isPermaLink="false">news714830451</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/genetic-information.jpg" width="90" height="90" />
                                     </item>
                             <item>
-                    <title>Study confirms link between autism and GI symptoms in children</title>
-                    <description>Researchers at UTHealth Houston have confirmed that children with autism spectrum disorder who experience greater challenges with social awareness and communication may also be more likely to have severe gastrointestinal symptoms.</description>
-                    <link>https://medicalxpress.com/news/2026-11-link-autism-gi-symptoms-children.html</link>
-                    <category></category>
-                    <pubDate>Wed, 25 Nov 2026 09:20:01 EST</pubDate>
-                    <guid isPermaLink="false">news714819004</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/child-eating-fruit-1.jpg" width="90" height="90" />
+                    <title>Membrane developed for dry eye treatment can improve symptoms</title>
+                    <description>A study led by Aston University&#039;s Travé Huarte has shown that a new single six-day treatment for moderate to severe dry eye disease using a modified, windowed amniotic membrane can deliver sustained symptom relief with good treatment compliance.</description>
+                    <link>https://medicalxpress.com/news/2026-11-membrane-dry-eye-treatment-symptoms.html</link>
+                                        <pubDate>Wed, 25 Nov 2026 17:30:01 EST</pubDate>
+                    <guid isPermaLink="false">news714830097</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/membrane-developed-for.jpg" width="90" height="90" />
                                     </item>
                             <item>
-                    <title>Salt reduction could maximize kidney drug benefits</title>
-                    <description>Reducing salt intake to guideline-recommended levels could substantially enhance the kidney-protective effects of an emerging class of treatments for chronic kidney disease, a study suggests.</description>
-                    <link>https://medicalxpress.com/news/2026-11-salt-reduction-maximize-kidney-drug.html</link>
-                    <category></category>
-                    <pubDate>Wed, 25 Nov 2026 09:10:01 EST</pubDate>
-                    <guid isPermaLink="false">news714807527</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2022/salt-1.jpg" width="90" height="90" />
+                    <title>Preclinical study suggests corin may help treat deadly brain tumor in infants</title>
+                    <description>A drug called corin might help treat the most common form of brain cancer in infants, according to a study by Johns Hopkins Sidney Kimmel Comprehensive Cancer Center researchers. Corin, which was developed at Johns Hopkins Medicine, causes tumor cells to mature into a less aggressive state.</description>
+                    <link>https://medicalxpress.com/news/2026-11-preclinical-corin-deadly-brain-tumor.html</link>
+                    <category>Children&#039;s health</category>                    <pubDate>Wed, 25 Nov 2026 17:00:06 EST</pubDate>
+                    <guid isPermaLink="false">news714828304</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/preclinical-study-sugg-1.jpg" width="90" height="90" />
                                     </item>
                             <item>
-                    <title>How the intestine keeps its tremendous surface area in order</title>
-                    <description>The small intestine is constantly in flux. This 20-foot-long (6.1-meter-long) tube is lined with structures that absorb the nutrients during digestion. The cells at the tip of these structures are continuously replaced, but how they stay organized has not been well understood.</description>
-                    <link>https://medicalxpress.com/news/2026-11-intestine-tremendous-surface-area.html</link>
-                    <category></category>
-                    <pubDate>Wed, 25 Nov 2026 09:00:05 EST</pubDate>
-                    <guid isPermaLink="false">news714818821</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/how-the-intestine-keep-1.jpg" width="90" height="90" />
+                    <title>Novel hormone therapy significantly reduces risk of breast cancer recurrence</title>
+                    <description>A new type of hormone therapy significantly reduced the risk of invasive breast cancer recurrence or death in patients with early-stage, hormone receptor (HR)-positive, HER2-negative breast cancer compared with standard treatments, according to findings from a large international phase 3 clinical trial co-led by investigators at the UCLA Health Jonsson Comprehensive Cancer Center.</description>
+                    <link>https://medicalxpress.com/news/2026-11-hormone-therapy-significantly-breast-cancer.html</link>
+                    <category>Women&#039;s health</category>                    <pubDate>Wed, 25 Nov 2026 17:00:01 EST</pubDate>
+                    <guid isPermaLink="false">news714756983</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/oral-medicine.jpg" width="90" height="90" />
                                     </item>
                             <item>
-                    <title>Dual inhibition of transcriptional kinases and anti-apoptotic proteins targets tumor growth</title>
-                    <description>In cancer research, the protein kinases CDK12 and CDK13 are attracting attention as promising targets for therapy. These enzymes regulate gene transcription by phosphorylating—transferring a phosphate group to—the protein complex RNA polymerase II, which transcribes DNA. Inhibiting CDK12 and CDK13 disrupts the transcription of particularly long genes, which leads to defects in DNA damage repair and thus the suppression of cancer cell proliferation.</description>
-                    <link>https://medicalxpress.com/news/2026-11-dual-inhibition-transcriptional-kinases-anti.html</link>
-                    <category></category>
-                    <pubDate>Wed, 25 Nov 2026 08:40:09 EST</pubDate>
-                    <guid isPermaLink="false">news714807125</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/exposing-a-new-way-of.jpg" width="90" height="90" />
+                    <title>Youth are turning to AI for mental health support. Here&#039;s what families should know</title>
+                    <description>There are few areas in life where AI isn&#039;t shaking things up. And managing mental health is no exception.</description>
+                    <link>https://medicalxpress.com/news/2026-11-youth-ai-mental-health-families.html</link>
+                    <category>Psychology &amp; Mental health</category>                    <pubDate>Wed, 25 Nov 2026 16:40:01 EST</pubDate>
+                    <guid isPermaLink="false">news714827722</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/young-teen-online.jpg" width="90" height="90" />
                                     </item>
                             <item>
-                    <title>Mental health chatbots for kids? Parents narrow eyes</title>
-                    <description>Despite a shortage of therapists and a mental health crisis affecting the nation&#039;s youth, parents aren&#039;t ready to call on AI chatbots as therapeutic reinforcements, according to a new study from Harvard and Boston Children&#039;s Hospital.</description>
-                    <link>https://medicalxpress.com/news/2026-11-mental-health-chatbots-kids-parents.html</link>
-                    <category></category>
-                    <pubDate>Wed, 25 Nov 2026 08:40:07 EST</pubDate>
-                    <guid isPermaLink="false">news714817742</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2025/ai-chatbot.jpg" width="90" height="90" />
+                    <title>RSV shots safe for older adults, alone or in combo, analysis finds</title>
+                    <description>Multiple clinical trials have found that respiratory syncytial virus (RSV) vaccines are safe in adults. Now, a new study in people age 60 and older shows it&#039;s also safe to receive an RSV shot plus another vaccine in the same week.</description>
+                    <link>https://medicalxpress.com/news/2026-11-rsv-shots-safe-older-adults.html</link>
+                    <category>Common illnesses &amp; Prevention</category>                    <pubDate>Wed, 25 Nov 2026 16:30:04 EST</pubDate>
+                    <guid isPermaLink="false">news714825108</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/older-person-vaccine.jpg" width="90" height="90" />
                                     </item>
                             <item>
-                    <title>Flu shots linked to lower mortality reach few unvaccinated heart attack patients in Swedish hospitals</title>
-                    <description>Influenza vaccination after a heart attack can reduce the risk of death during the following year. This has been shown in previous research from Sweden and international collaborations.</description>
-                    <link>https://medicalxpress.com/news/2026-11-flu-shots-linked-mortality-unvaccinated.html</link>
-                    <category></category>
-                    <pubDate>Wed, 25 Nov 2026 08:30:02 EST</pubDate>
-                    <guid isPermaLink="false">news714806628</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/influenza-vaccination.jpg" width="90" height="90" />
+                    <title>Study suggests BMI alone may miss obesity-related dementia risk</title>
+                    <description>A newer way of defining obesity that looks beyond body mass index (BMI) may identify more older adults with an increased risk of dementia than BMI alone, according to a study published Nov. 25, 2026, in Neurology.</description>
+                    <link>https://medicalxpress.com/news/2026-11-bmi-obesity-dementia.html</link>
+                    <category>Weight management</category>                    <pubDate>Wed, 25 Nov 2026 16:00:16 EST</pubDate>
+                    <guid isPermaLink="false">news714746724</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/heavy-person.jpg" width="90" height="90" />
                                     </item>
                             <item>
-                    <title>What role do immune cells in the lens play in uveitis?</title>
-                    <description>Uveitis, an autoimmune disease that causes inflammation in the eye, can cause blindness if not adequately treated. There is often no identifiable cause of uveitis, making it difficult to intervene before the disease progresses, but identifying the early changes in the disease could improve detection.</description>
-                    <link>https://medicalxpress.com/news/2026-11-role-immune-cells-lens-play.html</link>
-                    <category></category>
-                    <pubDate>Wed, 25 Nov 2026 08:10:05 EST</pubDate>
-                    <guid isPermaLink="false">news714806263</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/what-role-do-immune-ce.jpg" width="90" height="90" />
+                    <title>Same oncogenic mutation, different outcomes: Why some blood vessels develop malformations while others remain resistant</title>
+                    <description>Why do certain cancer-associated mutations cause malformations in some blood vessels while leaving others largely unaffected? The answer lies in the identity and developmental stage of endothelial cells, the cells lining the inside of blood vessels.</description>
+                    <link>https://medicalxpress.com/news/2026-11-oncogenic-mutation-outcomes-blood-vessels.html</link>
+                                        <pubDate>Wed, 25 Nov 2026 16:00:11 EST</pubDate>
+                    <guid isPermaLink="false">news714843601</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/same-oncogenic-mutatio-1.jpg" width="90" height="90" />
                                     </item>
                             <item>
-                    <title>Court-appointed medical guardian study reveals role in care of highly vulnerable older adults</title>
-                    <description>When University of Michigan Health geriatrician Kahli Zietlow, M.D., gets summoned to the hospital room of a seriously ill older adult, she knows the assessments she performs might help determine if the patient can make their own medical decisions or if someone else will have to. But if the patient&#039;s health or mental capacity has declined too far before they could legally authorize someone to make medical decisions for them, then Zietlow knows that the hospital may ask a probate court to assign a guardian to make those decisions, either temporarily or permanently.</description>
-                    <link>https://medicalxpress.com/news/2026-11-court-medical-guardian-reveals-role.html</link>
-                    <category></category>
-                    <pubDate>Wed, 25 Nov 2026 07:50:01 EST</pubDate>
-                    <guid isPermaLink="false">news714805243</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/vulnerable-older-adult.jpg" width="90" height="90" />
+                    <title>Creatine is popular with bodybuilders—could it help older adults stay independent?</title>
+                    <description>Climbing stairs or getting out of a chair can become harder with age, partly because muscle mass and strength tend to decline.</description>
+                    <link>https://medicalxpress.com/news/2026-11-creatine-popular-bodybuilders-older-adults.html</link>
+                    <category>Healthy aging</category>                    <pubDate>Wed, 25 Nov 2026 15:50:02 EST</pubDate>
+                    <guid isPermaLink="false">news714825053</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2025/creatine.jpg" width="90" height="90" />
                                     </item>
                             <item>
-                    <title>AI-powered lifestyle modification chatbot offers advice, accountability, affordability</title>
-                    <description>Many of the 79% of American adults trying to improve their diet and exercise habits seek guidance. But personal coaches are expensive, and self-help lifestyle apps, while affordable, lack accountability.</description>
-                    <link>https://medicalxpress.com/news/2026-11-ai-powered-lifestyle-modification-chatbot.html</link>
-                    <category></category>
-                    <pubDate>Wed, 25 Nov 2026 07:30:01 EST</pubDate>
-                    <guid isPermaLink="false">news714804473</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/ai-powered-lifestyle-m.jpg" width="90" height="90" />
+                    <title>Date-rape drug GHB disappears within hours, but molecular trace could reveal use two days later</title>
+                    <description>GHB has long posed a major challenge for the criminal justice system. The substance is eliminated from the body so quickly that proving cases of drugging and drug-facilitated rape can be extremely difficult. Now, researchers at Aarhus University have made a crucial discovery.</description>
+                    <link>https://medicalxpress.com/news/2026-11-date-rape-drug-ghb-hours.html</link>
+                                        <pubDate>Wed, 25 Nov 2026 15:40:04 EST</pubDate>
+                    <guid isPermaLink="false">news714841561</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/breakthrough-for-victi-1.jpg" width="90" height="90" />
                                     </item>
                             <item>
-                    <title>Lung complications affect 1 in 3 patients receiving antibody-drug conjugates for lung cancer, study finds</title>
-                    <description>A study led by The Ohio State University Comprehensive Cancer Center—Arthur G. James Cancer Hospital and Richard J. Solove Research Institute (OSUCCC—James) sheds light on safety concerns as antibody-drug conjugates (ADCs) become more important in lung cancer treatment. The findings highlight the need to catch and manage side effects like lung toxicity much earlier to help patients safely benefit from ADCs.</description>
-                    <link>https://medicalxpress.com/news/2026-11-lung-complications-affect-patients-antibody.html</link>
-                    <category></category>
-                    <pubDate>Wed, 25 Nov 2026 07:00:04 EST</pubDate>
-                    <guid isPermaLink="false">news714802760</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2024/lung.jpg" width="90" height="90" />
+                    <title>Early-life stress may leave lasting traces in the brain that increase risk of chronic pain</title>
+                    <description>Researchers from the Heidelberg Faculty of Medicine of Heidelberg University and the Central Institute of Mental Health (ZI) in Mannheim have identified a neural mechanism in female mice through which early-life stress may increase vulnerability to chronic pain and anxiety disorders. The findings have been published in the journal Science.</description>
+                    <link>https://medicalxpress.com/news/2026-11-early-life-stress-brain-chronic.html</link>
+                    <category>Psychology &amp; Mental health</category>                    <pubDate>Wed, 25 Nov 2026 15:20:14 EST</pubDate>
+                    <guid isPermaLink="false">news714841201</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/young-person-stress.jpg" width="90" height="90" />
                                     </item>
                             <item>
-                    <title>Single vaping episode impairs vascular function, study finds</title>
-                    <description>Researchers have identified acute negative effects of vaping, even without nicotine, on vascular function. The results of the study are being presented next week at the annual meeting of the Radiological Society of North America (RSNA).</description>
-                    <link>https://medicalxpress.com/news/2026-11-vaping-episode-impairs-vascular-function.html</link>
-                    <category></category>
-                    <pubDate>Wed, 25 Nov 2026 05:00:06 EST</pubDate>
-                    <guid isPermaLink="false">news714634288</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2019/1-vaping.jpg" width="90" height="90" />
+                    <title>AI could identify psoriasis and assess its severity from a single photo</title>
+                    <description>Widely available artificial intelligence models could not only recognize psoriasis from a single photo but also assess its severity, according to an international study by researchers at Semmelweis University. The study, published in Frontiers in Medicine, found that ChatGPT-5 identified the skin condition and correctly assessed its severity with nearly 100% accuracy. However, the researchers caution that, despite the promising results, artificial intelligence cannot replace dermatologists, and anyone experiencing symptoms should seek professional medical advice.</description>
+                    <link>https://medicalxpress.com/news/2026-11-ai-psoriasis-severity-photo.html</link>
+                    <category>Skin &amp; Hair care</category>                    <pubDate>Wed, 25 Nov 2026 15:20:10 EST</pubDate>
+                    <guid isPermaLink="false">news714824857</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/artificial-intelligenc-28.jpg" width="90" height="90" />
                                     </item>
                             <item>
-                    <title>Elevated blood sugar levels over decades linked to worse midlife memory and cognitive function</title>
-                    <description>Young adults with a progressive rise in fasting blood sugar levels over multiple decades were more likely to have worse cognitive health by midlife. Participants who developed type 2 diabetes during the study also had signs of structural brain changes, according to new, independent research published in the Journal of the American Heart Association.</description>
-                    <link>https://medicalxpress.com/news/2026-11-elevated-blood-sugar-decades-linked.html</link>
-                    <category></category>
-                    <pubDate>Wed, 25 Nov 2026 05:00:04 EST</pubDate>
-                    <guid isPermaLink="false">news714671282</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/elevated-blood-sugar-l.jpg" width="90" height="90" />
+                    <title>Alzheimer&#039;s drug targets tau protein in promising clinical trial</title>
+                    <description>An experimental Alzheimer&#039;s drug that reduces the production of a protein called tau has slowed the decline in memory and thinking skills by up to 54% in a clinical trial.</description>
+                    <link>https://medicalxpress.com/news/2026-11-alzheimer-drug-tau-protein-clinical.html</link>
+                    <category>Healthy aging</category>                    <pubDate>Wed, 25 Nov 2026 15:00:14 EST</pubDate>
+                    <guid isPermaLink="false">news714824890</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/injection-4.jpg" width="90" height="90" />
                                     </item>
                             <item>
-                    <title>Early-stage breast cancer gains first newly approved hormone therapy in more than 20 years</title>
-                    <description>For the first time in more than two decades, the FDA has approved a new hormone therapy for early-stage breast cancer, marking a monumental shift in how the most common form of the disease is treated.</description>
-                    <link>https://medicalxpress.com/news/2026-11-early-stage-breast-cancer-gains.html</link>
-                    <category></category>
-                    <pubDate>Tue, 24 Nov 2026 22:20:06 EST</pubDate>
-                    <guid isPermaLink="false">news714735926</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2022/prostate-cancer-1.jpg" width="90" height="90" />
+                    <title>Smoking injures the placenta early in pregnancy, study shows</title>
+                    <description>It is well known that women who smoke during pregnancy put their unborn babies at risk of being born prematurely or with low birth weight. Tobacco smoke can also injure a growing baby&#039;s organs.</description>
+                    <link>https://medicalxpress.com/news/2026-11-placenta-early-pregnancy.html</link>
+                    <category>Pregnancy</category>                    <pubDate>Wed, 25 Nov 2026 15:00:01 EST</pubDate>
+                    <guid isPermaLink="false">news714840001</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/smoking-injures-the-pl.jpg" width="90" height="90" />
                                     </item>
                             <item>
-                    <title>A doctor&#039;s take on the US losing measles elimination status</title>
-                    <description>For many physicians of my generation, measles was a disease we rarely—or never—saw in practice. That was a sign of how well vaccination and public health efforts had worked.</description>
-                    <link>https://medicalxpress.com/news/2026-11-doctor-measles-status.html</link>
-                    <category></category>
-                    <pubDate>Tue, 24 Nov 2026 21:40:02 EST</pubDate>
-                    <guid isPermaLink="false">news714753371</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/measles-4.jpg" width="90" height="90" />
+                    <title>How appreciating nature can make life feel more meaningful</title>
+                    <description>Spending time outdoors can influence how a person feels, but researchers at Texas A&amp;M University wanted to understand why.</description>
+                    <link>https://medicalxpress.com/news/2026-11-nature-life-meaningful.html</link>
+                    <category>Psychology &amp; Mental health</category>                    <pubDate>Wed, 25 Nov 2026 14:40:08 EST</pubDate>
+                    <guid isPermaLink="false">news714824821</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/a-photo-of-three-colle.jpg" width="90" height="90" />
                                     </item>
                             <item>
-                    <title>Drones could soon fly blood, defibrillators and medicine to patients</title>
-                    <description>Paramedics in one Florida county may soon be able to call in a drone to bring blood to a patient who&#039;s bleeding heavily.</description>
-                    <link>https://medicalxpress.com/news/2026-11-drones-fly-blood-defibrillators-medicine.html</link>
-                    <category></category>
-                    <pubDate>Tue, 24 Nov 2026 21:00:02 EST</pubDate>
-                    <guid isPermaLink="false">news714754276</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2024/air-drones.jpg" width="90" height="90" />
+                    <title>Teenage girls more in tune with their bodies tend to be happier with how they look</title>
+                    <description>Teenage girls who are better at recognizing signals from inside their bodies tend to be happier with how they look, according to new research.</description>
+                    <link>https://medicalxpress.com/news/2026-11-teenage-girls-tune-bodies-tend.html</link>
+                    <category>Psychology &amp; Mental health</category>                    <pubDate>Wed, 25 Nov 2026 14:40:05 EST</pubDate>
+                    <guid isPermaLink="false">news714839881</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/teenage-girls-more-in.jpg" width="90" height="90" />
                                     </item>
                             <item>
-                    <title>Disrupting a developing brain circuit in adolescence may have lasting social effects</title>
-                    <description>Adolescence is often described as a turbulent period of life marked by growing independence, changing social relationships and unpredictable shifts in behavior. According to researchers, tweens&#039; and teens&#039; behavioral changes reflect a brain that is still actively developing, yet scientists know surprisingly little about the neural mechanisms that shape social behavior during this critical stage of life.</description>
-                    <link>https://medicalxpress.com/news/2026-11-disrupting-brain-circuit-adolescence-social.html</link>
-                    <category></category>
-                    <pubDate>Tue, 24 Nov 2026 20:20:06 EST</pubDate>
-                    <guid isPermaLink="false">news714762481</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/adolescence.jpg" width="90" height="90" />
+                    <title>Rare sugar d-sorbose may help control allergic and autoimmune diseases</title>
+                    <description>Rare sugars are naturally occurring monosaccharides that are scarce in nature and are not readily used by the body as energy sources. Some have physiological effects beyond sweetness, raising interest in their potential health applications. One such sugar, d-sorbose, is a structural relative of d-fructose, but its effects on immune cells have remained unclear. Regulatory T cells (Tregs), identified by the Foxp3 protein, help restrain excessive immune responses and maintain immune balance. Whether a rare sugar can promote these cells has been little explored.</description>
+                    <link>https://medicalxpress.com/news/2026-11-rare-sugar-d-sorbose-allergic.html</link>
+                                        <pubDate>Wed, 25 Nov 2026 14:20:04 EST</pubDate>
+                    <guid isPermaLink="false">news714834181</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/rare-sugar-d-sorbose-m.jpg" width="90" height="90" />
                                     </item>
                             <item>
-                    <title>England shows widest socioeconomic gap in frailty among 31 countries</title>
-                    <description>Older adults from disadvantaged socioeconomic backgrounds experience greater levels of frailty, with England showing the biggest gap between socioeconomic groups among the 31 countries studied.</description>
-                    <link>https://medicalxpress.com/news/2026-11-england-widest-socioeconomic-gap-frailty.html</link>
-                    <category></category>
-                    <pubDate>Tue, 24 Nov 2026 20:00:08 EST</pubDate>
-                    <guid isPermaLink="false">news714670861</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/england-seniors.jpg" width="90" height="90" />
+                    <title>Patients in Indian clinic were well served by standard WHO-recommended HIV treatment, study finds</title>
+                    <description>A McGill-led study of HIV patients in Pune, India, who received the tenofovir, lamivudine and dolutegravir (TLD) drug regimen found no improvement in outcomes for those who received versions of the treatment tailored to their personal characteristics.</description>
+                    <link>https://medicalxpress.com/news/2026-11-patients-indian-clinic-standard-hiv.html</link>
+                    <category>HIV &amp; AIDS</category>                    <pubDate>Wed, 25 Nov 2026 14:20:01 EST</pubDate>
+                    <guid isPermaLink="false">news714824165</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/three-pills.jpg" width="90" height="90" />
                                     </item>
                             <item>
-                    <title>Prior authorization limits help expand opioid addiction treatment where approvals were a frequent roadblock, study finds</title>
-                    <description>State laws limiting prior authorization requirements for opioid use disorder medications were associated with increased buprenorphine use in Medicaid, but only in states where those requirements were frequent barriers to access, according to a new study led by University of Michigan researchers.</description>
-                    <link>https://medicalxpress.com/news/2026-11-prior-authorization-limits-opioid-addiction.html</link>
-                    <category></category>
-                    <pubDate>Tue, 24 Nov 2026 19:40:09 EST</pubDate>
-                    <guid isPermaLink="false">news714760982</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/opioid-addiction.jpg" width="90" height="90" />
+                    <title>Brain organoids in space reveal new clues to Alzheimer&#039;s disease</title>
+                    <description>Researchers at the University of California San Diego have found that spaceflight alters biological processes associated with Alzheimer&#039;s disease in different ways depending on genetic background. The study, published on Nov. 25, 2026, in Science Advances, suggests space could reveal changes in brain cells that are difficult to detect on Earth.</description>
+                    <link>https://medicalxpress.com/news/2026-11-brain-organoids-space-reveal-clues.html</link>
+                                        <pubDate>Wed, 25 Nov 2026 14:00:49 EST</pubDate>
+                    <guid isPermaLink="false">news714670382</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/uc-san-diego-brain-org.jpg" width="90" height="90" />
                                     </item>
                             <item>
-                    <title>FDA approves bezuclastinib in combination with sunitinib as new second-line therapy for patients with GIST</title>
-                    <description>The U.S. Food and Drug Administration (FDA) has approved a combination of bezuclastinib plus sunitinib as second-line therapy after first-line treatment with imatinib for adults with advanced gastrointestinal stromal tumors (GIST) based on evidence from the phase 3 PEAK study led by Dana-Farber Cancer Institute showing that the combination outperformed standard therapy with sunitinib alone.</description>
-                    <link>https://medicalxpress.com/news/2026-11-fda-bezuclastinib-combination-sunitinib-line.html</link>
-                    <category></category>
-                    <pubDate>Tue, 24 Nov 2026 19:20:06 EST</pubDate>
-                    <guid isPermaLink="false">news714760381</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2025/fda.jpg" width="90" height="90" />
+                    <title>Light-activated nanorobots can boost drug delivery across the blood-brain barrier</title>
+                    <description>As the primary command center of our bodies, human brains have several layers of protection to help keep them safe from dangerous invaders. Unfortunately, some of these safeguards—in particular, the blood–brain barrier (BBB)—make it hard to deliver medications to this essential organ.</description>
+                    <link>https://medicalxpress.com/news/2026-11-nanorobots-boost-drug-delivery-blood.html</link>
+                                        <pubDate>Wed, 25 Nov 2026 14:00:34 EST</pubDate>
+                    <guid isPermaLink="false">news714758881</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/tiny-robots-deliver-tr-2.jpg" width="90" height="90" />
                                     </item>
                             <item>
-                    <title>Reducing or quitting smoking linked to lower risk for developing psoriasis</title>
-                    <description>Smoking reduction is associated with a reduced risk for developing psoriasis, including psoriasis vulgaris (PsV) and palmoplantar pustulosis (PPP), according to a research letter published online Nov. 18 in JAMA Dermatology.</description>
-                    <link>https://medicalxpress.com/news/2026-11-linked-psoriasis.html</link>
-                    <category></category>
-                    <pubDate>Tue, 24 Nov 2026 19:00:01 EST</pubDate>
-                    <guid isPermaLink="false">news714754621</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/quitting-smoking.jpg" width="90" height="90" />
+                    <title>Mindfulness is linked to better mental health and more beneficial social media use</title>
+                    <description>Mindfulness is associated with better mental health and with more beneficial patterns of social media use, according to a review published Nov. 25, 2026, in the journal PLOS One by Marc Tibber and Charlotte Jones from University College London, United Kingdom.</description>
+                    <link>https://medicalxpress.com/news/2026-11-mindfulness-linked-mental-health-beneficial.html</link>
+                    <category>Psychology &amp; Mental health</category>                    <pubDate>Wed, 25 Nov 2026 14:00:19 EST</pubDate>
+                    <guid isPermaLink="false">news714745942</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/mindfulness-is-linked.jpg" width="90" height="90" />
                                     </item>
                             <item>
-                    <title>Inflammatory bowel disease linked to increased risk for cirrhosis</title>
-                    <description>Inflammatory bowel disease (IBD), especially ulcerative colitis, is associated with an increased risk for cirrhosis diagnosis, according to a study recently published in Sage Open Chronic Diseases.</description>
-                    <link>https://medicalxpress.com/news/2026-11-inflammatory-bowel-disease-linked-cirrhosis.html</link>
-                    <category></category>
-                    <pubDate>Tue, 24 Nov 2026 18:40:01 EST</pubDate>
-                    <guid isPermaLink="false">news714754501</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2025/cirrhosis.jpg" width="90" height="90" />
+                    <title>Potential limits of breast cancer screening policies across Southeast Asia identified</title>
+                    <description>In Southeast Asia, breast cancer screening could have limited potential to reduce breast cancer mortality due to screening age eligibility not aligning with the actual ages at which women develop the disease, according to a study by the Yong Loo Lin School of Medicine, National University of Singapore (NUS Medicine).</description>
+                    <link>https://medicalxpress.com/news/2026-11-potential-limits-breast-cancer-screening.html</link>
+                    <category>Women&#039;s health</category>                    <pubDate>Wed, 25 Nov 2026 13:40:06 EST</pubDate>
+                    <guid isPermaLink="false">news714822671</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/nus-medicine-study-ide-1.jpg" width="90" height="90" />
                                     </item>
                             <item>
-                    <title>FDA approves Nelkarmi for ALK-positive non-small cell lung cancer</title>
-                    <description>The U.S. Food and Drug Administration has granted approval to Nelkarmi (neladalkib), a kinase inhibitor, for adults with locally advanced or metastatic anaplastic lymphoma kinase (ALK)-positive non-small cell lung cancer (NSCLC) who were previously treated. The approval was granted to Nuvalent and GSK.</description>
-                    <link>https://medicalxpress.com/news/2026-11-fda-nelkarmi-alk-positive-small.html</link>
-                    <category></category>
-                    <pubDate>Tue, 24 Nov 2026 18:20:01 EST</pubDate>
-                    <guid isPermaLink="false">news714723498</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/lung-cancer.jpg" width="90" height="90" />
+                    <title>Protein quality control helps regulate circadian rhythms, study suggests</title>
+                    <description>The body&#039;s internal circadian clock helps us feel sleepy at night and wake up in the morning. Using fruit flies, researchers at the Korea Advanced Institute of Science and Technology (KAIST) have discovered that a cellular quality control process that removes defective proteins during protein synthesis helps regulate the pace of the circadian clock.</description>
+                    <link>https://medicalxpress.com/news/2026-11-protein-quality-circadian-rhythms.html</link>
+                    <category>Sleep &amp; Recovery</category>                    <pubDate>Wed, 25 Nov 2026 13:40:01 EST</pubDate>
+                    <guid isPermaLink="false">news714833942</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/wide-awake.jpg" width="90" height="90" />
                                     </item>
                             <item>
-                    <title>Common patterns of b/tsDMARD use identified in rheumatoid arthritis</title>
-                    <description>Common patterns of biologic and targeted synthetic disease-modifying antirheumatic drug (b/tsDMARD) use are seen among patients with rheumatoid arthritis (RA), and these patterns are associated with underlying genetic associations, according to a study published online Nov. 20 in Arthritis &amp; Rheumatology.</description>
-                    <link>https://medicalxpress.com/news/2026-11-common-patterns-btsdmard-rheumatoid-arthritis.html</link>
-                    <category></category>
-                    <pubDate>Tue, 24 Nov 2026 18:00:08 EST</pubDate>
-                    <guid isPermaLink="false">news714754021</guid>
-                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2023/rheumatoid-arthritis.jpg" width="90" height="90" />
+                    <title>PET/CT imaging provides new insights into type 1 diabetes progression</title>
+                    <description>A novel molecular imaging approach that measures beta-cell mass in the pancreas can offer valuable insights into the progression of type 1 diabetes, according to new research published in the Journal of Nuclear Medicine. The study found that individuals who have had type 1 diabetes for less than seven years have higher total beta-cell mass and function, larger pancreatic volume and lower intrapancreatic fat compared to those who have had the disease for longer. This valuable information, paired with functional tests, has the potential to significantly improve clinical trials of new therapeutic interventions.</description>
+                    <link>https://medicalxpress.com/news/2026-11-petct-imaging-insights-diabetes.html</link>
+                                        <pubDate>Wed, 25 Nov 2026 13:30:06 EST</pubDate>
+                    <guid isPermaLink="false">news714821759</guid>
+                                            <media:thumbnail url="https://scx1.b-cdn.net/csz/news/tmb/2026/petct-imaging-provides.jpg" width="90" height="90" />
                                     </item>
-                    </channel>
+                        </channel>
 </rss>
